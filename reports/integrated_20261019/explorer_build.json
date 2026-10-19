@@ -1,0 +1,18 @@
+{
+  "status": "built; live browser checks pending",
+  "embedded_annual_rows": 1080,
+  "embedded_instantaneous_results": 56,
+  "embedded_runoff_cases": 108,
+  "html_sha256": "ddc5ebd02a673287b9e721b1771e969d8c3ebf95d7f8ad9f96b854df71b0720c",
+  "exports": {
+    "Treasury_ALM_Decision_Brief.pdf": "5337bd6016a0a02751c2cf7736f448eae0a070670d9c5a6ffab727540569ff8e",
+    "Treasury_ALM_Technical_Report.pdf": "859c9c2a47fa9cf1b2c70f0023975961cc6feb7ff95eb1ce7cee7613e0c6eb9c",
+    "Treasury_ALM_Reconciliation.xlsx": "be7fbc52a87221855447d91850037d3234f6eeaac97ca92dcef9d3b5ddc99858",
+    "runoff_years.csv": "fb775f4dee4ed45eb417c426a40aa6cec3e6639b8aa1f1d3ae0de671de402807",
+    "current_case.json": "67890bc836cb98f5492c074f3b5927850a4edcc25236a7bd81c1b80d4c4171a2",
+    "historical_results.json": "8f1ff186b82ac7354a7cb9ef84beb9eea55dbdcc6379c76faf58233c096be289",
+    "final_predictions.json": "b166252af3a7cf8a3ed64981ac96baddefefc07a124190268ac269de37beefc9",
+    "full_study_reproduction.json": "b70d81eb3db5d2fc7906be9d2b6df104e53067f449299f9ed082dec7b60d6d1c"
+  },
+  "model_computation_performed": false
+}

@@ -1,0 +1,5042 @@
+[
+  {
+    "start_date": "2018-12-31",
+    "end_date": "2019-01-31",
+    "end_month": "2019-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1976.9144009535466,
+    "surplus_change_fraction": -0.0021994774163237064
+  },
+  {
+    "start_date": "2018-12-31",
+    "end_date": "2019-01-31",
+    "end_month": "2019-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.454425929525781,
+      0.0,
+      0.545574070474219,
+      0.0
+    ],
+    "initial_liability_pv": 1976.9144009535466,
+    "surplus_change_fraction": -0.000709822784214821
+  },
+  {
+    "start_date": "2018-12-31",
+    "end_date": "2019-01-31",
+    "end_month": "2019-01",
+    "method": "key_rate",
+    "weights": [
+      0.10066838713524535,
+      0.2032342922088788,
+      0.31281035005471125,
+      0.27496156083553186,
+      0.10832540976563271
+    ],
+    "initial_liability_pv": 1976.9144009535466,
+    "surplus_change_fraction": 4.910042488413422e-05
+  },
+  {
+    "start_date": "2018-12-31",
+    "end_date": "2019-01-31",
+    "end_month": "2019-01",
+    "method": "covariance",
+    "weights": [
+      0.0838745435169125,
+      0.21762507378878984,
+      0.3149018500793736,
+      0.2748371239457191,
+      0.10876140866920488
+    ],
+    "initial_liability_pv": 1976.9144009535466,
+    "surplus_change_fraction": 0.00010647115338087056
+  },
+  {
+    "start_date": "2019-01-31",
+    "end_date": "2019-02-28",
+    "end_month": "2019-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1986.9579395854792,
+    "surplus_change_fraction": 0.007938806266982039
+  },
+  {
+    "start_date": "2019-01-31",
+    "end_date": "2019-02-28",
+    "end_month": "2019-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4539546544624666,
+      0.0,
+      0.5460453455375334,
+      0.0
+    ],
+    "initial_liability_pv": 1986.9579395854792,
+    "surplus_change_fraction": -0.00050157315013209
+  },
+  {
+    "start_date": "2019-01-31",
+    "end_date": "2019-02-28",
+    "end_month": "2019-02",
+    "method": "key_rate",
+    "weights": [
+      0.10000436925952744,
+      0.20308740371222048,
+      0.3135074254464007,
+      0.2751171737611153,
+      0.10828362782073603
+    ],
+    "initial_liability_pv": 1986.9579395854792,
+    "surplus_change_fraction": 0.00031546328038734256
+  },
+  {
+    "start_date": "2019-01-31",
+    "end_date": "2019-02-28",
+    "end_month": "2019-02",
+    "method": "covariance",
+    "weights": [
+      0.0832426337764355,
+      0.21745071063484445,
+      0.31559487376573797,
+      0.27499296882879665,
+      0.10871881299418544
+    ],
+    "initial_liability_pv": 1986.9579395854792,
+    "surplus_change_fraction": 0.0002157397328660345
+  },
+  {
+    "start_date": "2019-02-28",
+    "end_date": "2019-03-29",
+    "end_month": "2019-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1960.1528454593606,
+    "surplus_change_fraction": -0.026143606620880742
+  },
+  {
+    "start_date": "2019-02-28",
+    "end_date": "2019-03-29",
+    "end_month": "2019-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4587754447081727,
+      0.0,
+      0.5412245552918273,
+      0.0
+    ],
+    "initial_liability_pv": 1960.1528454593606,
+    "surplus_change_fraction": 0.0015482091017684052
+  },
+  {
+    "start_date": "2019-02-28",
+    "end_date": "2019-03-29",
+    "end_month": "2019-03",
+    "method": "key_rate",
+    "weights": [
+      0.10183982509476122,
+      0.20459804588177594,
+      0.31371033840300155,
+      0.27297410782235043,
+      0.106877682798111
+    ],
+    "initial_liability_pv": 1960.1528454593606,
+    "surplus_change_fraction": -0.0009768959301081615
+  },
+  {
+    "start_date": "2019-02-28",
+    "end_date": "2019-03-29",
+    "end_month": "2019-03",
+    "method": "covariance",
+    "weights": [
+      0.08496203929874016,
+      0.21906073695043676,
+      0.3158122960336143,
+      0.27284907147902193,
+      0.1073158562381867
+    ],
+    "initial_liability_pv": 1960.1528454593606,
+    "surplus_change_fraction": -0.0006821803328790895
+  },
+  {
+    "start_date": "2019-03-29",
+    "end_date": "2019-04-30",
+    "end_month": "2019-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2040.7313572701848,
+    "surplus_change_fraction": 0.01270766159395003
+  },
+  {
+    "start_date": "2019-03-29",
+    "end_date": "2019-04-30",
+    "end_month": "2019-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.44490394570890085,
+      0.0,
+      0.5550960542910992,
+      0.0
+    ],
+    "initial_liability_pv": 2040.7313572701848,
+    "surplus_change_fraction": 0.0003687682562683752
+  },
+  {
+    "start_date": "2019-03-29",
+    "end_date": "2019-04-30",
+    "end_month": "2019-04",
+    "method": "key_rate",
+    "weights": [
+      0.09658724467729983,
+      0.20006757914434461,
+      0.31325906578897394,
+      0.27925457843262663,
+      0.11083153195675513
+    ],
+    "initial_liability_pv": 2040.7313572701848,
+    "surplus_change_fraction": 0.000285379849893395
+  },
+  {
+    "start_date": "2019-03-29",
+    "end_date": "2019-04-30",
+    "end_month": "2019-04",
+    "method": "covariance",
+    "weights": [
+      0.0800402558166407,
+      0.21424691593294,
+      0.3153197356514923,
+      0.2791319422945481,
+      0.1112611503043789
+    ],
+    "initial_liability_pv": 2040.7313572701848,
+    "surplus_change_fraction": 0.00021810478583836625
+  },
+  {
+    "start_date": "2019-04-30",
+    "end_date": "2019-05-31",
+    "end_month": "2019-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2009.124296996047,
+    "surplus_change_fraction": -0.031971445570814216
+  },
+  {
+    "start_date": "2019-04-30",
+    "end_date": "2019-05-31",
+    "end_month": "2019-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4518148592713492,
+      0.0,
+      0.5481851407286509,
+      0.0
+    ],
+    "initial_liability_pv": 2009.124296996047,
+    "surplus_change_fraction": -0.0002700840233248108
+  },
+  {
+    "start_date": "2019-04-30",
+    "end_date": "2019-05-31",
+    "end_month": "2019-05",
+    "method": "key_rate",
+    "weights": [
+      0.09888478776853939,
+      0.2024183490815198,
+      0.31371576277258645,
+      0.27634895538674303,
+      0.1086321449906113
+    ],
+    "initial_liability_pv": 2009.124296996047,
+    "surplus_change_fraction": -0.0006557085656730148
+  },
+  {
+    "start_date": "2019-04-30",
+    "end_date": "2019-05-31",
+    "end_month": "2019-05",
+    "method": "covariance",
+    "weights": [
+      0.08217733574214152,
+      0.21673513272813644,
+      0.31579645835107134,
+      0.27622515479251464,
+      0.10906591838613612
+    ],
+    "initial_liability_pv": 2009.124296996047,
+    "surplus_change_fraction": -0.00031324693169735825
+  },
+  {
+    "start_date": "2019-05-31",
+    "end_date": "2019-06-28",
+    "end_month": "2019-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2107.182121343751,
+    "surplus_change_fraction": -0.0022599375929749903
+  },
+  {
+    "start_date": "2019-05-31",
+    "end_date": "2019-06-28",
+    "end_month": "2019-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4348449290944455,
+      0.0,
+      0.5651550709055545,
+      0.0
+    ],
+    "initial_liability_pv": 2107.182121343751,
+    "surplus_change_fraction": 8.504687490953204e-05
+  },
+  {
+    "start_date": "2019-05-31",
+    "end_date": "2019-06-28",
+    "end_month": "2019-06",
+    "method": "key_rate",
+    "weights": [
+      0.09287070859631272,
+      0.19694015227682762,
+      0.3128285248508416,
+      0.2833669006622883,
+      0.11399371361372966
+    ],
+    "initial_liability_pv": 2107.182121343751,
+    "surplus_change_fraction": 2.0910553250010893e-05
+  },
+  {
+    "start_date": "2019-05-31",
+    "end_date": "2019-06-28",
+    "end_month": "2019-06",
+    "method": "covariance",
+    "weights": [
+      0.07655114005960903,
+      0.21092468131505723,
+      0.31486081407531263,
+      0.28324591628986995,
+      0.11441744826015121
+    ],
+    "initial_liability_pv": 2107.182121343751,
+    "surplus_change_fraction": 0.00013819082276554317
+  },
+  {
+    "start_date": "2019-06-28",
+    "end_date": "2019-07-31",
+    "end_month": "2019-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2129.4334225476664,
+    "surplus_change_fraction": -0.003858592717781535
+  },
+  {
+    "start_date": "2019-06-28",
+    "end_date": "2019-07-31",
+    "end_month": "2019-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.43436838207280826,
+      0.0,
+      0.5656316179271917,
+      0.0
+    ],
+    "initial_liability_pv": 2129.4334225476664,
+    "surplus_change_fraction": -0.0005324299849485387
+  },
+  {
+    "start_date": "2019-06-28",
+    "end_date": "2019-07-31",
+    "end_month": "2019-07",
+    "method": "key_rate",
+    "weights": [
+      0.09187305914666685,
+      0.19681593683522222,
+      0.3138891478444118,
+      0.2836893251949127,
+      0.11373253097878637
+    ],
+    "initial_liability_pv": 2129.4334225476664,
+    "surplus_change_fraction": -4.9918493982329304e-05
+  },
+  {
+    "start_date": "2019-06-28",
+    "end_date": "2019-07-31",
+    "end_month": "2019-07",
+    "method": "covariance",
+    "weights": [
+      0.0755936130945518,
+      0.21076610060419534,
+      0.3159164061750894,
+      0.2835686444180823,
+      0.11415523570808113
+    ],
+    "initial_liability_pv": 2129.4334225476664,
+    "surplus_change_fraction": -8.455452009499455e-05
+  },
+  {
+    "start_date": "2019-07-31",
+    "end_date": "2019-08-30",
+    "end_month": "2019-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2128.245560213721,
+    "surplus_change_fraction": -0.055168067036267684
+  },
+  {
+    "start_date": "2019-07-31",
+    "end_date": "2019-08-30",
+    "end_month": "2019-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.43364248559667495,
+      0.0,
+      0.566357514403325,
+      0.0
+    ],
+    "initial_liability_pv": 2128.245560213721,
+    "surplus_change_fraction": -0.0014511853717674552
+  },
+  {
+    "start_date": "2019-07-31",
+    "end_date": "2019-08-30",
+    "end_month": "2019-08",
+    "method": "key_rate",
+    "weights": [
+      0.09156770198733906,
+      0.19633175716960338,
+      0.3141747261943308,
+      0.2840950920579756,
+      0.1138307225907513
+    ],
+    "initial_liability_pv": 2128.245560213721,
+    "surplus_change_fraction": -0.0008163150125225887
+  },
+  {
+    "start_date": "2019-07-31",
+    "end_date": "2019-08-30",
+    "end_month": "2019-08",
+    "method": "covariance",
+    "weights": [
+      0.07531500291095315,
+      0.21025902494642584,
+      0.31619862913817165,
+      0.2839746071620454,
+      0.11425273584240404
+    ],
+    "initial_liability_pv": 2128.245560213721,
+    "surplus_change_fraction": -0.0003738535938017793
+  },
+  {
+    "start_date": "2019-08-30",
+    "end_date": "2019-09-30",
+    "end_month": "2019-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2292.3406755121455,
+    "surplus_change_fraction": 0.01397176744740052
+  },
+  {
+    "start_date": "2019-08-30",
+    "end_date": "2019-09-30",
+    "end_month": "2019-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4047390374506342,
+      0.0,
+      0.5952609625493658,
+      0.0
+    ],
+    "initial_liability_pv": 2292.3406755121455,
+    "surplus_change_fraction": 0.00024477506308644994
+  },
+  {
+    "start_date": "2019-08-30",
+    "end_date": "2019-09-30",
+    "end_month": "2019-09",
+    "method": "key_rate",
+    "weights": [
+      0.08265135893698992,
+      0.1872516640877003,
+      0.31074015771451885,
+      0.29546215454171276,
+      0.12389466471907819
+    ],
+    "initial_liability_pv": 2292.3406755121455,
+    "surplus_change_fraction": 0.00022576908667615905
+  },
+  {
+    "start_date": "2019-08-30",
+    "end_date": "2019-09-30",
+    "end_month": "2019-09",
+    "method": "covariance",
+    "weights": [
+      0.06702257269289566,
+      0.20064447161527085,
+      0.3126862478973339,
+      0.2953461880701215,
+      0.12430051972437817
+    ],
+    "initial_liability_pv": 2292.3406755121455,
+    "surplus_change_fraction": 7.697868422865685e-05
+  },
+  {
+    "start_date": "2019-09-30",
+    "end_date": "2019-10-31",
+    "end_month": "2019-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2240.7001164585045,
+    "surplus_change_fraction": 0.0077395533867364
+  },
+  {
+    "start_date": "2019-09-30",
+    "end_date": "2019-10-31",
+    "end_month": "2019-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.41260859315048654,
+      0.0,
+      0.5873914068495134,
+      0.0
+    ],
+    "initial_liability_pv": 2240.7001164585045,
+    "surplus_change_fraction": -0.0018636925712661701
+  },
+  {
+    "start_date": "2019-09-30",
+    "end_date": "2019-10-31",
+    "end_month": "2019-10",
+    "method": "key_rate",
+    "weights": [
+      0.0853090943125555,
+      0.18972579839076306,
+      0.3113474444953853,
+      0.2923577065213369,
+      0.12125995627995907
+    ],
+    "initial_liability_pv": 2240.7001164585045,
+    "surplus_change_fraction": 0.0007719127392849505
+  },
+  {
+    "start_date": "2019-09-30",
+    "end_date": "2019-10-31",
+    "end_month": "2019-10",
+    "method": "covariance",
+    "weights": [
+      0.06950442639085488,
+      0.20326931334021103,
+      0.31331544053587523,
+      0.2922404572249404,
+      0.1216703625081183
+    ],
+    "initial_liability_pv": 2240.7001164585045,
+    "surplus_change_fraction": 0.0007577856692795505
+  },
+  {
+    "start_date": "2019-10-31",
+    "end_date": "2019-11-29",
+    "end_month": "2019-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2225.908268600297,
+    "surplus_change_fraction": 0.0015947559654903595
+  },
+  {
+    "start_date": "2019-10-31",
+    "end_date": "2019-11-29",
+    "end_month": "2019-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4166643550940416,
+      0.0,
+      0.5833356449059584,
+      0.0
+    ],
+    "initial_liability_pv": 2225.908268600297,
+    "surplus_change_fraction": -0.0006643180013992836
+  },
+  {
+    "start_date": "2019-10-31",
+    "end_date": "2019-11-29",
+    "end_month": "2019-11",
+    "method": "key_rate",
+    "weights": [
+      0.08648209780418177,
+      0.191258797482596,
+      0.31195562046244063,
+      0.2900873545640635,
+      0.12021612968671827
+    ],
+    "initial_liability_pv": 2225.908268600297,
+    "surplus_change_fraction": 0.0001617820079306562
+  },
+  {
+    "start_date": "2019-10-31",
+    "end_date": "2019-11-29",
+    "end_month": "2019-11",
+    "method": "covariance",
+    "weights": [
+      0.07059196370942636,
+      0.2048754727546695,
+      0.313934315290105,
+      0.28996949989094295,
+      0.1206287483548562
+    ],
+    "initial_liability_pv": 2225.908268600297,
+    "surplus_change_fraction": 7.81023163295972e-05
+  },
+  {
+    "start_date": "2019-11-29",
+    "end_date": "2019-12-31",
+    "end_month": "2019-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2208.5177686242114,
+    "surplus_change_fraction": 0.019697629633952784
+  },
+  {
+    "start_date": "2019-11-29",
+    "end_date": "2019-12-31",
+    "end_month": "2019-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4170404294839172,
+      0.0,
+      0.5829595705160828,
+      0.0
+    ],
+    "initial_liability_pv": 2208.5177686242114,
+    "surplus_change_fraction": 0.0012393765250727818
+  },
+  {
+    "start_date": "2019-11-29",
+    "end_date": "2019-12-31",
+    "end_month": "2019-12",
+    "method": "key_rate",
+    "weights": [
+      0.08733675910253162,
+      0.1914686468543788,
+      0.31100175128328783,
+      0.28959380213917063,
+      0.12059904062063102
+    ],
+    "initial_liability_pv": 2208.5177686242114,
+    "surplus_change_fraction": 7.647755923021936e-05
+  },
+  {
+    "start_date": "2019-11-29",
+    "end_date": "2019-12-31",
+    "end_month": "2019-12",
+    "method": "covariance",
+    "weights": [
+      0.07141315984918893,
+      0.20511397878585058,
+      0.31298464594505376,
+      0.2894756948134258,
+      0.12101252060648106
+    ],
+    "initial_liability_pv": 2208.5177686242114,
+    "surplus_change_fraction": -1.9361919045427712e-05
+  },
+  {
+    "start_date": "2019-12-31",
+    "end_date": "2020-01-31",
+    "end_month": "2020-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2157.319458968269,
+    "surplus_change_fraction": -0.03746481982197942
+  },
+  {
+    "start_date": "2019-12-31",
+    "end_date": "2020-01-31",
+    "end_month": "2020-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.42774564529738535,
+      0.0,
+      0.5722543547026147,
+      0.0
+    ],
+    "initial_liability_pv": 2157.319458968269,
+    "surplus_change_fraction": 0.000512638786885377
+  },
+  {
+    "start_date": "2019-12-31",
+    "end_date": "2020-01-31",
+    "end_month": "2020-01",
+    "method": "key_rate",
+    "weights": [
+      0.09061267845914947,
+      0.19496413599741574,
+      0.3120918030227451,
+      0.2855024494491552,
+      0.11682893307153455
+    ],
+    "initial_liability_pv": 2157.319458968269,
+    "surplus_change_fraction": -0.0009203316934562771
+  },
+  {
+    "start_date": "2019-12-31",
+    "end_date": "2020-01-31",
+    "end_month": "2020-01",
+    "method": "covariance",
+    "weights": [
+      0.07445014385214528,
+      0.208814136205205,
+      0.31410450952111657,
+      0.2853826118627318,
+      0.11724859855880111
+    ],
+    "initial_liability_pv": 2157.319458968269,
+    "surplus_change_fraction": -0.000543309569804109
+  },
+  {
+    "start_date": "2020-01-31",
+    "end_date": "2020-02-28",
+    "end_month": "2020-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2278.745148536609,
+    "surplus_change_fraction": -0.03182628278309109
+  },
+  {
+    "start_date": "2020-01-31",
+    "end_date": "2020-02-28",
+    "end_month": "2020-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.40934997606461965,
+      0.0,
+      0.5906500239353804,
+      0.0
+    ],
+    "initial_liability_pv": 2278.745148536609,
+    "surplus_change_fraction": 0.0005570887826704136
+  },
+  {
+    "start_date": "2020-01-31",
+    "end_date": "2020-02-28",
+    "end_month": "2020-02",
+    "method": "key_rate",
+    "weights": [
+      0.08388913114921828,
+      0.18895819026054445,
+      0.3113877432112204,
+      0.29333779867931004,
+      0.12242713669970674
+    ],
+    "initial_liability_pv": 2278.745148536609,
+    "surplus_change_fraction": -0.0008361782363126888
+  },
+  {
+    "start_date": "2020-01-31",
+    "end_date": "2020-02-28",
+    "end_month": "2020-02",
+    "method": "covariance",
+    "weights": [
+      0.06816272701189795,
+      0.2024346127408044,
+      0.31334601273436935,
+      0.2932211286285354,
+      0.12283551888439287
+    ],
+    "initial_liability_pv": 2278.745148536609,
+    "surplus_change_fraction": -0.0005115814351076859
+  },
+  {
+    "start_date": "2020-02-28",
+    "end_date": "2020-03-31",
+    "end_month": "2020-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2396.5608332341367,
+    "surplus_change_fraction": -0.022186102365240237
+  },
+  {
+    "start_date": "2020-02-28",
+    "end_date": "2020-03-31",
+    "end_month": "2020-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3934398848761712,
+      0.0,
+      0.6065601151238288,
+      0.0
+    ],
+    "initial_liability_pv": 2396.5608332341367,
+    "surplus_change_fraction": -8.610600742614717e-05
+  },
+  {
+    "start_date": "2020-02-28",
+    "end_date": "2020-03-31",
+    "end_month": "2020-03",
+    "method": "key_rate",
+    "weights": [
+      0.0785482055731875,
+      0.18388313748247087,
+      0.3100564187565053,
+      0.299913395797471,
+      0.12759884239036517
+    ],
+    "initial_liability_pv": 2396.5608332341367,
+    "surplus_change_fraction": -0.0001876075855952338
+  },
+  {
+    "start_date": "2020-02-28",
+    "end_date": "2020-03-31",
+    "end_month": "2020-03",
+    "method": "covariance",
+    "weights": [
+      0.06317448078668163,
+      0.19705745698363872,
+      0.311970688807577,
+      0.29979927950341495,
+      0.12799809391868758
+    ],
+    "initial_liability_pv": 2396.5608332341367,
+    "surplus_change_fraction": 0.00011015355368874363
+  },
+  {
+    "start_date": "2020-03-31",
+    "end_date": "2020-04-30",
+    "end_month": "2020-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2505.244865838855,
+    "surplus_change_fraction": -0.011371432921477699
+  },
+  {
+    "start_date": "2020-03-31",
+    "end_date": "2020-04-30",
+    "end_month": "2020-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3818707499225461,
+      0.0,
+      0.6181292500774539,
+      0.0
+    ],
+    "initial_liability_pv": 2505.244865838855,
+    "surplus_change_fraction": 0.0006145472505826719
+  },
+  {
+    "start_date": "2020-03-31",
+    "end_date": "2020-04-30",
+    "end_month": "2020-04",
+    "method": "key_rate",
+    "weights": [
+      0.07457132924918614,
+      0.18052761796174485,
+      0.3089871208506162,
+      0.30432529251033075,
+      0.13158863942812196
+    ],
+    "initial_liability_pv": 2505.244865838855,
+    "surplus_change_fraction": -0.0004805692110615683
+  },
+  {
+    "start_date": "2020-03-31",
+    "end_date": "2020-04-30",
+    "end_month": "2020-04",
+    "method": "covariance",
+    "weights": [
+      0.05945866867567521,
+      0.19347828896152194,
+      0.31086883398146065,
+      0.3042130746114545,
+      0.1319811337698877
+    ],
+    "initial_liability_pv": 2505.244865838855,
+    "surplus_change_fraction": -0.0004264494047202467
+  },
+  {
+    "start_date": "2020-04-30",
+    "end_date": "2020-05-29",
+    "end_month": "2020-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2538.7275076860537,
+    "surplus_change_fraction": 0.0132724137462951
+  },
+  {
+    "start_date": "2020-04-30",
+    "end_date": "2020-05-29",
+    "end_month": "2020-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.37721728982085023,
+      0.0,
+      0.6227827101791498,
+      0.0
+    ],
+    "initial_liability_pv": 2538.7275076860537,
+    "surplus_change_fraction": 0.0010666444295580801
+  },
+  {
+    "start_date": "2020-04-30",
+    "end_date": "2020-05-29",
+    "end_month": "2020-05",
+    "method": "key_rate",
+    "weights": [
+      0.07307889363630748,
+      0.17880161871090605,
+      0.3086728498185746,
+      0.30649914784765225,
+      0.13294748998655959
+    ],
+    "initial_liability_pv": 2538.7275076860537,
+    "surplus_change_fraction": 0.00018774921339984344
+  },
+  {
+    "start_date": "2020-04-30",
+    "end_date": "2020-05-29",
+    "end_month": "2020-05",
+    "method": "covariance",
+    "weights": [
+      0.05807032171902082,
+      0.19166314090484093,
+      0.3105415666345767,
+      0.3063876806804314,
+      0.13333729006113
+    ],
+    "initial_liability_pv": 2538.7275076860537,
+    "surplus_change_fraction": 0.00022334010770428807
+  },
+  {
+    "start_date": "2020-05-29",
+    "end_date": "2020-06-30",
+    "end_month": "2020-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2511.198408535963,
+    "surplus_change_fraction": -0.0005311955602960542
+  },
+  {
+    "start_date": "2020-05-29",
+    "end_date": "2020-06-30",
+    "end_month": "2020-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3853610469682362,
+      0.0,
+      0.6146389530317637,
+      0.0
+    ],
+    "initial_liability_pv": 2511.198408535963,
+    "surplus_change_fraction": 0.0002906016703937658
+  },
+  {
+    "start_date": "2020-05-29",
+    "end_date": "2020-06-30",
+    "end_month": "2020-06",
+    "method": "key_rate",
+    "weights": [
+      0.07437259155972213,
+      0.18129790469005747,
+      0.31123626190329307,
+      0.3037491412125697,
+      0.12934410063435758
+    ],
+    "initial_liability_pv": 2511.198408535963,
+    "surplus_change_fraction": -3.067580515710596e-05
+  },
+  {
+    "start_date": "2020-05-29",
+    "end_date": "2020-06-30",
+    "end_month": "2020-06",
+    "method": "covariance",
+    "weights": [
+      0.05922806725413777,
+      0.19427589730940464,
+      0.3131218940143961,
+      0.30363670503803775,
+      0.1297374363840238
+    ],
+    "initial_liability_pv": 2511.198408535963,
+    "surplus_change_fraction": -1.2162800600049529e-05
+  },
+  {
+    "start_date": "2020-06-30",
+    "end_date": "2020-07-31",
+    "end_month": "2020-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2512.6840557135656,
+    "surplus_change_fraction": -0.02565792038543225
+  },
+  {
+    "start_date": "2020-06-30",
+    "end_date": "2020-07-31",
+    "end_month": "2020-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3852372511469574,
+      0.0,
+      0.6147627488530426,
+      0.0
+    ],
+    "initial_liability_pv": 2512.6840557135656,
+    "surplus_change_fraction": -0.00025204042551735505
+  },
+  {
+    "start_date": "2020-06-30",
+    "end_date": "2020-07-31",
+    "end_month": "2020-07",
+    "method": "key_rate",
+    "weights": [
+      0.07435062151369103,
+      0.18131800827510824,
+      0.31111823457827964,
+      0.30381139049353534,
+      0.1294017451393858
+    ],
+    "initial_liability_pv": 2512.6840557135656,
+    "surplus_change_fraction": -0.0005490305818119683
+  },
+  {
+    "start_date": "2020-06-30",
+    "end_date": "2020-07-31",
+    "end_month": "2020-07",
+    "method": "covariance",
+    "weights": [
+      0.059207486937340396,
+      0.19429480603985017,
+      0.3130036987436271,
+      0.3036989634901157,
+      0.12979504478906664
+    ],
+    "initial_liability_pv": 2512.6840557135656,
+    "surplus_change_fraction": -0.00044775250230880126
+  },
+  {
+    "start_date": "2020-07-31",
+    "end_date": "2020-08-31",
+    "end_month": "2020-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2584.9847553791615,
+    "surplus_change_fraction": 0.03213137053056655
+  },
+  {
+    "start_date": "2020-07-31",
+    "end_date": "2020-08-31",
+    "end_month": "2020-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3721778809003495,
+      0.0,
+      0.6278221190996505,
+      0.0
+    ],
+    "initial_liability_pv": 2584.9847553791615,
+    "surplus_change_fraction": -0.0011500851539562925
+  },
+  {
+    "start_date": "2020-07-31",
+    "end_date": "2020-08-31",
+    "end_month": "2020-08",
+    "method": "key_rate",
+    "weights": [
+      0.07116334640314241,
+      0.17717743813181028,
+      0.3084642309394061,
+      0.30883634159487194,
+      0.13435864293076927
+    ],
+    "initial_liability_pv": 2584.9847553791615,
+    "surplus_change_fraction": 0.0011848309167611444
+  },
+  {
+    "start_date": "2020-07-31",
+    "end_date": "2020-08-31",
+    "end_month": "2020-08",
+    "method": "covariance",
+    "weights": [
+      0.0562756503332862,
+      0.18993541831633537,
+      0.31031786362928265,
+      0.30872575055118295,
+      0.1347453171699127
+    ],
+    "initial_liability_pv": 2584.9847553791615,
+    "surplus_change_fraction": 0.0010962214421613924
+  },
+  {
+    "start_date": "2020-08-31",
+    "end_date": "2020-09-30",
+    "end_month": "2020-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2491.778886963093,
+    "surplus_change_fraction": -0.006182371232740546
+  },
+  {
+    "start_date": "2020-08-31",
+    "end_date": "2020-09-30",
+    "end_month": "2020-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.38850698386995114,
+      0.0,
+      0.6114930161300489,
+      0.0
+    ],
+    "initial_liability_pv": 2491.778886963093,
+    "surplus_change_fraction": 0.0005160162722652312
+  },
+  {
+    "start_date": "2020-08-31",
+    "end_date": "2020-09-30",
+    "end_month": "2020-09",
+    "method": "key_rate",
+    "weights": [
+      0.07548934698122423,
+      0.1827885338215009,
+      0.31109850393949184,
+      0.30186469057229615,
+      0.12875892468548691
+    ],
+    "initial_liability_pv": 2491.778886963093,
+    "surplus_change_fraction": -0.0003223696146665546
+  },
+  {
+    "start_date": "2020-08-31",
+    "end_date": "2020-09-30",
+    "end_month": "2020-09",
+    "method": "covariance",
+    "weights": [
+      0.06026843382277701,
+      0.19583193297503618,
+      0.31299369232871316,
+      0.3017517056705618,
+      0.12915423520291192
+    ],
+    "initial_liability_pv": 2491.778886963093,
+    "surplus_change_fraction": -0.0002987655806961466
+  },
+  {
+    "start_date": "2020-09-30",
+    "end_date": "2020-10-30",
+    "end_month": "2020-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2506.57041019451,
+    "surplus_change_fraction": 0.01894131022370331
+  },
+  {
+    "start_date": "2020-09-30",
+    "end_date": "2020-10-30",
+    "end_month": "2020-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3864560923772944,
+      0.0,
+      0.6135439076227056,
+      0.0
+    ],
+    "initial_liability_pv": 2506.57041019451,
+    "surplus_change_fraction": 0.0007727767423841791
+  },
+  {
+    "start_date": "2020-09-30",
+    "end_date": "2020-10-30",
+    "end_month": "2020-10",
+    "method": "key_rate",
+    "weights": [
+      0.07474280357953537,
+      0.18192144430211277,
+      0.3111414062590671,
+      0.30297846139958634,
+      0.12921588445969828
+    ],
+    "initial_liability_pv": 2506.57041019451,
+    "surplus_change_fraction": 0.0002277257259898339
+  },
+  {
+    "start_date": "2020-09-30",
+    "end_date": "2020-10-30",
+    "end_month": "2020-10",
+    "method": "covariance",
+    "weights": [
+      0.059572170402909755,
+      0.19492178581968772,
+      0.31303030959591543,
+      0.30286583923956334,
+      0.12960989494192376
+    ],
+    "initial_liability_pv": 2506.57041019451,
+    "surplus_change_fraction": 0.00011146346008760853
+  },
+  {
+    "start_date": "2020-10-30",
+    "end_date": "2020-11-30",
+    "end_month": "2020-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2443.136381167106,
+    "surplus_change_fraction": -0.008790421256809934
+  },
+  {
+    "start_date": "2020-10-30",
+    "end_date": "2020-11-30",
+    "end_month": "2020-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3952649710120321,
+      0.0,
+      0.6047350289879678,
+      0.0
+    ],
+    "initial_liability_pv": 2443.136381167106,
+    "surplus_change_fraction": -0.00030019130129643816
+  },
+  {
+    "start_date": "2020-10-30",
+    "end_date": "2020-11-30",
+    "end_month": "2020-11",
+    "method": "key_rate",
+    "weights": [
+      0.07790090957248878,
+      0.1850319437720094,
+      0.31121892162008247,
+      0.2993436009846551,
+      0.1265046240507643
+    ],
+    "initial_liability_pv": 2443.136381167106,
+    "surplus_change_fraction": -0.00013861692244615352
+  },
+  {
+    "start_date": "2020-10-30",
+    "end_date": "2020-11-30",
+    "end_month": "2020-11",
+    "method": "covariance",
+    "weights": [
+      0.06251631201268984,
+      0.19821554411986503,
+      0.3131345481045644,
+      0.2992294232605048,
+      0.126904172502376
+    ],
+    "initial_liability_pv": 2443.136381167106,
+    "surplus_change_fraction": -9.966286398806815e-05
+  },
+  {
+    "start_date": "2020-11-30",
+    "end_date": "2020-12-31",
+    "end_month": "2020-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2465.3360854014527,
+    "surplus_change_fraction": 0.010160076195071569
+  },
+  {
+    "start_date": "2020-11-30",
+    "end_date": "2020-12-31",
+    "end_month": "2020-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3909093242149178,
+      0.0,
+      0.6090906757850822,
+      0.0
+    ],
+    "initial_liability_pv": 2465.3360854014527,
+    "surplus_change_fraction": -0.00048126484634934257
+  },
+  {
+    "start_date": "2020-11-30",
+    "end_date": "2020-12-31",
+    "end_month": "2020-12",
+    "method": "key_rate",
+    "weights": [
+      0.07683238210645424,
+      0.18364404022057942,
+      0.31036795012053225,
+      0.30098321501220904,
+      0.12817241254022504
+    ],
+    "initial_liability_pv": 2465.3360854014527,
+    "surplus_change_fraction": 0.00042510325900020277
+  },
+  {
+    "start_date": "2020-11-30",
+    "end_date": "2020-12-31",
+    "end_month": "2020-12",
+    "method": "covariance",
+    "weights": [
+      0.0615339507900767,
+      0.1967538372162851,
+      0.31227283993619986,
+      0.30086965108317365,
+      0.1285697209742647
+    ],
+    "initial_liability_pv": 2465.3360854014527,
+    "surplus_change_fraction": 0.00041918316465170574
+  },
+  {
+    "start_date": "2020-12-31",
+    "end_date": "2021-01-29",
+    "end_month": "2021-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2439.1152592570847,
+    "surplus_change_fraction": 0.02528934592859759
+  },
+  {
+    "start_date": "2020-12-31",
+    "end_date": "2021-01-29",
+    "end_month": "2021-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.3949533625360527,
+      0.0,
+      0.6050466374639474,
+      0.0
+    ],
+    "initial_liability_pv": 2439.1152592570847,
+    "surplus_change_fraction": -7.197875484144383e-05
+  },
+  {
+    "start_date": "2020-12-31",
+    "end_date": "2021-01-29",
+    "end_month": "2021-01",
+    "method": "key_rate",
+    "weights": [
+      0.07829879226756195,
+      0.18538773761552682,
+      0.3101933521849223,
+      0.2988996564227215,
+      0.12722046150926747
+    ],
+    "initial_liability_pv": 2439.1152592570847,
+    "surplus_change_fraction": 0.0006879056666402699
+  },
+  {
+    "start_date": "2020-12-31",
+    "end_date": "2021-01-29",
+    "end_month": "2021-01",
+    "method": "covariance",
+    "weights": [
+      0.0629003092726909,
+      0.19858320347549346,
+      0.3121107510721047,
+      0.29878537432309654,
+      0.1276203618566145
+    ],
+    "initial_liability_pv": 2439.1152592570847,
+    "surplus_change_fraction": 0.0005838569931926978
+  },
+  {
+    "start_date": "2021-01-29",
+    "end_date": "2021-02-26",
+    "end_month": "2021-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2365.416097751681,
+    "surplus_change_fraction": 0.03426833485850531
+  },
+  {
+    "start_date": "2021-01-29",
+    "end_date": "2021-02-26",
+    "end_month": "2021-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4075771947669903,
+      0.0,
+      0.5924228052330097,
+      0.0
+    ],
+    "initial_liability_pv": 2365.416097751681,
+    "surplus_change_fraction": -0.0009408846154124896
+  },
+  {
+    "start_date": "2021-01-29",
+    "end_date": "2021-02-26",
+    "end_month": "2021-02",
+    "method": "key_rate",
+    "weights": [
+      0.08221983530864457,
+      0.189795335662153,
+      0.31130935298102325,
+      0.2935323955916245,
+      0.12314308045655481
+    ],
+    "initial_liability_pv": 2365.416097751681,
+    "surplus_change_fraction": 0.0010327089514891835
+  },
+  {
+    "start_date": "2021-01-29",
+    "end_date": "2021-02-26",
+    "end_month": "2021-02",
+    "method": "covariance",
+    "weights": [
+      0.06653888899975308,
+      0.2032327199014558,
+      0.31326202846809403,
+      0.2934160677164402,
+      0.12355029491425688
+    ],
+    "initial_liability_pv": 2365.416097751681,
+    "surplus_change_fraction": 0.000752983990765991
+  },
+  {
+    "start_date": "2021-02-26",
+    "end_date": "2021-03-31",
+    "end_month": "2021-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2249.316325608764,
+    "surplus_change_fraction": 0.02451300472260959
+  },
+  {
+    "start_date": "2021-02-26",
+    "end_date": "2021-03-31",
+    "end_month": "2021-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4250265237364843,
+      0.0,
+      0.5749734762635157,
+      0.0
+    ],
+    "initial_liability_pv": 2249.316325608764,
+    "surplus_change_fraction": 0.002842082596824815
+  },
+  {
+    "start_date": "2021-02-26",
+    "end_date": "2021-03-31",
+    "end_month": "2021-03",
+    "method": "key_rate",
+    "weights": [
+      0.08878261052861873,
+      0.19570627454206307,
+      0.31163404446553583,
+      0.2857385649610282,
+      0.11813850550275426
+    ],
+    "initial_liability_pv": 2249.316325608764,
+    "surplus_change_fraction": -0.00016148000556365303
+  },
+  {
+    "start_date": "2021-02-26",
+    "end_date": "2021-03-31",
+    "end_month": "2021-03",
+    "method": "covariance",
+    "weights": [
+      0.07266681531705753,
+      0.2095161539651954,
+      0.31364098582058364,
+      0.2856190786115383,
+      0.11855696628562507
+    ],
+    "initial_liability_pv": 2249.316325608764,
+    "surplus_change_fraction": -0.0003353347021758617
+  },
+  {
+    "start_date": "2021-03-31",
+    "end_date": "2021-04-30",
+    "end_month": "2021-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2174.782601130517,
+    "surplus_change_fraction": -0.012025855837950879
+  },
+  {
+    "start_date": "2021-03-31",
+    "end_date": "2021-04-30",
+    "end_month": "2021-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4369388800182977,
+      0.0,
+      0.5630611199817023,
+      0.0
+    ],
+    "initial_liability_pv": 2174.782601130517,
+    "surplus_change_fraction": 9.644991425430281e-05
+  },
+  {
+    "start_date": "2021-03-31",
+    "end_date": "2021-04-30",
+    "end_month": "2021-04",
+    "method": "key_rate",
+    "weights": [
+      0.09350272398780463,
+      0.1998198053182976,
+      0.31101717831201414,
+      0.28121821933588337,
+      0.11444207304600021
+    ],
+    "initial_liability_pv": 2174.782601130517,
+    "surplus_change_fraction": -0.00029702034173275776
+  },
+  {
+    "start_date": "2021-03-31",
+    "end_date": "2021-04-30",
+    "end_month": "2021-04",
+    "method": "covariance",
+    "weights": [
+      0.07707733838808127,
+      0.21389484701048656,
+      0.3130627996078606,
+      0.2810964709579902,
+      0.1148685440355815
+    ],
+    "initial_liability_pv": 2174.782601130517,
+    "surplus_change_fraction": -0.00019053147186219105
+  },
+  {
+    "start_date": "2021-04-30",
+    "end_date": "2021-05-28",
+    "end_month": "2021-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2207.100789653104,
+    "surplus_change_fraction": -0.0009229612856761344
+  },
+  {
+    "start_date": "2021-04-30",
+    "end_date": "2021-05-28",
+    "end_month": "2021-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.43109051396834003,
+      0.0,
+      0.5689094860316599,
+      0.0
+    ],
+    "initial_liability_pv": 2207.100789653104,
+    "surplus_change_fraction": -0.001976030942492946
+  },
+  {
+    "start_date": "2021-04-30",
+    "end_date": "2021-05-28",
+    "end_month": "2021-05",
+    "method": "key_rate",
+    "weights": [
+      0.09143834469188607,
+      0.19780527930237715,
+      0.31077882899708675,
+      0.28378538640457385,
+      0.11619216060407633
+    ],
+    "initial_liability_pv": 2207.100789653104,
+    "surplus_change_fraction": 0.000731914654359676
+  },
+  {
+    "start_date": "2021-04-30",
+    "end_date": "2021-05-28",
+    "end_month": "2021-05",
+    "method": "covariance",
+    "weights": [
+      0.07515465078582127,
+      0.2117589574510513,
+      0.31280676337499563,
+      0.2836646635659603,
+      0.11661496482217135
+    ],
+    "initial_liability_pv": 2207.100789653104,
+    "surplus_change_fraction": 0.0008263782531048027
+  },
+  {
+    "start_date": "2021-05-28",
+    "end_date": "2021-06-30",
+    "end_month": "2021-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2216.4332930668174,
+    "surplus_change_fraction": -0.028233740847225398
+  },
+  {
+    "start_date": "2021-05-28",
+    "end_date": "2021-06-30",
+    "end_month": "2021-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4301430740853933,
+      0.0,
+      0.5698569259146067,
+      0.0
+    ],
+    "initial_liability_pv": 2216.4332930668174,
+    "surplus_change_fraction": -0.0012762173991511523
+  },
+  {
+    "start_date": "2021-05-28",
+    "end_date": "2021-06-30",
+    "end_month": "2021-06",
+    "method": "key_rate",
+    "weights": [
+      0.09096352049178372,
+      0.19781172868625468,
+      0.3108893302382239,
+      0.2834724907985319,
+      0.11686292978520596
+    ],
+    "initial_liability_pv": 2216.4332930668174,
+    "surplus_change_fraction": -0.0007219564404318633
+  },
+  {
+    "start_date": "2021-05-28",
+    "end_date": "2021-06-30",
+    "end_month": "2021-06",
+    "method": "covariance",
+    "weights": [
+      0.07470783275019423,
+      0.21174141406422575,
+      0.31291377063510345,
+      0.28335197845654414,
+      0.11728500409393224
+    ],
+    "initial_liability_pv": 2216.4332930668174,
+    "surplus_change_fraction": -0.0006954792518955917
+  },
+  {
+    "start_date": "2021-06-30",
+    "end_date": "2021-07-30",
+    "end_month": "2021-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2269.283701386911,
+    "surplus_change_fraction": -0.0178496795212754
+  },
+  {
+    "start_date": "2021-06-30",
+    "end_date": "2021-07-30",
+    "end_month": "2021-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4185152323495288,
+      0.0,
+      0.5814847676504712,
+      0.0
+    ],
+    "initial_liability_pv": 2269.283701386911,
+    "surplus_change_fraction": -0.00018743035202989014
+  },
+  {
+    "start_date": "2021-06-30",
+    "end_date": "2021-07-30",
+    "end_month": "2021-07",
+    "method": "key_rate",
+    "weights": [
+      0.08731889024979422,
+      0.1930966798572535,
+      0.3106134413735143,
+      0.28863408838096877,
+      0.12033690013846923
+    ],
+    "initial_liability_pv": 2269.283701386911,
+    "surplus_change_fraction": -0.00029068876536857504
+  },
+  {
+    "start_date": "2021-06-30",
+    "end_date": "2021-07-30",
+    "end_month": "2021-07",
+    "method": "covariance",
+    "weights": [
+      0.07133365643742626,
+      0.2067947453017922,
+      0.31260408420788366,
+      0.2885155378477525,
+      0.1207519762051454
+    ],
+    "initial_liability_pv": 2269.283701386911,
+    "surplus_change_fraction": -9.24869473564379e-05
+  },
+  {
+    "start_date": "2021-07-30",
+    "end_date": "2021-08-31",
+    "end_month": "2021-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2328.578551224242,
+    "surplus_change_fraction": -0.00027859072020702336
+  },
+  {
+    "start_date": "2021-07-30",
+    "end_date": "2021-08-31",
+    "end_month": "2021-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.41024929591526427,
+      0.0,
+      0.5897507040847357,
+      0.0
+    ],
+    "initial_liability_pv": 2328.578551224242,
+    "surplus_change_fraction": 0.00020909756228652522
+  },
+  {
+    "start_date": "2021-07-30",
+    "end_date": "2021-08-31",
+    "end_month": "2021-08",
+    "method": "key_rate",
+    "weights": [
+      0.08402608783887516,
+      0.19032909134962944,
+      0.3107794458168053,
+      0.29213300817407784,
+      0.12273236682061224
+    ],
+    "initial_liability_pv": 2328.578551224242,
+    "surplus_change_fraction": -0.0001801114955050172
+  },
+  {
+    "start_date": "2021-07-30",
+    "end_date": "2021-08-31",
+    "end_month": "2021-08",
+    "method": "covariance",
+    "weights": [
+      0.06825189929548446,
+      0.20384638970996247,
+      0.3127437305550468,
+      0.2920159946102594,
+      0.12314198582924696
+    ],
+    "initial_liability_pv": 2328.578551224242,
+    "surplus_change_fraction": -0.00022240099293289415
+  },
+  {
+    "start_date": "2021-08-31",
+    "end_date": "2021-09-30",
+    "end_month": "2021-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2319.35708256563,
+    "surplus_change_fraction": 0.013682120340851114
+  },
+  {
+    "start_date": "2021-08-31",
+    "end_date": "2021-09-30",
+    "end_month": "2021-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.41053213405932126,
+      0.0,
+      0.5894678659406787,
+      0.0
+    ],
+    "initial_liability_pv": 2319.35708256563,
+    "surplus_change_fraction": 0.000412745049818172
+  },
+  {
+    "start_date": "2021-08-31",
+    "end_date": "2021-09-30",
+    "end_month": "2021-09",
+    "method": "key_rate",
+    "weights": [
+      0.08446218007075762,
+      0.1902695394279014,
+      0.31045542183755664,
+      0.2921106137864402,
+      0.12270224487734406
+    ],
+    "initial_liability_pv": 2319.35708256563,
+    "surplus_change_fraction": 3.057886044840491e-05
+  },
+  {
+    "start_date": "2021-08-31",
+    "end_date": "2021-09-30",
+    "end_month": "2021-09",
+    "method": "covariance",
+    "weights": [
+      0.06866929375851022,
+      0.20380288120284296,
+      0.3124220206272799,
+      0.29199345557262385,
+      0.12311234883874309
+    ],
+    "initial_liability_pv": 2319.35708256563,
+    "surplus_change_fraction": -0.0001442130665518371
+  },
+  {
+    "start_date": "2021-09-30",
+    "end_date": "2021-10-29",
+    "end_month": "2021-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2262.9733956296536,
+    "surplus_change_fraction": -0.017779753206924483
+  },
+  {
+    "start_date": "2021-09-30",
+    "end_date": "2021-10-29",
+    "end_month": "2021-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4176896709891945,
+      0.0,
+      0.5823103290108055,
+      0.0
+    ],
+    "initial_liability_pv": 2262.9733956296536,
+    "surplus_change_fraction": -0.0018862195494933466
+  },
+  {
+    "start_date": "2021-09-30",
+    "end_date": "2021-10-29",
+    "end_month": "2021-10",
+    "method": "key_rate",
+    "weights": [
+      0.08755783790551758,
+      0.1924963842095998,
+      0.3101097751712521,
+      0.28920969554445164,
+      0.12062630716917887
+    ],
+    "initial_liability_pv": 2262.9733956296536,
+    "surplus_change_fraction": -0.00018440313068424972
+  },
+  {
+    "start_date": "2021-09-30",
+    "end_date": "2021-10-29",
+    "end_month": "2021-10",
+    "method": "covariance",
+    "weights": [
+      0.0715735842282967,
+      0.20619362711522676,
+      0.31210029282761226,
+      0.2890911394342238,
+      0.12104135639464045
+    ],
+    "initial_liability_pv": 2262.9733956296536,
+    "surplus_change_fraction": -0.00027192340079048823
+  },
+  {
+    "start_date": "2021-10-29",
+    "end_date": "2021-11-30",
+    "end_month": "2021-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2281.4812437636047,
+    "surplus_change_fraction": -0.01681622149653903
+  },
+  {
+    "start_date": "2021-10-29",
+    "end_date": "2021-11-30",
+    "end_month": "2021-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.40846360177234237,
+      0.0,
+      0.5915363982276576,
+      0.0
+    ],
+    "initial_liability_pv": 2281.4812437636047,
+    "surplus_change_fraction": -0.00033921347477835936
+  },
+  {
+    "start_date": "2021-10-29",
+    "end_date": "2021-11-30",
+    "end_month": "2021-11",
+    "method": "key_rate",
+    "weights": [
+      0.08603401904432421,
+      0.18931330346057096,
+      0.3076364618721046,
+      0.2925055192705951,
+      0.12451069635240515
+    ],
+    "initial_liability_pv": 2281.4812437636047,
+    "surplus_change_fraction": -0.00036459769285389864
+  },
+  {
+    "start_date": "2021-10-29",
+    "end_date": "2021-11-30",
+    "end_month": "2021-11",
+    "method": "covariance",
+    "weights": [
+      0.07021654533087467,
+      0.20286769009571562,
+      0.3096062000465058,
+      0.29238815680201996,
+      0.12492140772488389
+    ],
+    "initial_liability_pv": 2281.4812437636047,
+    "surplus_change_fraction": -0.00027987530382481265
+  },
+  {
+    "start_date": "2021-11-30",
+    "end_date": "2021-12-31",
+    "end_month": "2021-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2322.622709442528,
+    "surplus_change_fraction": 0.009251827001123416
+  },
+  {
+    "start_date": "2021-11-30",
+    "end_date": "2021-12-31",
+    "end_month": "2021-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.40086463612875145,
+      0.0,
+      0.5991353638712485,
+      0.0
+    ],
+    "initial_liability_pv": 2322.622709442528,
+    "surplus_change_fraction": 0.00046261670155226995
+  },
+  {
+    "start_date": "2021-11-30",
+    "end_date": "2021-12-31",
+    "end_month": "2021-12",
+    "method": "key_rate",
+    "weights": [
+      0.08349855263437655,
+      0.18663576152016023,
+      0.30725563707663384,
+      0.2957110594255563,
+      0.12689898934327315
+    ],
+    "initial_liability_pv": 2322.622709442528,
+    "surplus_change_fraction": 0.0001667521890573653
+  },
+  {
+    "start_date": "2021-11-30",
+    "end_date": "2021-12-31",
+    "end_month": "2021-12",
+    "method": "covariance",
+    "weights": [
+      0.0678171671343389,
+      0.20008637296046464,
+      0.3091994932994759,
+      0.2955910969723138,
+      0.12730586963340676
+    ],
+    "initial_liability_pv": 2322.622709442528,
+    "surplus_change_fraction": 0.00010733559632951583
+  },
+  {
+    "start_date": "2021-12-31",
+    "end_date": "2022-01-31",
+    "end_month": "2022-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2288.0940081913145,
+    "surplus_change_fraction": 0.015362307531434352
+  },
+  {
+    "start_date": "2021-12-31",
+    "end_date": "2022-01-31",
+    "end_month": "2022-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.40671501376527425,
+      0.0,
+      0.5932849862347258,
+      0.0
+    ],
+    "initial_liability_pv": 2288.0940081913145,
+    "surplus_change_fraction": -0.0011901101950463843
+  },
+  {
+    "start_date": "2021-12-31",
+    "end_date": "2022-01-31",
+    "end_month": "2022-01",
+    "method": "key_rate",
+    "weights": [
+      0.08493017108176072,
+      0.18833638257743734,
+      0.30853620753287364,
+      0.2936443949950441,
+      0.12455284381288421
+    ],
+    "initial_liability_pv": 2288.0940081913145,
+    "surplus_change_fraction": 0.000509421902525772
+  },
+  {
+    "start_date": "2021-12-31",
+    "end_date": "2022-01-31",
+    "end_month": "2022-01",
+    "method": "covariance",
+    "weights": [
+      0.0691855219774688,
+      0.20182840713380265,
+      0.310496821925274,
+      0.29352757054269324,
+      0.1249616784207614
+    ],
+    "initial_liability_pv": 2288.0940081913145,
+    "surplus_change_fraction": 0.00026395263350019
+  },
+  {
+    "start_date": "2022-01-31",
+    "end_date": "2022-02-28",
+    "end_month": "2022-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2211.461835029595,
+    "surplus_change_fraction": 0.006291335998430248
+  },
+  {
+    "start_date": "2022-01-31",
+    "end_date": "2022-02-28",
+    "end_month": "2022-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4156992357495261,
+      0.0,
+      0.5843007642504738,
+      0.0
+    ],
+    "initial_liability_pv": 2211.461835029595,
+    "surplus_change_fraction": -0.0006458702981736678
+  },
+  {
+    "start_date": "2022-01-31",
+    "end_date": "2022-02-28",
+    "end_month": "2022-02",
+    "method": "key_rate",
+    "weights": [
+      0.08840496026525926,
+      0.19107698206095172,
+      0.30885803735181094,
+      0.2897834174836108,
+      0.12187660283836728
+    ],
+    "initial_liability_pv": 2211.461835029595,
+    "surplus_change_fraction": 0.00035818911817091047
+  },
+  {
+    "start_date": "2022-01-31",
+    "end_date": "2022-02-28",
+    "end_month": "2022-02",
+    "method": "covariance",
+    "weights": [
+      0.07245236798117842,
+      0.20474714413361275,
+      0.3108445967747581,
+      0.28966507906409916,
+      0.1222908120463516
+    ],
+    "initial_liability_pv": 2211.461835029595,
+    "surplus_change_fraction": 0.00031135279071347374
+  },
+  {
+    "start_date": "2022-02-28",
+    "end_date": "2022-03-31",
+    "end_month": "2022-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2184.4930834879683,
+    "surplus_change_fraction": 0.011075276412286127
+  },
+  {
+    "start_date": "2022-02-28",
+    "end_date": "2022-03-31",
+    "end_month": "2022-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4210355969967908,
+      0.0,
+      0.5789644030032093,
+      0.0
+    ],
+    "initial_liability_pv": 2184.4930834879683,
+    "surplus_change_fraction": -0.0017414766558814685
+  },
+  {
+    "start_date": "2022-02-28",
+    "end_date": "2022-03-31",
+    "end_month": "2022-03",
+    "method": "key_rate",
+    "weights": [
+      0.08926953274302421,
+      0.19256936066544578,
+      0.31076299826606896,
+      0.28782282069667736,
+      0.11957528762878376
+    ],
+    "initial_liability_pv": 2184.4930834879683,
+    "surplus_change_fraction": 0.0003675900440303039
+  },
+  {
+    "start_date": "2022-02-28",
+    "end_date": "2022-03-31",
+    "end_month": "2022-03",
+    "method": "covariance",
+    "weights": [
+      0.07324350189981114,
+      0.20630244290008143,
+      0.31275867932976537,
+      0.2877039669085462,
+      0.1199914089617959
+    ],
+    "initial_liability_pv": 2184.4930834879683,
+    "surplus_change_fraction": -0.00012000575285616699
+  },
+  {
+    "start_date": "2022-03-31",
+    "end_date": "2022-04-29",
+    "end_month": "2022-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2084.0995397454403,
+    "surplus_change_fraction": 0.04685017695031614
+  },
+  {
+    "start_date": "2022-03-31",
+    "end_date": "2022-04-29",
+    "end_month": "2022-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4292676297652483,
+      0.0,
+      0.5707323702347518,
+      0.0
+    ],
+    "initial_liability_pv": 2084.0995397454403,
+    "surplus_change_fraction": 0.0007505559123617059
+  },
+  {
+    "start_date": "2022-03-31",
+    "end_date": "2022-04-29",
+    "end_month": "2022-04",
+    "method": "key_rate",
+    "weights": [
+      0.09357476006968236,
+      0.1945636281513117,
+      0.31002727045691086,
+      0.28440574129370466,
+      0.11742860002839044
+    ],
+    "initial_liability_pv": 2084.0995397454403,
+    "surplus_change_fraction": 0.0008731072971410195
+  },
+  {
+    "start_date": "2022-03-31",
+    "end_date": "2022-04-29",
+    "end_month": "2022-04",
+    "method": "covariance",
+    "weights": [
+      0.07734110843276086,
+      0.20847458977148312,
+      0.3120488612818902,
+      0.28428536219244194,
+      0.11785007832142377
+    ],
+    "initial_liability_pv": 2084.0995397454403,
+    "surplus_change_fraction": 0.00044002652909622245
+  },
+  {
+    "start_date": "2022-04-29",
+    "end_date": "2022-05-31",
+    "end_month": "2022-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1936.4104680802361,
+    "surplus_change_fraction": 0.018143599166060224
+  },
+  {
+    "start_date": "2022-04-29",
+    "end_date": "2022-05-31",
+    "end_month": "2022-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.45573684240283246,
+      0.0,
+      0.5442631575971675,
+      0.0
+    ],
+    "initial_liability_pv": 1936.4104680802361,
+    "surplus_change_fraction": 0.00020226689280905332
+  },
+  {
+    "start_date": "2022-04-29",
+    "end_date": "2022-05-31",
+    "end_month": "2022-05",
+    "method": "key_rate",
+    "weights": [
+      0.10319221780869692,
+      0.2031041818344884,
+      0.3110628831271823,
+      0.2735057794300973,
+      0.10913493779953505
+    ],
+    "initial_liability_pv": 1936.4104680802361,
+    "surplus_change_fraction": 0.0001585771000341979
+  },
+  {
+    "start_date": "2022-04-29",
+    "end_date": "2022-05-31",
+    "end_month": "2022-05",
+    "method": "covariance",
+    "weights": [
+      0.08633021612722329,
+      0.21755337239904268,
+      0.3131628984444848,
+      0.27338083421322584,
+      0.10957267881602352
+    ],
+    "initial_liability_pv": 1936.4104680802361,
+    "surplus_change_fraction": 0.00020110710060846105
+  },
+  {
+    "start_date": "2022-05-31",
+    "end_date": "2022-06-30",
+    "end_month": "2022-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1910.2506217469333,
+    "surplus_change_fraction": 0.0022032215193555286
+  },
+  {
+    "start_date": "2022-05-31",
+    "end_date": "2022-06-30",
+    "end_month": "2022-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4675898885321883,
+      0.0,
+      0.5324101114678117,
+      0.0
+    ],
+    "initial_liability_pv": 1910.2506217469333,
+    "surplus_change_fraction": 0.0009619111941527971
+  },
+  {
+    "start_date": "2022-05-31",
+    "end_date": "2022-06-30",
+    "end_month": "2022-06",
+    "method": "key_rate",
+    "weights": [
+      0.10560290639982443,
+      0.20688860875939233,
+      0.3141570417820036,
+      0.2688971564177919,
+      0.1044542866409878
+    ],
+    "initial_liability_pv": 1910.2506217469333,
+    "surplus_change_fraction": 0.00032824575014276064
+  },
+  {
+    "start_date": "2022-05-31",
+    "end_date": "2022-06-30",
+    "end_month": "2022-06",
+    "method": "covariance",
+    "weights": [
+      0.08851766931903035,
+      0.22152903383849593,
+      0.3162848620087632,
+      0.2687706143243875,
+      0.1048978205093231
+    ],
+    "initial_liability_pv": 1910.2506217469333,
+    "surplus_change_fraction": 0.00031235039735514063
+  },
+  {
+    "start_date": "2022-06-30",
+    "end_date": "2022-07-29",
+    "end_month": "2022-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1890.252910065618,
+    "surplus_change_fraction": -0.009774094467058823
+  },
+  {
+    "start_date": "2022-06-30",
+    "end_date": "2022-07-29",
+    "end_month": "2022-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46610053304017673,
+      0.0,
+      0.5338994669598233,
+      0.0
+    ],
+    "initial_liability_pv": 1890.252910065618,
+    "surplus_change_fraction": 5.660370803883888e-05
+  },
+  {
+    "start_date": "2022-06-30",
+    "end_date": "2022-07-29",
+    "end_month": "2022-07",
+    "method": "key_rate",
+    "weights": [
+      0.106113768525024,
+      0.20693156187995743,
+      0.31215031562567164,
+      0.26909627646722717,
+      0.10570807750211986
+    ],
+    "initial_liability_pv": 1890.252910065618,
+    "surplus_change_fraction": -0.0006628154762431324
+  },
+  {
+    "start_date": "2022-06-30",
+    "end_date": "2022-07-29",
+    "end_month": "2022-07",
+    "method": "covariance",
+    "weights": [
+      0.08902087162703695,
+      0.22157849407748983,
+      0.3142791518479361,
+      0.26896966920137155,
+      0.10615181324616559
+    ],
+    "initial_liability_pv": 1890.252910065618,
+    "surplus_change_fraction": -0.0003689570559938921
+  },
+  {
+    "start_date": "2022-07-29",
+    "end_date": "2022-08-31",
+    "end_month": "2022-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1934.364033746407,
+    "surplus_change_fraction": 0.014743264946024036
+  },
+  {
+    "start_date": "2022-07-29",
+    "end_date": "2022-08-31",
+    "end_month": "2022-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46572717582988915,
+      0.0,
+      0.5342728241701109,
+      0.0
+    ],
+    "initial_liability_pv": 1934.364033746407,
+    "surplus_change_fraction": -0.001126784310202018
+  },
+  {
+    "start_date": "2022-07-29",
+    "end_date": "2022-08-31",
+    "end_month": "2022-08",
+    "method": "key_rate",
+    "weights": [
+      0.10246962962191677,
+      0.20614892634014848,
+      0.31739817008244803,
+      0.2704049930208302,
+      0.10357828093465662
+    ],
+    "initial_liability_pv": 1934.364033746407,
+    "surplus_change_fraction": 0.00044308904528999205
+  },
+  {
+    "start_date": "2022-07-29",
+    "end_date": "2022-08-31",
+    "end_month": "2022-08",
+    "method": "covariance",
+    "weights": [
+      0.0855187824116249,
+      0.22067425509714206,
+      0.319509139748741,
+      0.27027945949345944,
+      0.10401836324903271
+    ],
+    "initial_liability_pv": 1934.364033746407,
+    "surplus_change_fraction": -3.9814292655269676e-05
+  },
+  {
+    "start_date": "2022-08-31",
+    "end_date": "2022-09-30",
+    "end_month": "2022-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1847.7770115439605,
+    "surplus_change_fraction": 0.033120369713655395
+  },
+  {
+    "start_date": "2022-08-31",
+    "end_date": "2022-09-30",
+    "end_month": "2022-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.47473043572820234,
+      0.0,
+      0.5252695642717977,
+      0.0
+    ],
+    "initial_liability_pv": 1847.7770115439605,
+    "surplus_change_fraction": -0.0008192960180826394
+  },
+  {
+    "start_date": "2022-08-31",
+    "end_date": "2022-09-30",
+    "end_month": "2022-09",
+    "method": "key_rate",
+    "weights": [
+      0.10793065587846229,
+      0.20870847328875627,
+      0.3152462324737831,
+      0.2662877616515723,
+      0.10182687670742595
+    ],
+    "initial_liability_pv": 1847.7770115439605,
+    "surplus_change_fraction": 0.0012275098311589085
+  },
+  {
+    "start_date": "2022-08-31",
+    "end_date": "2022-09-30",
+    "end_month": "2022-09",
+    "method": "covariance",
+    "weights": [
+      0.09070519574261707,
+      0.22346903865411616,
+      0.3173915187026575,
+      0.2661602047327259,
+      0.10227404216788341
+    ],
+    "initial_liability_pv": 1847.7770115439605,
+    "surplus_change_fraction": 0.0006407222252796005
+  },
+  {
+    "start_date": "2022-09-30",
+    "end_date": "2022-10-31",
+    "end_month": "2022-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1719.4131873930648,
+    "surplus_change_fraction": 0.03579668381057391
+  },
+  {
+    "start_date": "2022-09-30",
+    "end_date": "2022-10-31",
+    "end_month": "2022-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4944475232111261,
+      0.0,
+      0.5055524767888739,
+      0.0
+    ],
+    "initial_liability_pv": 1719.4131873930648,
+    "surplus_change_fraction": 0.0016093627675245932
+  },
+  {
+    "start_date": "2022-09-30",
+    "end_date": "2022-10-31",
+    "end_month": "2022-10",
+    "method": "key_rate",
+    "weights": [
+      0.11710451005355803,
+      0.21504425424022056,
+      0.3135252937190135,
+      0.2574447733080433,
+      0.09688116867916449
+    ],
+    "initial_liability_pv": 1719.4131873930648,
+    "surplus_change_fraction": 0.0007362671001283962
+  },
+  {
+    "start_date": "2022-09-30",
+    "end_date": "2022-10-31",
+    "end_month": "2022-10",
+    "method": "covariance",
+    "weights": [
+      0.09936242701547575,
+      0.23024733894252095,
+      0.3157351136895175,
+      0.25731344093662806,
+      0.09734167941585775
+    ],
+    "initial_liability_pv": 1719.4131873930648,
+    "surplus_change_fraction": 0.0005360701887314503
+  },
+  {
+    "start_date": "2022-10-31",
+    "end_date": "2022-11-30",
+    "end_month": "2022-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1641.1868965271108,
+    "surplus_change_fraction": -0.03557452505818213
+  },
+  {
+    "start_date": "2022-10-31",
+    "end_date": "2022-11-30",
+    "end_month": "2022-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5161698976869765,
+      0.0,
+      0.4838301023130235,
+      0.0
+    ],
+    "initial_liability_pv": 1641.1868965271108,
+    "surplus_change_fraction": -0.005810367934904935
+  },
+  {
+    "start_date": "2022-10-31",
+    "end_date": "2022-11-30",
+    "end_month": "2022-11",
+    "method": "key_rate",
+    "weights": [
+      0.12417840425821906,
+      0.22230459498662514,
+      0.31527986061705765,
+      0.24840964393846363,
+      0.08982749619963463
+    ],
+    "initial_liability_pv": 1641.1868965271108,
+    "surplus_change_fraction": 0.0008564033513426179
+  },
+  {
+    "start_date": "2022-10-31",
+    "end_date": "2022-11-30",
+    "end_month": "2022-11",
+    "method": "covariance",
+    "weights": [
+      0.1059443174241948,
+      0.23792911096261163,
+      0.3175510795890517,
+      0.24827474678959036,
+      0.0903007452345515
+    ],
+    "initial_liability_pv": 1641.1868965271108,
+    "surplus_change_fraction": 0.0013729119516746803
+  },
+  {
+    "start_date": "2022-11-30",
+    "end_date": "2022-12-30",
+    "end_month": "2022-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1733.4705929365891,
+    "surplus_change_fraction": 0.009172321781913954
+  },
+  {
+    "start_date": "2022-11-30",
+    "end_date": "2022-12-30",
+    "end_month": "2022-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.49540277911600145,
+      0.0,
+      0.5045972208839986,
+      0.0
+    ],
+    "initial_liability_pv": 1733.4705929365891,
+    "surplus_change_fraction": -0.0005164113576740398
+  },
+  {
+    "start_date": "2022-11-30",
+    "end_date": "2022-12-30",
+    "end_month": "2022-12",
+    "method": "key_rate",
+    "weights": [
+      0.11556891528048606,
+      0.21613204594594584,
+      0.3159360172185289,
+      0.25575092154906487,
+      0.09661210000597434
+    ],
+    "initial_liability_pv": 1733.4705929365891,
+    "surplus_change_fraction": 0.0004830550071335048
+  },
+  {
+    "start_date": "2022-11-30",
+    "end_date": "2022-12-30",
+    "end_month": "2022-12",
+    "method": "covariance",
+    "weights": [
+      0.09786160212534,
+      0.23130532281207342,
+      0.31814146246332026,
+      0.25561988841259176,
+      0.09707172418667465
+    ],
+    "initial_liability_pv": 1733.4705929365891,
+    "surplus_change_fraction": 0.00031093031939619884
+  },
+  {
+    "start_date": "2022-12-30",
+    "end_date": "2023-01-31",
+    "end_month": "2023-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1703.346215654941,
+    "surplus_change_fraction": -0.027638552840160757
+  },
+  {
+    "start_date": "2022-12-30",
+    "end_date": "2023-01-31",
+    "end_month": "2023-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4998776478339707,
+      0.0,
+      0.5001223521660293,
+      0.0
+    ],
+    "initial_liability_pv": 1703.346215654941,
+    "surplus_change_fraction": 0.00268659197031511
+  },
+  {
+    "start_date": "2022-12-30",
+    "end_date": "2023-01-31",
+    "end_month": "2023-01",
+    "method": "key_rate",
+    "weights": [
+      0.11828219457814756,
+      0.21777672936572726,
+      0.3145629749451883,
+      0.2533926131695455,
+      0.09598548794139139
+    ],
+    "initial_liability_pv": 1703.346215654941,
+    "surplus_change_fraction": -0.001305535961395919
+  },
+  {
+    "start_date": "2022-12-30",
+    "end_date": "2023-01-31",
+    "end_month": "2023-01",
+    "method": "covariance",
+    "weights": [
+      0.1004299883329281,
+      0.23307410305996118,
+      0.3167865437067721,
+      0.25326051592996246,
+      0.09644884897037606
+    ],
+    "initial_liability_pv": 1703.346215654941,
+    "surplus_change_fraction": -0.0009083478106201596
+  },
+  {
+    "start_date": "2023-01-31",
+    "end_date": "2023-02-28",
+    "end_month": "2023-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1783.056452123424,
+    "surplus_change_fraction": 0.015827912914787957
+  },
+  {
+    "start_date": "2023-01-31",
+    "end_date": "2023-02-28",
+    "end_month": "2023-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4835413537293783,
+      0.0,
+      0.5164586462706218,
+      0.0
+    ],
+    "initial_liability_pv": 1783.056452123424,
+    "surplus_change_fraction": 0.0027336578917210304
+  },
+  {
+    "start_date": "2023-01-31",
+    "end_date": "2023-02-28",
+    "end_month": "2023-02",
+    "method": "key_rate",
+    "weights": [
+      0.11158347593011221,
+      0.21272722155116272,
+      0.31435291011066324,
+      0.2609039236985483,
+      0.10043246870951367
+    ],
+    "initial_liability_pv": 1783.056452123424,
+    "surplus_change_fraction": -0.0004156233475644833
+  },
+  {
+    "start_date": "2023-01-31",
+    "end_date": "2023-02-28",
+    "end_month": "2023-02",
+    "method": "covariance",
+    "weights": [
+      0.09413382830185267,
+      0.2276797525624121,
+      0.3165262444947817,
+      0.2607747500949909,
+      0.1008854245459626
+    ],
+    "initial_liability_pv": 1783.056452123424,
+    "surplus_change_fraction": -0.0008834192177976068
+  },
+  {
+    "start_date": "2023-02-28",
+    "end_date": "2023-03-31",
+    "end_month": "2023-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1707.2814423904051,
+    "surplus_change_fraction": -0.013726144135361591
+  },
+  {
+    "start_date": "2023-02-28",
+    "end_date": "2023-03-31",
+    "end_month": "2023-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.49424200422751396,
+      0.0,
+      0.505757995772486,
+      0.0
+    ],
+    "initial_liability_pv": 1707.2814423904051,
+    "surplus_change_fraction": 0.0007399591525343714
+  },
+  {
+    "start_date": "2023-02-28",
+    "end_date": "2023-03-31",
+    "end_month": "2023-03",
+    "method": "key_rate",
+    "weights": [
+      0.11697949118468899,
+      0.21544629367156246,
+      0.31306238253346097,
+      0.25742078113808997,
+      0.09709105147219754
+    ],
+    "initial_liability_pv": 1707.2814423904051,
+    "surplus_change_fraction": -0.0008379803389186953
+  },
+  {
+    "start_date": "2023-02-28",
+    "end_date": "2023-03-31",
+    "end_month": "2023-03",
+    "method": "covariance",
+    "weights": [
+      0.09923655501509303,
+      0.2306500787426507,
+      0.315272339834995,
+      0.2572894417123513,
+      0.09755158469491
+    ],
+    "initial_liability_pv": 1707.2814423904051,
+    "surplus_change_fraction": -0.0004118867998074259
+  },
+  {
+    "start_date": "2023-03-31",
+    "end_date": "2023-04-28",
+    "end_month": "2023-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1777.1826905077835,
+    "surplus_change_fraction": 0.0006538003717975238
+  },
+  {
+    "start_date": "2023-03-31",
+    "end_date": "2023-04-28",
+    "end_month": "2023-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.48715630674916127,
+      0.0,
+      0.5128436932508387,
+      0.0
+    ],
+    "initial_liability_pv": 1777.1826905077835,
+    "surplus_change_fraction": 0.000574495971573992
+  },
+  {
+    "start_date": "2023-03-31",
+    "end_date": "2023-04-28",
+    "end_month": "2023-04",
+    "method": "key_rate",
+    "weights": [
+      0.11235394025560624,
+      0.21336713287287476,
+      0.3152511472164253,
+      0.2607797732639729,
+      0.09824800639112094
+    ],
+    "initial_liability_pv": 1777.1826905077835,
+    "surplus_change_fraction": 9.37781577729836e-05
+  },
+  {
+    "start_date": "2023-03-31",
+    "end_date": "2023-04-28",
+    "end_month": "2023-04",
+    "method": "covariance",
+    "weights": [
+      0.09482987278818664,
+      0.22838344000579697,
+      0.3174337405203909,
+      0.2606500486914134,
+      0.09870289799421202
+    ],
+    "initial_liability_pv": 1777.1826905077835,
+    "surplus_change_fraction": 0.00019085944690536169
+  },
+  {
+    "start_date": "2023-04-28",
+    "end_date": "2023-05-31",
+    "end_month": "2023-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1783.637621425494,
+    "surplus_change_fraction": 0.013638025930085904
+  },
+  {
+    "start_date": "2023-04-28",
+    "end_date": "2023-05-31",
+    "end_month": "2023-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.48691827278838884,
+      0.0,
+      0.5130817272116112,
+      0.0
+    ],
+    "initial_liability_pv": 1783.637621425494,
+    "surplus_change_fraction": -0.002667145874667842
+  },
+  {
+    "start_date": "2023-04-28",
+    "end_date": "2023-05-31",
+    "end_month": "2023-05",
+    "method": "key_rate",
+    "weights": [
+      0.11181701113637642,
+      0.21358512921360553,
+      0.3155442217647301,
+      0.26083138388454596,
+      0.09822225400074205
+    ],
+    "initial_liability_pv": 1783.637621425494,
+    "surplus_change_fraction": 0.0014043368686357915
+  },
+  {
+    "start_date": "2023-04-28",
+    "end_date": "2023-05-31",
+    "end_month": "2023-05",
+    "method": "covariance",
+    "weights": [
+      0.09430831482283739,
+      0.22858825406859057,
+      0.3177249018416588,
+      0.26070177713527853,
+      0.09867675213163463
+    ],
+    "initial_liability_pv": 1783.637621425494,
+    "surplus_change_fraction": 0.0012313374392239954
+  },
+  {
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-30",
+    "end_month": "2023-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1738.5734119284589,
+    "surplus_change_fraction": -0.010238080634942444
+  },
+  {
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-30",
+    "end_month": "2023-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.49426281048094806,
+      0.0,
+      0.5057371895190519,
+      0.0
+    ],
+    "initial_liability_pv": 1738.5734119284589,
+    "surplus_change_fraction": 0.0012281074986329207
+  },
+  {
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-30",
+    "end_month": "2023-06",
+    "method": "key_rate",
+    "weights": [
+      0.11506431890827418,
+      0.21636480112572257,
+      0.3150636748142403,
+      0.2566528788934505,
+      0.09685432625831253
+    ],
+    "initial_liability_pv": 1738.5734119284589,
+    "surplus_change_fraction": -0.0010948328967510354
+  },
+  {
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-30",
+    "end_month": "2023-06",
+    "method": "covariance",
+    "weights": [
+      0.09736964782185209,
+      0.23152720578118532,
+      0.3172675927422451,
+      0.25652192720045364,
+      0.09731362645426377
+    ],
+    "initial_liability_pv": 1738.5734119284589,
+    "surplus_change_fraction": -0.0013680843615529216
+  },
+  {
+    "start_date": "2023-06-30",
+    "end_date": "2023-07-31",
+    "end_month": "2023-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1724.4211817282162,
+    "surplus_change_fraction": 0.016352523366281055
+  },
+  {
+    "start_date": "2023-06-30",
+    "end_date": "2023-07-31",
+    "end_month": "2023-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4916143026316632,
+      0.0,
+      0.5083856973683367,
+      0.0
+    ],
+    "initial_liability_pv": 1724.4211817282162,
+    "surplus_change_fraction": -0.000634859544007778
+  },
+  {
+    "start_date": "2023-06-30",
+    "end_date": "2023-07-31",
+    "end_month": "2023-07",
+    "method": "key_rate",
+    "weights": [
+      0.11495075914183331,
+      0.21431326363060083,
+      0.31460349328326165,
+      0.2589982850341363,
+      0.09713419891016793
+    ],
+    "initial_liability_pv": 1724.4211817282162,
+    "surplus_change_fraction": 0.0010582662370663739
+  },
+  {
+    "start_date": "2023-06-30",
+    "end_date": "2023-07-31",
+    "end_month": "2023-07",
+    "method": "covariance",
+    "weights": [
+      0.09730939678122581,
+      0.22943006477153324,
+      0.3168007264978349,
+      0.25886769597598375,
+      0.09759211597342217
+    ],
+    "initial_liability_pv": 1724.4211817282162,
+    "surplus_change_fraction": 0.0009396890379760498
+  },
+  {
+    "start_date": "2023-07-31",
+    "end_date": "2023-08-31",
+    "end_month": "2023-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1691.4380363617963,
+    "surplus_change_fraction": 0.01574762187846057
+  },
+  {
+    "start_date": "2023-07-31",
+    "end_date": "2023-08-31",
+    "end_month": "2023-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.49989974842812285,
+      0.0,
+      0.5001002515718771,
+      0.0
+    ],
+    "initial_liability_pv": 1691.4380363617963,
+    "surplus_change_fraction": -0.004192186712942598
+  },
+  {
+    "start_date": "2023-07-31",
+    "end_date": "2023-08-31",
+    "end_month": "2023-08",
+    "method": "key_rate",
+    "weights": [
+      0.11820369309494763,
+      0.21759826928436346,
+      0.31419261937574644,
+      0.25482772788210356,
+      0.09517769036283893
+    ],
+    "initial_liability_pv": 1691.4380363617963,
+    "surplus_change_fraction": 0.0016464582956180673
+  },
+  {
+    "start_date": "2023-07-31",
+    "end_date": "2023-08-31",
+    "end_month": "2023-08",
+    "method": "covariance",
+    "weights": [
+      0.10036259486098284,
+      0.23288612258069086,
+      0.3164148192677902,
+      0.2546956927528649,
+      0.09564077053767125
+    ],
+    "initial_liability_pv": 1691.4380363617963,
+    "surplus_change_fraction": 0.0015411525303140844
+  },
+  {
+    "start_date": "2023-08-31",
+    "end_date": "2023-09-29",
+    "end_month": "2023-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1658.0830019014809,
+    "surplus_change_fraction": 0.044196649373140065
+  },
+  {
+    "start_date": "2023-08-31",
+    "end_date": "2023-09-29",
+    "end_month": "2023-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5085222976955944,
+      0.0,
+      0.4914777023044056,
+      0.0
+    ],
+    "initial_liability_pv": 1658.0830019014809,
+    "surplus_change_fraction": 0.0034621501735949563
+  },
+  {
+    "start_date": "2023-08-31",
+    "end_date": "2023-09-29",
+    "end_month": "2023-09",
+    "method": "key_rate",
+    "weights": [
+      0.12166537571601163,
+      0.22089549718442753,
+      0.31423687644668885,
+      0.2496397234318653,
+      0.09356252722100679
+    ],
+    "initial_liability_pv": 1658.0830019014809,
+    "surplus_change_fraction": 0.00044238788895041564
+  },
+  {
+    "start_date": "2023-08-31",
+    "end_date": "2023-09-29",
+    "end_month": "2023-09",
+    "method": "covariance",
+    "weights": [
+      0.1036040856007206,
+      0.23637194477174006,
+      0.3164865712095249,
+      0.2495061025669451,
+      0.0940312958510693
+    ],
+    "initial_liability_pv": 1658.0830019014809,
+    "surplus_change_fraction": -2.6198934694275933e-05
+  },
+  {
+    "start_date": "2023-09-29",
+    "end_date": "2023-10-31",
+    "end_month": "2023-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1553.3160597696792,
+    "surplus_change_fraction": 0.022755921373913548
+  },
+  {
+    "start_date": "2023-09-29",
+    "end_date": "2023-10-31",
+    "end_month": "2023-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5361556597998208,
+      0.0,
+      0.4638443402001792,
+      0.0
+    ],
+    "initial_liability_pv": 1553.3160597696792,
+    "surplus_change_fraction": -0.0017468048387641584
+  },
+  {
+    "start_date": "2023-09-29",
+    "end_date": "2023-10-31",
+    "end_month": "2023-10",
+    "method": "key_rate",
+    "weights": [
+      0.13251456336454479,
+      0.2298193885010101,
+      0.3140075903394248,
+      0.23855589371318453,
+      0.08510256408183581
+    ],
+    "initial_liability_pv": 1553.3160597696792,
+    "surplus_change_fraction": 0.0013793116304195619
+  },
+  {
+    "start_date": "2023-09-29",
+    "end_date": "2023-10-31",
+    "end_month": "2023-10",
+    "method": "covariance",
+    "weights": [
+      0.11376244871032476,
+      0.24588757235375985,
+      0.316343536350395,
+      0.23841723733703662,
+      0.08558920524848371
+    ],
+    "initial_liability_pv": 1553.3160597696792,
+    "surplus_change_fraction": 0.0011155091721912385
+  },
+  {
+    "start_date": "2023-10-31",
+    "end_date": "2023-11-30",
+    "end_month": "2023-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1502.2587916524676,
+    "surplus_change_fraction": -0.03577687624275985
+  },
+  {
+    "start_date": "2023-10-31",
+    "end_date": "2023-11-30",
+    "end_month": "2023-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5491771926662008,
+      0.0,
+      0.4508228073337992,
+      0.0
+    ],
+    "initial_liability_pv": 1502.2587916524676,
+    "surplus_change_fraction": -0.0008397887282305032
+  },
+  {
+    "start_date": "2023-10-31",
+    "end_date": "2023-11-30",
+    "end_month": "2023-11",
+    "method": "key_rate",
+    "weights": [
+      0.13865355122754644,
+      0.23454892407664432,
+      0.3124938119305701,
+      0.231894255007004,
+      0.08240945775823522
+    ],
+    "initial_liability_pv": 1502.2587916524676,
+    "surplus_change_fraction": -0.000794681702990033
+  },
+  {
+    "start_date": "2023-10-31",
+    "end_date": "2023-11-30",
+    "end_month": "2023-11",
+    "method": "covariance",
+    "weights": [
+      0.11954230993541207,
+      0.2509246928544191,
+      0.3148746425943749,
+      0.23175298095782312,
+      0.08290537365797081
+    ],
+    "initial_liability_pv": 1502.2587916524676,
+    "surplus_change_fraction": -0.0002472096305544472
+  },
+  {
+    "start_date": "2023-11-30",
+    "end_date": "2023-12-29",
+    "end_month": "2023-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1592.578448162554,
+    "surplus_change_fraction": -0.042203165235066016
+  },
+  {
+    "start_date": "2023-11-30",
+    "end_date": "2023-12-29",
+    "end_month": "2023-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5273207417219403,
+      0.0,
+      0.4726792582780597,
+      0.0
+    ],
+    "initial_liability_pv": 1592.578448162554,
+    "surplus_change_fraction": 0.003490264155705287
+  },
+  {
+    "start_date": "2023-11-30",
+    "end_date": "2023-12-29",
+    "end_month": "2023-12",
+    "method": "key_rate",
+    "weights": [
+      0.12923402699741307,
+      0.22776299934662703,
+      0.31331090995102573,
+      0.2411237642575119,
+      0.08856829944742228
+    ],
+    "initial_liability_pv": 1592.578448162554,
+    "surplus_change_fraction": -0.002749181463864951
+  },
+  {
+    "start_date": "2023-11-30",
+    "end_date": "2023-12-29",
+    "end_month": "2023-12",
+    "method": "covariance",
+    "weights": [
+      0.11068358034879866,
+      0.24365839625670263,
+      0.31562172950126816,
+      0.240986578752483,
+      0.08904971514074764
+    ],
+    "initial_liability_pv": 1592.578448162554,
+    "surplus_change_fraction": -0.0022852823695377064
+  },
+  {
+    "start_date": "2023-12-29",
+    "end_date": "2024-01-31",
+    "end_month": "2024-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1696.0161990246022,
+    "surplus_change_fraction": 0.015210074493411333
+  },
+  {
+    "start_date": "2023-12-29",
+    "end_date": "2024-01-31",
+    "end_month": "2024-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5051720011037404,
+      0.0,
+      0.4948279988962596,
+      0.0
+    ],
+    "initial_liability_pv": 1696.0161990246022,
+    "surplus_change_fraction": 0.00043432741509947636
+  },
+  {
+    "start_date": "2023-12-29",
+    "end_date": "2024-01-31",
+    "end_month": "2024-01",
+    "method": "key_rate",
+    "weights": [
+      0.11969690339887912,
+      0.21983508493532516,
+      0.31457636042862847,
+      0.2522111331176774,
+      0.09368051811948984
+    ],
+    "initial_liability_pv": 1696.0161990246022,
+    "surplus_change_fraction": 0.0002712176898795487
+  },
+  {
+    "start_date": "2023-12-29",
+    "end_date": "2024-01-31",
+    "end_month": "2024-01",
+    "method": "covariance",
+    "weights": [
+      0.10170986080633936,
+      0.2352479296323374,
+      0.31681678978414796,
+      0.2520780421279333,
+      0.09414737764924193
+    ],
+    "initial_liability_pv": 1696.0161990246022,
+    "surplus_change_fraction": 0.00017471781067326974
+  },
+  {
+    "start_date": "2024-01-31",
+    "end_date": "2024-02-29",
+    "end_month": "2024-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1665.1450787229721,
+    "surplus_change_fraction": 0.005143861167668499
+  },
+  {
+    "start_date": "2024-01-31",
+    "end_date": "2024-02-29",
+    "end_month": "2024-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5152146223515053,
+      0.0,
+      0.4847853776484947,
+      0.0
+    ],
+    "initial_liability_pv": 1665.1450787229721,
+    "surplus_change_fraction": -0.002122680305229339
+  },
+  {
+    "start_date": "2024-01-31",
+    "end_date": "2024-02-29",
+    "end_month": "2024-02",
+    "method": "key_rate",
+    "weights": [
+      0.12274496229021592,
+      0.2230759397933046,
+      0.3158031499200373,
+      0.2481249066730355,
+      0.09025104132340665
+    ],
+    "initial_liability_pv": 1665.1450787229721,
+    "surplus_change_fraction": 0.0008956141422283122
+  },
+  {
+    "start_date": "2024-01-31",
+    "end_date": "2024-02-29",
+    "end_month": "2024-02",
+    "method": "covariance",
+    "weights": [
+      0.10454103036547957,
+      0.23867457199824196,
+      0.3180706310595933,
+      0.24799024798109953,
+      0.09072351859558565
+    ],
+    "initial_liability_pv": 1665.1450787229721,
+    "surplus_change_fraction": 0.0006148145255322969
+  },
+  {
+    "start_date": "2024-02-29",
+    "end_date": "2024-03-28",
+    "end_month": "2024-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1628.0878673043437,
+    "surplus_change_fraction": -0.00513948616449959
+  },
+  {
+    "start_date": "2024-02-29",
+    "end_date": "2024-03-28",
+    "end_month": "2024-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5183386926191791,
+      0.0,
+      0.4816613073808209,
+      0.0
+    ],
+    "initial_liability_pv": 1628.0878673043437,
+    "surplus_change_fraction": 9.849731618464547e-05
+  },
+  {
+    "start_date": "2024-02-29",
+    "end_date": "2024-03-28",
+    "end_month": "2024-03",
+    "method": "key_rate",
+    "weights": [
+      0.12548854845852261,
+      0.22402371820535427,
+      0.314045417774021,
+      0.24612759158664846,
+      0.09031472397545373
+    ],
+    "initial_liability_pv": 1628.0878673043437,
+    "surplus_change_fraction": -0.0002931760011561397
+  },
+  {
+    "start_date": "2024-02-29",
+    "end_date": "2024-03-28",
+    "end_month": "2024-03",
+    "method": "covariance",
+    "weights": [
+      0.10717204926234092,
+      0.23971876829138414,
+      0.31632698595612146,
+      0.24599210070702948,
+      0.09079009578312412
+    ],
+    "initial_liability_pv": 1628.0878673043437,
+    "surplus_change_fraction": -0.00024371488000585138
+  },
+  {
+    "start_date": "2024-03-28",
+    "end_date": "2024-04-30",
+    "end_month": "2024-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1639.5355284948398,
+    "surplus_change_fraction": 0.026953659708213052
+  },
+  {
+    "start_date": "2024-03-28",
+    "end_date": "2024-04-30",
+    "end_month": "2024-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5164222235269945,
+      0.0,
+      0.4835777764730055,
+      0.0
+    ],
+    "initial_liability_pv": 1639.5355284948398,
+    "surplus_change_fraction": -0.0028149590616684842
+  },
+  {
+    "start_date": "2024-03-28",
+    "end_date": "2024-04-30",
+    "end_month": "2024-04",
+    "method": "key_rate",
+    "weights": [
+      0.124218145179261,
+      0.2232058631605824,
+      0.3148713606650484,
+      0.24725218479352917,
+      0.09045244620157905
+    ],
+    "initial_liability_pv": 1639.5355284948398,
+    "surplus_change_fraction": 0.0014530571459567029
+  },
+  {
+    "start_date": "2024-03-28",
+    "end_date": "2024-04-30",
+    "end_month": "2024-04",
+    "method": "covariance",
+    "weights": [
+      0.10597042362824002,
+      0.23884201375054934,
+      0.31714431754889777,
+      0.24711720007253693,
+      0.09092604499977583
+    ],
+    "initial_liability_pv": 1639.5355284948398,
+    "surplus_change_fraction": 0.000961096591208165
+  },
+  {
+    "start_date": "2024-04-30",
+    "end_date": "2024-05-31",
+    "end_month": "2024-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1554.8052067239814,
+    "surplus_change_fraction": -0.008622608564723314
+  },
+  {
+    "start_date": "2024-04-30",
+    "end_date": "2024-05-31",
+    "end_month": "2024-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5345113375056433,
+      0.0,
+      0.4654886624943567,
+      0.0
+    ],
+    "initial_liability_pv": 1554.8052067239814,
+    "surplus_change_fraction": 0.004301039343838585
+  },
+  {
+    "start_date": "2024-04-30",
+    "end_date": "2024-05-31",
+    "end_month": "2024-05",
+    "method": "key_rate",
+    "weights": [
+      0.13229888363155654,
+      0.22886585020269,
+      0.31415826943920083,
+      0.2387508074000732,
+      0.08592618932647952
+    ],
+    "initial_liability_pv": 1554.8052067239814,
+    "surplus_change_fraction": -0.0013751111347230552
+  },
+  {
+    "start_date": "2024-04-30",
+    "end_date": "2024-05-31",
+    "end_month": "2024-05",
+    "method": "covariance",
+    "weights": [
+      0.113587968450718,
+      0.24489877482414804,
+      0.31648903383536886,
+      0.23861246103230968,
+      0.08641176185745547
+    ],
+    "initial_liability_pv": 1554.8052067239814,
+    "surplus_change_fraction": -0.0011973991620204299
+  },
+  {
+    "start_date": "2024-05-31",
+    "end_date": "2024-06-28",
+    "end_month": "2024-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1583.3420088543787,
+    "surplus_change_fraction": -0.007509342695488192
+  },
+  {
+    "start_date": "2024-05-31",
+    "end_date": "2024-06-28",
+    "end_month": "2024-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5290035723103655,
+      0.0,
+      0.47099642768963446,
+      0.0
+    ],
+    "initial_liability_pv": 1583.3420088543787,
+    "surplus_change_fraction": -0.0019124016004392374
+  },
+  {
+    "start_date": "2024-05-31",
+    "end_date": "2024-06-28",
+    "end_month": "2024-06",
+    "method": "key_rate",
+    "weights": [
+      0.12959773831306792,
+      0.2270220930550574,
+      0.31442222402519937,
+      0.24224562517634696,
+      0.08671231943032848
+    ],
+    "initial_liability_pv": 1583.3420088543787,
+    "surplus_change_fraction": 0.00047140703762643834
+  },
+  {
+    "start_date": "2024-05-31",
+    "end_date": "2024-06-28",
+    "end_month": "2024-06",
+    "method": "covariance",
+    "weights": [
+      0.11102706701673631,
+      0.24293488578388625,
+      0.31673550310299126,
+      0.24210827712933503,
+      0.08719426696705117
+    ],
+    "initial_liability_pv": 1583.3420088543787,
+    "surplus_change_fraction": 0.0006565337968387884
+  },
+  {
+    "start_date": "2024-06-28",
+    "end_date": "2024-07-31",
+    "end_month": "2024-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1609.22373414321,
+    "surplus_change_fraction": -0.005458962566679241
+  },
+  {
+    "start_date": "2024-06-28",
+    "end_date": "2024-07-31",
+    "end_month": "2024-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.523698273599887,
+      0.0,
+      0.47630172640011303,
+      0.0
+    ],
+    "initial_liability_pv": 1609.22373414321,
+    "surplus_change_fraction": 0.001830744529629022
+  },
+  {
+    "start_date": "2024-06-28",
+    "end_date": "2024-07-31",
+    "end_month": "2024-07",
+    "method": "key_rate",
+    "weights": [
+      0.12722851244467523,
+      0.2257643095755052,
+      0.3145930588579656,
+      0.24380554805109927,
+      0.0886085710707547
+    ],
+    "initial_liability_pv": 1609.22373414321,
+    "surplus_change_fraction": -0.000702320269305886
+  },
+  {
+    "start_date": "2024-06-28",
+    "end_date": "2024-07-31",
+    "end_month": "2024-07",
+    "method": "covariance",
+    "weights": [
+      0.10879578777197968,
+      0.24155891815415242,
+      0.31688912600895164,
+      0.24366921689085067,
+      0.08908695117406558
+    ],
+    "initial_liability_pv": 1609.22373414321,
+    "surplus_change_fraction": -0.0004106505926068253
+  },
+  {
+    "start_date": "2024-07-31",
+    "end_date": "2024-08-30",
+    "end_month": "2024-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1646.8514780267506,
+    "surplus_change_fraction": -0.007948546822273453
+  },
+  {
+    "start_date": "2024-07-31",
+    "end_date": "2024-08-30",
+    "end_month": "2024-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.520318358902625,
+      0.0,
+      0.479681641097375,
+      0.0
+    ],
+    "initial_liability_pv": 1646.8514780267506,
+    "surplus_change_fraction": 0.0015705064645518195
+  },
+  {
+    "start_date": "2024-07-31",
+    "end_date": "2024-08-30",
+    "end_month": "2024-08",
+    "method": "key_rate",
+    "weights": [
+      0.12452763769504231,
+      0.2249097328468885,
+      0.3160438761730287,
+      0.24567583150666406,
+      0.08884292177837656
+    ],
+    "initial_liability_pv": 1646.8514780267506,
+    "surplus_change_fraction": -0.000957513724820624
+  },
+  {
+    "start_date": "2024-07-31",
+    "end_date": "2024-08-30",
+    "end_month": "2024-08",
+    "method": "covariance",
+    "weights": [
+      0.10620768645782637,
+      0.24060773568067248,
+      0.3183258432099123,
+      0.24554033453743318,
+      0.0893184001141558
+    ],
+    "initial_liability_pv": 1646.8514780267506,
+    "surplus_change_fraction": -0.0008118343587285314
+  },
+  {
+    "start_date": "2024-08-30",
+    "end_date": "2024-09-30",
+    "end_month": "2024-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1676.8132947674385,
+    "surplus_change_fraction": -0.004247198073755365
+  },
+  {
+    "start_date": "2024-08-30",
+    "end_date": "2024-09-30",
+    "end_month": "2024-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5161591289942103,
+      0.0,
+      0.48384087100578965,
+      0.0
+    ],
+    "initial_liability_pv": 1676.8132947674385,
+    "surplus_change_fraction": -0.00011463506933382484
+  },
+  {
+    "start_date": "2024-08-30",
+    "end_date": "2024-09-30",
+    "end_month": "2024-09",
+    "method": "key_rate",
+    "weights": [
+      0.1225161837663043,
+      0.22343959301637692,
+      0.3164449112302823,
+      0.24802643430932045,
+      0.08957287767771609
+    ],
+    "initial_liability_pv": 1676.8132947674385,
+    "surplus_change_fraction": -0.00025742563346541287
+  },
+  {
+    "start_date": "2024-08-30",
+    "end_date": "2024-09-30",
+    "end_month": "2024-09",
+    "method": "covariance",
+    "weights": [
+      0.10429992683111922,
+      0.2390487824313845,
+      0.31871392079651756,
+      0.24789168950905305,
+      0.09004568043192575
+    ],
+    "initial_liability_pv": 1676.8132947674385,
+    "surplus_change_fraction": -0.00018037000601977372
+  },
+  {
+    "start_date": "2024-09-30",
+    "end_date": "2024-10-31",
+    "end_month": "2024-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1694.8488021231467,
+    "surplus_change_fraction": 0.017827437153326894
+  },
+  {
+    "start_date": "2024-09-30",
+    "end_date": "2024-10-31",
+    "end_month": "2024-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.514291988212319,
+      0.0,
+      0.48570801178768097,
+      0.0
+    ],
+    "initial_liability_pv": 1694.8488021231467,
+    "surplus_change_fraction": -0.0008124688351605306
+  },
+  {
+    "start_date": "2024-09-30",
+    "end_date": "2024-10-31",
+    "end_month": "2024-10",
+    "method": "key_rate",
+    "weights": [
+      0.12150101588011528,
+      0.2227789558652053,
+      0.31686661986279,
+      0.24891816554195426,
+      0.08993524284993515
+    ],
+    "initial_liability_pv": 1694.8488021231467,
+    "surplus_change_fraction": 0.0008829919538066262
+  },
+  {
+    "start_date": "2024-09-30",
+    "end_date": "2024-10-31",
+    "end_month": "2024-10",
+    "method": "covariance",
+    "weights": [
+      0.1033376723329939,
+      0.23834282692296524,
+      0.31912901135946964,
+      0.24878380920628757,
+      0.09040668017828352
+    ],
+    "initial_liability_pv": 1694.8488021231467,
+    "surplus_change_fraction": 0.0003914210845528749
+  },
+  {
+    "start_date": "2024-10-31",
+    "end_date": "2024-11-29",
+    "end_month": "2024-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1618.3198296185917,
+    "surplus_change_fraction": -0.006621957648290322
+  },
+  {
+    "start_date": "2024-10-31",
+    "end_date": "2024-11-29",
+    "end_month": "2024-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.525378036348205,
+      0.0,
+      0.474621963651795,
+      0.0
+    ],
+    "initial_liability_pv": 1618.3198296185917,
+    "surplus_change_fraction": -0.0025202493235741497
+  },
+  {
+    "start_date": "2024-10-31",
+    "end_date": "2024-11-29",
+    "end_month": "2024-11",
+    "method": "key_rate",
+    "weights": [
+      0.1279835874922726,
+      0.22608517900871264,
+      0.3144063803260097,
+      0.2437793074883052,
+      0.08774554568469974
+    ],
+    "initial_liability_pv": 1618.3198296185917,
+    "surplus_change_fraction": 0.0008617824202511898
+  },
+  {
+    "start_date": "2024-10-31",
+    "end_date": "2024-11-29",
+    "end_month": "2024-11",
+    "method": "covariance",
+    "weights": [
+      0.1094864859544551,
+      0.24193494519555886,
+      0.31671048249687556,
+      0.2436424937741611,
+      0.08822559257894944
+    ],
+    "initial_liability_pv": 1618.3198296185917,
+    "surplus_change_fraction": 0.0009929314289177425
+  },
+  {
+    "start_date": "2024-11-29",
+    "end_date": "2024-12-31",
+    "end_month": "2024-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1636.281238909272,
+    "surplus_change_fraction": 0.030023788867009932
+  },
+  {
+    "start_date": "2024-11-29",
+    "end_date": "2024-12-31",
+    "end_month": "2024-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5203334137610958,
+      0.0,
+      0.47966658623890424,
+      0.0
+    ],
+    "initial_liability_pv": 1636.281238909272,
+    "surplus_change_fraction": -0.000567570009641923
+  },
+  {
+    "start_date": "2024-11-29",
+    "end_date": "2024-12-31",
+    "end_month": "2024-12",
+    "method": "key_rate",
+    "weights": [
+      0.12606626097633208,
+      0.22495252615055714,
+      0.31414609334580534,
+      0.24498085056621477,
+      0.08985426896109072
+    ],
+    "initial_liability_pv": 1636.281238909272,
+    "surplus_change_fraction": 0.0009546665053517118
+  },
+  {
+    "start_date": "2024-11-29",
+    "end_date": "2024-12-31",
+    "end_month": "2024-12",
+    "method": "covariance",
+    "weights": [
+      0.10769672749799353,
+      0.24069299177298237,
+      0.31643428904957155,
+      0.2448449783702645,
+      0.09033101330918814
+    ],
+    "initial_liability_pv": 1636.281238909272,
+    "surplus_change_fraction": 0.0005546216558360514
+  },
+  {
+    "start_date": "2024-12-31",
+    "end_date": "2025-01-31",
+    "end_month": "2025-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1560.743478385673,
+    "surplus_change_fraction": 0.0026631323291042125
+  },
+  {
+    "start_date": "2024-12-31",
+    "end_date": "2025-01-31",
+    "end_month": "2025-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5397420619366929,
+      0.0,
+      0.46025793806330706,
+      0.0
+    ],
+    "initial_liability_pv": 1560.743478385673,
+    "surplus_change_fraction": 0.0029472654058928433
+  },
+  {
+    "start_date": "2024-12-31",
+    "end_date": "2025-01-31",
+    "end_month": "2025-01",
+    "method": "key_rate",
+    "weights": [
+      0.13422506863107836,
+      0.23113956806605163,
+      0.3137134870014891,
+      0.23639231311434283,
+      0.08452956318703815
+    ],
+    "initial_liability_pv": 1560.743478385673,
+    "surplus_change_fraction": -0.0010026330101537292
+  },
+  {
+    "start_date": "2024-12-31",
+    "end_date": "2025-01-31",
+    "end_month": "2025-01",
+    "method": "covariance",
+    "weights": [
+      0.11535821085306354,
+      0.24730603475409885,
+      0.31606376877447023,
+      0.23625282011484594,
+      0.08501916550352134
+    ],
+    "initial_liability_pv": 1560.743478385673,
+    "surplus_change_fraction": -0.0010072553219555008
+  },
+  {
+    "start_date": "2025-01-31",
+    "end_date": "2025-02-28",
+    "end_month": "2025-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1556.9211922069087,
+    "surplus_change_fraction": -0.022022326293551962
+  },
+  {
+    "start_date": "2025-01-31",
+    "end_date": "2025-02-28",
+    "end_month": "2025-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5426344650012278,
+      0.0,
+      0.4573655349987722,
+      0.0
+    ],
+    "initial_liability_pv": 1556.9211922069087,
+    "surplus_change_fraction": 7.12199747948924e-05
+  },
+  {
+    "start_date": "2025-01-31",
+    "end_date": "2025-02-28",
+    "end_month": "2025-02",
+    "method": "key_rate",
+    "weights": [
+      0.13467791684988753,
+      0.23173185886953238,
+      0.3145941031964359,
+      0.23623383508861912,
+      0.08276228599552506
+    ],
+    "initial_liability_pv": 1556.9211922069087,
+    "surplus_change_fraction": -0.0006723339768014427
+  },
+  {
+    "start_date": "2025-01-31",
+    "end_date": "2025-02-28",
+    "end_month": "2025-02",
+    "method": "covariance",
+    "weights": [
+      0.11575957797680031,
+      0.2479424421753974,
+      0.31695078893939455,
+      0.23609396196366483,
+      0.08325322894474294
+    ],
+    "initial_liability_pv": 1556.9211922069087,
+    "surplus_change_fraction": -0.0003030616286642398
+  },
+  {
+    "start_date": "2025-02-28",
+    "end_date": "2025-03-31",
+    "end_month": "2025-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1616.410281878572,
+    "surplus_change_fraction": 0.009159789932200676
+  },
+  {
+    "start_date": "2025-02-28",
+    "end_date": "2025-03-31",
+    "end_month": "2025-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5292102088580638,
+      0.0,
+      0.4707897911419362,
+      0.0
+    ],
+    "initial_liability_pv": 1616.410281878572,
+    "surplus_change_fraction": -9.119658027687791e-05
+  },
+  {
+    "start_date": "2025-02-28",
+    "end_date": "2025-03-31",
+    "end_month": "2025-03",
+    "method": "key_rate",
+    "weights": [
+      0.12870141352872738,
+      0.22753539565961242,
+      0.31530714670622284,
+      0.2421003403729489,
+      0.08635570373248835
+    ],
+    "initial_liability_pv": 1616.410281878572,
+    "surplus_change_fraction": 0.0004426937226883127
+  },
+  {
+    "start_date": "2025-02-28",
+    "end_date": "2025-03-31",
+    "end_month": "2025-03",
+    "method": "covariance",
+    "weights": [
+      0.11013215496989284,
+      0.2434469619509678,
+      0.31762024515323556,
+      0.24196301381808794,
+      0.08683762410781573
+    ],
+    "initial_liability_pv": 1616.410281878572,
+    "surplus_change_fraction": 0.0004915265688018225
+  },
+  {
+    "start_date": "2025-03-31",
+    "end_date": "2025-04-30",
+    "end_month": "2025-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1607.5889527344434,
+    "surplus_change_fraction": 0.015798937363990146
+  },
+  {
+    "start_date": "2025-03-31",
+    "end_date": "2025-04-30",
+    "end_month": "2025-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5343169378754882,
+      0.0,
+      0.4656830621245118,
+      0.0
+    ],
+    "initial_liability_pv": 1607.5889527344434,
+    "surplus_change_fraction": -7.861748675980935e-05
+  },
+  {
+    "start_date": "2025-03-31",
+    "end_date": "2025-04-30",
+    "end_month": "2025-04",
+    "method": "key_rate",
+    "weights": [
+      0.1300079001913688,
+      0.22957981433777827,
+      0.315989454085072,
+      0.23961708385602815,
+      0.08480574752975278
+    ],
+    "initial_liability_pv": 1607.5889527344434,
+    "surplus_change_fraction": 0.000867145039797587
+  },
+  {
+    "start_date": "2025-03-31",
+    "end_date": "2025-04-30",
+    "end_month": "2025-04",
+    "method": "covariance",
+    "weights": [
+      0.11133146571254544,
+      0.24558317033482524,
+      0.3183159107220171,
+      0.23947900158678725,
+      0.08529045164382483
+    ],
+    "initial_liability_pv": 1607.5889527344434,
+    "surplus_change_fraction": 0.0010293999044541661
+  },
+  {
+    "start_date": "2025-04-30",
+    "end_date": "2025-05-30",
+    "end_month": "2025-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1599.8075412324524,
+    "surplus_change_fraction": 0.017488276469114356
+  },
+  {
+    "start_date": "2025-04-30",
+    "end_date": "2025-05-30",
+    "end_month": "2025-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5416185333354999,
+      0.0,
+      0.4583814666645001,
+      0.0
+    ],
+    "initial_liability_pv": 1599.8075412324524,
+    "surplus_change_fraction": -0.0010492002849748626
+  },
+  {
+    "start_date": "2025-04-30",
+    "end_date": "2025-05-30",
+    "end_month": "2025-05",
+    "method": "key_rate",
+    "weights": [
+      0.13192284844654492,
+      0.23298586037713004,
+      0.31651712563437473,
+      0.23563602313773918,
+      0.08293814240421118
+    ],
+    "initial_liability_pv": 1599.8075412324524,
+    "surplus_change_fraction": 0.0010686873155598957
+  },
+  {
+    "start_date": "2025-04-30",
+    "end_date": "2025-05-30",
+    "end_month": "2025-05",
+    "method": "covariance",
+    "weights": [
+      0.11307792666686198,
+      0.2491334813324558,
+      0.31886466028224636,
+      0.235496726746542,
+      0.08342720497189399
+    ],
+    "initial_liability_pv": 1599.8075412324524,
+    "surplus_change_fraction": 0.0008479973154777491
+  },
+  {
+    "start_date": "2025-05-30",
+    "end_date": "2025-06-30",
+    "end_month": "2025-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1551.737518028797,
+    "surplus_change_fraction": -0.010971552414291728
+  },
+  {
+    "start_date": "2025-05-30",
+    "end_date": "2025-06-30",
+    "end_month": "2025-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5528575379284273,
+      0.0,
+      0.4471424620715727,
+      0.0
+    ],
+    "initial_liability_pv": 1551.737518028797,
+    "surplus_change_fraction": 0.0009280675564824685
+  },
+  {
+    "start_date": "2025-05-30",
+    "end_date": "2025-06-30",
+    "end_month": "2025-06",
+    "method": "key_rate",
+    "weights": [
+      0.1365150823520546,
+      0.23684383930406044,
+      0.3162837669148303,
+      0.23030651420693266,
+      0.08005079722212184
+    ],
+    "initial_liability_pv": 1551.737518028797,
+    "surplus_change_fraction": -0.000805486333565845
+  },
+  {
+    "start_date": "2025-05-30",
+    "end_date": "2025-06-30",
+    "end_month": "2025-06",
+    "method": "covariance",
+    "weights": [
+      0.11739758372427886,
+      0.2532249395884076,
+      0.3186653502366722,
+      0.23016523371867903,
+      0.08054689273196246
+    ],
+    "initial_liability_pv": 1551.737518028797,
+    "surplus_change_fraction": -0.0006118235293311058
+  },
+  {
+    "start_date": "2025-06-30",
+    "end_date": "2025-07-31",
+    "end_month": "2025-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1582.2000080610683,
+    "surplus_change_fraction": 0.0038769937433994405
+  },
+  {
+    "start_date": "2025-06-30",
+    "end_date": "2025-07-31",
+    "end_month": "2025-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5469022377488696,
+      0.0,
+      0.4530977622511304,
+      0.0
+    ],
+    "initial_liability_pv": 1582.2000080610683,
+    "surplus_change_fraction": -0.0007362346796721791
+  },
+  {
+    "start_date": "2025-06-30",
+    "end_date": "2025-07-31",
+    "end_month": "2025-07",
+    "method": "key_rate",
+    "weights": [
+      0.1335272923226472,
+      0.23475259272191865,
+      0.3171546957393174,
+      0.23334022668923152,
+      0.0812251925268853
+    ],
+    "initial_liability_pv": 1582.2000080610683,
+    "surplus_change_fraction": 0.00039239817787099866
+  },
+  {
+    "start_date": "2025-06-30",
+    "end_date": "2025-07-31",
+    "end_month": "2025-07",
+    "method": "covariance",
+    "weights": [
+      0.11457300970238929,
+      0.2509938880656427,
+      0.31951587356406713,
+      0.23320014179896395,
+      0.081717086868937
+    ],
+    "initial_liability_pv": 1582.2000080610683,
+    "surplus_change_fraction": 0.0002670099464662828
+  },
+  {
+    "start_date": "2025-07-31",
+    "end_date": "2025-08-29",
+    "end_month": "2025-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1562.6529109320677,
+    "surplus_change_fraction": 0.009107151360697611
+  },
+  {
+    "start_date": "2025-07-31",
+    "end_date": "2025-08-29",
+    "end_month": "2025-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5500070767493146,
+      0.0,
+      0.4499929232506854,
+      0.0
+    ],
+    "initial_liability_pv": 1562.6529109320677,
+    "surplus_change_fraction": 7.184603541135714e-05
+  },
+  {
+    "start_date": "2025-07-31",
+    "end_date": "2025-08-29",
+    "end_month": "2025-08",
+    "method": "key_rate",
+    "weights": [
+      0.13511609589060936,
+      0.23567020817439135,
+      0.3168190489540578,
+      0.23185680933739694,
+      0.08053783764354451
+    ],
+    "initial_liability_pv": 1562.6529109320677,
+    "surplus_change_fraction": 0.0003466878049330752
+  },
+  {
+    "start_date": "2025-07-31",
+    "end_date": "2025-08-29",
+    "end_month": "2025-08",
+    "method": "covariance",
+    "weights": [
+      0.11608237971669037,
+      0.2519795575629438,
+      0.31919015246540566,
+      0.23171614009844665,
+      0.08103177015651351
+    ],
+    "initial_liability_pv": 1562.6529109320677,
+    "surplus_change_fraction": 0.00052850183842505
+  },
+  {
+    "start_date": "2025-08-29",
+    "end_date": "2025-09-30",
+    "end_month": "2025-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1567.5697991510972,
+    "surplus_change_fraction": -0.02093279507159176
+  },
+  {
+    "start_date": "2025-08-29",
+    "end_date": "2025-09-30",
+    "end_month": "2025-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5550961399196556,
+      0.0,
+      0.44490386008034444,
+      0.0
+    ],
+    "initial_liability_pv": 1567.5697991510972,
+    "surplus_change_fraction": 0.00029470221816150594
+  },
+  {
+    "start_date": "2025-08-29",
+    "end_date": "2025-09-30",
+    "end_month": "2025-09",
+    "method": "key_rate",
+    "weights": [
+      0.13562305411789657,
+      0.2379470371505847,
+      0.3183576673695479,
+      0.22934783241799728,
+      0.07872440894397342
+    ],
+    "initial_liability_pv": 1567.5697991510972,
+    "surplus_change_fraction": -0.0010050897627617533
+  },
+  {
+    "start_date": "2025-08-29",
+    "end_date": "2025-09-30",
+    "end_month": "2025-09",
+    "method": "covariance",
+    "weights": [
+      0.11650367852097011,
+      0.2543297231319081,
+      0.3207394503367293,
+      0.22920656799109254,
+      0.0792205800192999
+    ],
+    "initial_liability_pv": 1567.5697991510972,
+    "surplus_change_fraction": -0.00100355071268936
+  },
+  {
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-31",
+    "end_month": "2025-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1596.329069550021,
+    "surplus_change_fraction": -0.005823205320243665
+  },
+  {
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-31",
+    "end_month": "2025-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.543876654892347,
+      0.0,
+      0.45612334510765296,
+      0.0
+    ],
+    "initial_liability_pv": 1596.329069550021,
+    "surplus_change_fraction": -0.00028911503563811545
+  },
+  {
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-31",
+    "end_month": "2025-10",
+    "method": "key_rate",
+    "weights": [
+      0.132277704296068,
+      0.23353080224597947,
+      0.31743848206208886,
+      0.23481920729218655,
+      0.081933804103677
+    ],
+    "initial_liability_pv": 1596.329069550021,
+    "surplus_change_fraction": -6.294296923553068e-05
+  },
+  {
+    "start_date": "2025-09-30",
+    "end_date": "2025-10-31",
+    "end_month": "2025-10",
+    "method": "covariance",
+    "weights": [
+      0.11340609652987324,
+      0.2497012945435076,
+      0.3197893230319658,
+      0.2346797245436874,
+      0.08242356135096583
+    ],
+    "initial_liability_pv": 1596.329069550021,
+    "surplus_change_fraction": -7.882829853669267e-06
+  },
+  {
+    "start_date": "2025-10-31",
+    "end_date": "2025-11-28",
+    "end_month": "2025-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1607.1607777276065,
+    "surplus_change_fraction": 0.002814670148245573
+  },
+  {
+    "start_date": "2025-10-31",
+    "end_date": "2025-11-28",
+    "end_month": "2025-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5404237966024069,
+      0.0,
+      0.4595762033975931,
+      0.0
+    ],
+    "initial_liability_pv": 1607.1607777276065,
+    "surplus_change_fraction": -0.0003416950153315379
+  },
+  {
+    "start_date": "2025-10-31",
+    "end_date": "2025-11-28",
+    "end_month": "2025-11",
+    "method": "key_rate",
+    "weights": [
+      0.13111119609542837,
+      0.23241330003844127,
+      0.31718556305936757,
+      0.23623280399892047,
+      0.08305713680784221
+    ],
+    "initial_liability_pv": 1607.1607777276065,
+    "surplus_change_fraction": 0.00024491116068944125
+  },
+  {
+    "start_date": "2025-10-31",
+    "end_date": "2025-11-28",
+    "end_month": "2025-11",
+    "method": "covariance",
+    "weights": [
+      0.11231892657011022,
+      0.24851583253551274,
+      0.31952650169357055,
+      0.23609389819839918,
+      0.08354484100240714
+    ],
+    "initial_liability_pv": 1607.1607777276065,
+    "surplus_change_fraction": 0.00034571636638953366
+  },
+  {
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-31",
+    "end_month": "2025-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1610.8038412854962,
+    "surplus_change_fraction": 0.01251375719671266
+  },
+  {
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-31",
+    "end_month": "2025-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.5421247342088394,
+      0.0,
+      0.45787526579116056,
+      0.0
+    ],
+    "initial_liability_pv": 1610.8038412854962,
+    "surplus_change_fraction": 0.0015031181574065055
+  },
+  {
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-31",
+    "end_month": "2025-12",
+    "method": "key_rate",
+    "weights": [
+      0.13102642261358596,
+      0.23325919445125395,
+      0.3180110969542702,
+      0.2352854575751049,
+      0.08241782840578488
+    ],
+    "initial_liability_pv": 1610.8038412854962,
+    "surplus_change_fraction": -0.00032055524501667664
+  },
+  {
+    "start_date": "2025-11-28",
+    "end_date": "2025-12-31",
+    "end_month": "2025-12",
+    "method": "covariance",
+    "weights": [
+      0.11221544131120766,
+      0.24937774247456693,
+      0.32035436529426675,
+      0.23514642878958145,
+      0.0829060221303772
+    ],
+    "initial_liability_pv": 1610.8038412854962,
+    "surplus_change_fraction": -0.0004981845857675301
+  }
+]

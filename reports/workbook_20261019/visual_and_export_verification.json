@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "all_seven_sheets_visually_reviewed": true,
+  "layout_checks": [
+    "No clipped numeric outputs or headers in reviewed ranges",
+    "Readable source and scenario labels",
+    "Current and historical builds separated",
+    "Money formatting suppresses rounded negative zero without changing stored values",
+    "Historical comparison has blank gutters",
+    "Controls, units and source provenance are visible"
+  ],
+  "renders": [
+    {
+      "sheet": "ALM review",
+      "range": "C1:H39",
+      "file": "review.png",
+      "sha256": "f1952f009fd142355ffa0a07114d0fd649043ca22072b11f3c46f4dd3485aef6"
+    },
+    {
+      "sheet": "Controls",
+      "range": "C1:G26",
+      "file": "controls.png",
+      "sha256": "8cacbd05fae4d4498cd6dbde30672895f9ed1663d68aa3459f08cbd1cc553a1a"
+    },
+    {
+      "sheet": "Benefits",
+      "range": "C1:N16",
+      "file": "benefits.png",
+      "sha256": "3133349152ff7be0e41876760fc802b78ee68dffe7e048d7d1f50b4de629ed52"
+    },
+    {
+      "sheet": "Benefits",
+      "range": "C128:K138",
+      "file": "risk.png",
+      "sha256": "31dbc44cac8e8029ae9c9b419a2274d218f5251b1505d712ec2d289552f98865"
+    },
+    {
+      "sheet": "Curve",
+      "range": "C1:R15",
+      "file": "curve.png",
+      "sha256": "e8ec3abf2e1bc4dfdc5c65058dcb21daae133983e8595a50d45e61587c74670e"
+    },
+    {
+      "sheet": "Runoff",
+      "range": "C1:M29",
+      "file": "runoff_cash.png",
+      "sha256": "f300bc98dc55da739737661845444b0bca9c55989ed66d48b21a662b8737008e"
+    },
+    {
+      "sheet": "Runoff",
+      "range": "C32:M58",
+      "file": "runoff_assets.png",
+      "sha256": "1317e7ba59d79eb078339f6d9990472540bc36a02f40d8db72bfe24a46c1068b"
+    },
+    {
+      "sheet": "Historical",
+      "range": "C1:N28",
+      "file": "historical.png",
+      "sha256": "99cef263101803750d19c1f918824592fd14fba183f4aa20265a3e9c463c62b1"
+    },
+    {
+      "sheet": "Historical",
+      "range": "C132:G146",
+      "file": "historical_tail.png",
+      "sha256": "67578d0e1eda981370ec4d229f358b8ee8e38792890018cd462f2ac2e38530a8"
+    },
+    {
+      "sheet": "Sources",
+      "range": "C1:K24",
+      "file": "sources.png",
+      "sha256": "64c67411c70e93e6476841d6aff186e8385621f778857df3adc75fec61b7f51e"
+    },
+    {
+      "sheet": "Sources",
+      "range": "G48:O63",
+      "file": "source_context.png",
+      "sha256": "51b9b5c6e0e21433e1fc7f42d4c7c5524c32afbbe9c419da49a3f5950678678d"
+    },
+    {
+      "sheet": "Sources",
+      "range": "G69:O98",
+      "file": "historical_sources.png",
+      "sha256": "cc437fbf42bf8faa9918cb100cd7f933503a9a839cb57875178bdfdab3b41a66"
+    }
+  ],
+  "export_zip_crc_passed": true,
+  "exported_error_type_cells": 0,
+  "exported_panes": [
+    {
+      "sheet": "xl/worksheets/sheet3.xml",
+      "xSplit": "3",
+      "ySplit": "5",
+      "topLeftCell": "D6",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    {
+      "sheet": "xl/worksheets/sheet4.xml",
+      "xSplit": "3",
+      "ySplit": "5",
+      "topLeftCell": "D6",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    {
+      "sheet": "xl/worksheets/sheet5.xml",
+      "xSplit": "3",
+      "ySplit": "6",
+      "topLeftCell": "D7",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    {
+      "sheet": "xl/worksheets/sheet6.xml",
+      "ySplit": "3",
+      "topLeftCell": "A4",
+      "activePane": "bottomLeft",
+      "state": "frozen"
+    },
+    {
+      "sheet": "xl/worksheets/sheet7.xml",
+      "ySplit": "14",
+      "topLeftCell": "A15",
+      "activePane": "bottomLeft",
+      "state": "frozen"
+    }
+  ],
+  "native_desktop_excel_tested": false,
+  "saved_file_reimport_and_recalculation_passed": true,
+  "historical_methods_unchanged": 7,
+  "historical_scientific_outputs_unchanged": 5,
+  "current_case_methods_unchanged": 4,
+  "current_case_scientific_outputs_unchanged": 3,
+  "workbook_bytes": 119287,
+  "workbook_sha256": "be7fbc52a87221855447d91850037d3234f6eeaac97ca92dcef9d3b5ddc99858",
+  "runtime_bundle_version": "26.1015.12040",
+  "git_storage_path": "artifacts/Treasury_ALM_Reconciliation.xlsx",
+  "library_duplicate_saved": false
+}

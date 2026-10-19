@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "arithmetic": "Independent Decimal pricing/survival/runoff at50digits; NumPy linear algebra for exhaustive convex-QP faces",
+  "usd_absolute_tolerance": "0.0001",
+  "largest_usd_absolute_error": "8.0087998685543359416020344708120558E-8",
+  "numeric_comparisons": 23714,
+  "instantaneous_results_checked": 56,
+  "runoff_year_records_checked": 1080,
+  "qp_independent_verification": {
+    "key_rate": {
+      "enumerated_bound_faces": 243,
+      "objective_gap": 1.9637069748057456e-14
+    },
+    "covariance": {
+      "enumerated_bound_faces": 243,
+      "objective_gap": 1.6667446879762356e-15
+    }
+  },
+  "historical_scientific_output_hashes_unchanged": 5,
+  "independent_workbook_finished": false,
+  "whole_project_gate_B_accepted": false
+}

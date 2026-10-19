@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "actual_page_script_executed": true,
+  "all_saved_stresses": 56,
+  "all_runoff_combinations": 108,
+  "annual_rows_checked": 1080,
+  "invalid_selection_fails_visibly": true,
+  "all_local_links_exist": true,
+  "controls_labelled": true,
+  "browser_render_keyboard_and_live_site_verified": false
+}

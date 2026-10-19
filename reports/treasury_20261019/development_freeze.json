@@ -1,0 +1,26 @@
+{
+  "source_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "created_utc": "2026-10-19T04:58:55.219493+00:00",
+  "selected_method": "covariance",
+  "method_sha256": {
+    "PROTOCOL.md": "9ebde9e8c18ee0c37050c14b43889ee653c4190209bd98f9042ff3338d3a5479",
+    "gsw.py": "c436b4ddef881978ceebaecff354c1947dbc25e11cf2ab5f1867f51f1211b28a",
+    "hedging.py": "f5418adb3ed3c1e036279169200a644f656914849293ac64dee09cc210568941",
+    "run_study.py": "8a6e4c6e2a88dfe19162e7767e2fafdec3afe4935ee0c8073b4ed03f3dd9a86b",
+    "test_sources.py": "3104eadd49fec8b076cacf04d4a258092aabfde677e71f18f9097c6fef5d921d",
+    "test_hedging.py": "e68dba91139fc480255792c6649e0676ac99b517ae87ba569f7cbb93394de16d",
+    "../../src/retirement_alm/engine.py": "2e76b0ae67b7f83f87b229ac6de6b0905398e58c9ab0f5128af95fc6feee0892"
+  },
+  "development_file_sha256": {
+    "source_audit.json": "d8b7aa28b9c831e21ae29fe2f9a0709859968fe1e9cb30b3528d7cfef529fd6f",
+    "development_predictions.json": "04b5a8e8cb8630ebcc5fb04fc2e38f6ad5adfdb0c18bd812af67b817bc6aa8a9",
+    "development_selection.json": "505268ab90e2e6a304f3218f5690cecb65d7c12d7d6cbf20c5f5848fb12c0b09"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "final_predictions_computed": false,
+  "final_metrics_computed": false
+}

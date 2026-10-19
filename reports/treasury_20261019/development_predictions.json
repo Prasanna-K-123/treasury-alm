@@ -1,0 +1,2882 @@
+[
+  {
+    "start_date": "2014-12-31",
+    "end_date": "2015-01-30",
+    "end_month": "2015-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2079.579846859077,
+    "surplus_change_fraction": -0.04058065435293929
+  },
+  {
+    "start_date": "2014-12-31",
+    "end_date": "2015-01-30",
+    "end_month": "2015-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4477671514368463,
+      0.0,
+      0.5522328485631537,
+      0.0
+    ],
+    "initial_liability_pv": 2079.579846859077,
+    "surplus_change_fraction": -0.0034968813375802965
+  },
+  {
+    "start_date": "2014-12-31",
+    "end_date": "2015-01-30",
+    "end_month": "2015-01",
+    "method": "key_rate",
+    "weights": [
+      0.09804845609820063,
+      0.2012804407585344,
+      0.3125598211674542,
+      0.2778231394944925,
+      0.11028814248131841
+    ],
+    "initial_liability_pv": 2079.579846859077,
+    "surplus_change_fraction": 0.0005830129432311083
+  },
+  {
+    "start_date": "2014-12-31",
+    "end_date": "2015-01-30",
+    "end_month": "2015-01",
+    "method": "covariance",
+    "weights": [
+      0.08137309091480271,
+      0.21556973442100508,
+      0.31463653790733054,
+      0.2776995584381194,
+      0.11072107831874231
+    ],
+    "initial_liability_pv": 2079.579846859077,
+    "surplus_change_fraction": 0.0010974183551355442
+  },
+  {
+    "start_date": "2015-01-30",
+    "end_date": "2015-02-27",
+    "end_month": "2015-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2212.754020287697,
+    "surplus_change_fraction": 0.028561115529530685
+  },
+  {
+    "start_date": "2015-01-30",
+    "end_date": "2015-02-27",
+    "end_month": "2015-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4238335097681311,
+      0.0,
+      0.5761664902318688,
+      0.0
+    ],
+    "initial_liability_pv": 2212.754020287697,
+    "surplus_change_fraction": 0.0007794771290596152
+  },
+  {
+    "start_date": "2015-01-30",
+    "end_date": "2015-02-27",
+    "end_month": "2015-02",
+    "method": "key_rate",
+    "weights": [
+      0.09009391894506295,
+      0.19451283048916204,
+      0.31008709668674017,
+      0.2862412606154162,
+      0.11906489326361863
+    ],
+    "initial_liability_pv": 2212.754020287697,
+    "surplus_change_fraction": 0.00016259083353221593
+  },
+  {
+    "start_date": "2015-01-30",
+    "end_date": "2015-02-27",
+    "end_month": "2015-02",
+    "method": "covariance",
+    "weights": [
+      0.07396242223658234,
+      0.20833620482930745,
+      0.3120959987198553,
+      0.28612163320499906,
+      0.11948374100925584
+    ],
+    "initial_liability_pv": 2212.754020287697,
+    "surplus_change_fraction": -0.0001247447670217082
+  },
+  {
+    "start_date": "2015-02-27",
+    "end_date": "2015-03-31",
+    "end_month": "2015-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2113.9828011797485,
+    "surplus_change_fraction": -0.0017548001828287497
+  },
+  {
+    "start_date": "2015-02-27",
+    "end_date": "2015-03-31",
+    "end_month": "2015-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4417447365355662,
+      0.0,
+      0.5582552634644338,
+      0.0
+    ],
+    "initial_liability_pv": 2113.9828011797485,
+    "surplus_change_fraction": 0.000957708876719808
+  },
+  {
+    "start_date": "2015-02-27",
+    "end_date": "2015-03-31",
+    "end_month": "2015-03",
+    "method": "key_rate",
+    "weights": [
+      0.095886328559444,
+      0.19978228530557712,
+      0.31213698244748256,
+      0.2794866509794427,
+      0.1127077527080537
+    ],
+    "initial_liability_pv": 2113.9828011797485,
+    "surplus_change_fraction": -8.396131012522318e-05
+  },
+  {
+    "start_date": "2015-02-27",
+    "end_date": "2015-03-31",
+    "end_month": "2015-03",
+    "method": "covariance",
+    "weights": [
+      0.07935634258426896,
+      0.2139470249193576,
+      0.31419557129785336,
+      0.2793641375645202,
+      0.11313692363399988
+    ],
+    "initial_liability_pv": 2113.9828011797485,
+    "surplus_change_fraction": 6.164679354613352e-05
+  },
+  {
+    "start_date": "2015-03-31",
+    "end_date": "2015-04-30",
+    "end_month": "2015-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2131.2116077786754,
+    "surplus_change_fraction": 0.020334906637943215
+  },
+  {
+    "start_date": "2015-03-31",
+    "end_date": "2015-04-30",
+    "end_month": "2015-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4400860515400384,
+      0.0,
+      0.5599139484599616,
+      0.0
+    ],
+    "initial_liability_pv": 2131.2116077786754,
+    "surplus_change_fraction": 0.0008826888277784788
+  },
+  {
+    "start_date": "2015-03-31",
+    "end_date": "2015-04-30",
+    "end_month": "2015-04",
+    "method": "key_rate",
+    "weights": [
+      0.09498308975915627,
+      0.1994704697901959,
+      0.3122092848771475,
+      0.2802044085380871,
+      0.11313274703541333
+    ],
+    "initial_liability_pv": 2131.2116077786754,
+    "surplus_change_fraction": 0.00036255765633149323
+  },
+  {
+    "start_date": "2015-03-31",
+    "end_date": "2015-04-30",
+    "end_month": "2015-04",
+    "method": "covariance",
+    "weights": [
+      0.07849613474423087,
+      0.2135983374351369,
+      0.3142625097571187,
+      0.28008221050752524,
+      0.11356080755598831
+    ],
+    "initial_liability_pv": 2131.2116077786754,
+    "surplus_change_fraction": 0.0002973946790681489
+  },
+  {
+    "start_date": "2015-04-30",
+    "end_date": "2015-05-29",
+    "end_month": "2015-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2081.434011194004,
+    "surplus_change_fraction": 0.014633426233610945
+  },
+  {
+    "start_date": "2015-04-30",
+    "end_date": "2015-05-29",
+    "end_month": "2015-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.452064702356889,
+      0.0,
+      0.547935297643111,
+      0.0
+    ],
+    "initial_liability_pv": 2081.434011194004,
+    "surplus_change_fraction": 0.0005958550236115415
+  },
+  {
+    "start_date": "2015-04-30",
+    "end_date": "2015-05-29",
+    "end_month": "2015-05",
+    "method": "key_rate",
+    "weights": [
+      0.0982714797462754,
+      0.2033580778849723,
+      0.31405169931735427,
+      0.2755121828567432,
+      0.10880656019465475
+    ],
+    "initial_liability_pv": 2081.434011194004,
+    "surplus_change_fraction": 0.0002153082229094704
+  },
+  {
+    "start_date": "2015-04-30",
+    "end_date": "2015-05-29",
+    "end_month": "2015-05",
+    "method": "covariance",
+    "weights": [
+      0.08153662556380491,
+      0.2176982958450458,
+      0.3161358371306145,
+      0.27538819588516666,
+      0.10924104557536816
+    ],
+    "initial_liability_pv": 2081.434011194004,
+    "surplus_change_fraction": 0.000170220280979821
+  },
+  {
+    "start_date": "2015-05-29",
+    "end_date": "2015-06-30",
+    "end_month": "2015-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2044.9004074114926,
+    "surplus_change_fraction": 0.020053777412117627
+  },
+  {
+    "start_date": "2015-05-29",
+    "end_date": "2015-06-30",
+    "end_month": "2015-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4610366926178511,
+      0.0,
+      0.5389633073821489,
+      0.0
+    ],
+    "initial_liability_pv": 2044.9004074114926,
+    "surplus_change_fraction": 0.002920505932369895
+  },
+  {
+    "start_date": "2015-05-29",
+    "end_date": "2015-06-30",
+    "end_month": "2015-06",
+    "method": "key_rate",
+    "weights": [
+      0.10074491520236796,
+      0.20623260651584177,
+      0.3154706429220006,
+      0.2719836170170512,
+      0.10556821834273844
+    ],
+    "initial_liability_pv": 2044.9004074114926,
+    "surplus_change_fraction": -0.00033537585071809114
+  },
+  {
+    "start_date": "2015-05-29",
+    "end_date": "2015-06-30",
+    "end_month": "2015-06",
+    "method": "covariance",
+    "weights": [
+      0.08382358342341957,
+      0.2207325676382885,
+      0.317578021526236,
+      0.2718582877711298,
+      0.10600753964092632
+    ],
+    "initial_liability_pv": 2044.9004074114926,
+    "surplus_change_fraction": -0.0004832522114617994
+  },
+  {
+    "start_date": "2015-06-30",
+    "end_date": "2015-07-31",
+    "end_month": "2015-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1987.9227329788719,
+    "surplus_change_fraction": -0.02289419629755566
+  },
+  {
+    "start_date": "2015-06-30",
+    "end_date": "2015-07-31",
+    "end_month": "2015-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.47305226886521307,
+      0.0,
+      0.526947731134787,
+      0.0
+    ],
+    "initial_liability_pv": 1987.9227329788719,
+    "surplus_change_fraction": 0.0008815857421319151
+  },
+  {
+    "start_date": "2015-06-30",
+    "end_date": "2015-07-31",
+    "end_month": "2015-07",
+    "method": "key_rate",
+    "weights": [
+      0.10484527086100337,
+      0.20992450104156785,
+      0.3162077534079173,
+      0.26773269986622794,
+      0.10128977482328355
+    ],
+    "initial_liability_pv": 1987.9227329788719,
+    "surplus_change_fraction": -0.0008961430484133857
+  },
+  {
+    "start_date": "2015-06-30",
+    "end_date": "2015-07-31",
+    "end_month": "2015-07",
+    "method": "covariance",
+    "weights": [
+      0.08763988072289292,
+      0.22466778868244552,
+      0.31835058542050604,
+      0.2676052961459197,
+      0.10173644902823581
+    ],
+    "initial_liability_pv": 1987.9227329788719,
+    "surplus_change_fraction": -0.0007280123739663957
+  },
+  {
+    "start_date": "2015-07-31",
+    "end_date": "2015-08-31",
+    "end_month": "2015-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2041.9459547352983,
+    "surplus_change_fraction": 0.003765941265326142
+  },
+  {
+    "start_date": "2015-07-31",
+    "end_date": "2015-08-31",
+    "end_month": "2015-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4614640834013862,
+      0.0,
+      0.5385359165986138,
+      0.0
+    ],
+    "initial_liability_pv": 2041.9459547352983,
+    "surplus_change_fraction": -0.002595422550722913
+  },
+  {
+    "start_date": "2015-07-31",
+    "end_date": "2015-08-31",
+    "end_month": "2015-08",
+    "method": "key_rate",
+    "weights": [
+      0.10074704670756997,
+      0.2058025671692578,
+      0.31574585545130657,
+      0.2731497800409579,
+      0.10455475063090779
+    ],
+    "initial_liability_pv": 2041.9459547352983,
+    "surplus_change_fraction": 0.0010867630620135047
+  },
+  {
+    "start_date": "2015-07-31",
+    "end_date": "2015-08-31",
+    "end_month": "2015-08",
+    "method": "covariance",
+    "weights": [
+      0.08381983932447146,
+      0.22030758652203578,
+      0.3178539541863466,
+      0.2730243912422453,
+      0.10499422872490088
+    ],
+    "initial_liability_pv": 2041.9459547352983,
+    "surplus_change_fraction": 0.0011090511065261258
+  },
+  {
+    "start_date": "2015-08-31",
+    "end_date": "2015-09-30",
+    "end_month": "2015-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2030.7483574810674,
+    "surplus_change_fraction": -0.005772500744893934
+  },
+  {
+    "start_date": "2015-08-31",
+    "end_date": "2015-09-30",
+    "end_month": "2015-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46256110690863395,
+      0.0,
+      0.537438893091366,
+      0.0
+    ],
+    "initial_liability_pv": 2030.7483574810674,
+    "surplus_change_fraction": 0.0020263252353451677
+  },
+  {
+    "start_date": "2015-08-31",
+    "end_date": "2015-09-30",
+    "end_month": "2015-09",
+    "method": "key_rate",
+    "weights": [
+      0.10140235457213288,
+      0.2066347435581046,
+      0.3153597518121053,
+      0.27162174593967037,
+      0.10498140411798679
+    ],
+    "initial_liability_pv": 2030.7483574810674,
+    "surplus_change_fraction": -0.0005945786934222884
+  },
+  {
+    "start_date": "2015-08-31",
+    "end_date": "2015-09-30",
+    "end_month": "2015-09",
+    "method": "covariance",
+    "weights": [
+      0.08444411687124441,
+      0.22116631694965194,
+      0.31747174615795953,
+      0.2714961414031725,
+      0.10542167861797169
+    ],
+    "initial_liability_pv": 2030.7483574810674,
+    "surplus_change_fraction": -0.0004059235531590757
+  },
+  {
+    "start_date": "2015-09-30",
+    "end_date": "2015-10-30",
+    "end_month": "2015-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2061.118886106984,
+    "surplus_change_fraction": -0.0011658526100788583
+  },
+  {
+    "start_date": "2015-09-30",
+    "end_date": "2015-10-30",
+    "end_month": "2015-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4602420351588422,
+      0.0,
+      0.5397579648411578,
+      0.0
+    ],
+    "initial_liability_pv": 2061.118886106984,
+    "surplus_change_fraction": -0.00022529805130148205
+  },
+  {
+    "start_date": "2015-09-30",
+    "end_date": "2015-10-30",
+    "end_month": "2015-10",
+    "method": "key_rate",
+    "weights": [
+      0.09949089507395456,
+      0.2058393322168122,
+      0.31650195293609573,
+      0.2732853938829829,
+      0.10488242589015472
+    ],
+    "initial_liability_pv": 2061.118886106984,
+    "surplus_change_fraction": -0.0001233059248962424
+  },
+  {
+    "start_date": "2015-09-30",
+    "end_date": "2015-10-30",
+    "end_month": "2015-10",
+    "method": "covariance",
+    "weights": [
+      0.0826258316505133,
+      0.22029110067866267,
+      0.31860228581155103,
+      0.2731604775320267,
+      0.10532030432724639
+    ],
+    "initial_liability_pv": 2061.118886106984,
+    "surplus_change_fraction": -0.00021150798534923864
+  },
+  {
+    "start_date": "2015-10-30",
+    "end_date": "2015-11-30",
+    "end_month": "2015-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2046.8610628534375,
+    "surplus_change_fraction": 0.002214935551042391
+  },
+  {
+    "start_date": "2015-10-30",
+    "end_date": "2015-11-30",
+    "end_month": "2015-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46010210343856717,
+      0.0,
+      0.5398978965614328,
+      0.0
+    ],
+    "initial_liability_pv": 2046.8610628534375,
+    "surplus_change_fraction": 0.0005875241245876154
+  },
+  {
+    "start_date": "2015-10-30",
+    "end_date": "2015-11-30",
+    "end_month": "2015-11",
+    "method": "key_rate",
+    "weights": [
+      0.10019169728451975,
+      0.20552741393093604,
+      0.31575648073634865,
+      0.2733397475283396,
+      0.10518466051985596
+    ],
+    "initial_liability_pv": 2046.8610628534375,
+    "surplus_change_fraction": -0.00012614017999378584
+  },
+  {
+    "start_date": "2015-10-30",
+    "end_date": "2015-11-30",
+    "end_month": "2015-11",
+    "method": "covariance",
+    "weights": [
+      0.08330367262244771,
+      0.21999886429931656,
+      0.3178596852536049,
+      0.2732146521436983,
+      0.10562312568093266
+    ],
+    "initial_liability_pv": 2046.8610628534375,
+    "surplus_change_fraction": -0.00017730627611717355
+  },
+  {
+    "start_date": "2015-11-30",
+    "end_date": "2015-12-31",
+    "end_month": "2015-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2028.8794363929599,
+    "surplus_change_fraction": -0.0004976958408970524
+  },
+  {
+    "start_date": "2015-11-30",
+    "end_date": "2015-12-31",
+    "end_month": "2015-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46229083712509056,
+      0.0,
+      0.5377091628749094,
+      0.0
+    ],
+    "initial_liability_pv": 2028.8794363929599,
+    "surplus_change_fraction": 0.00048462594758901347
+  },
+  {
+    "start_date": "2015-11-30",
+    "end_date": "2015-12-31",
+    "end_month": "2015-12",
+    "method": "key_rate",
+    "weights": [
+      0.10091321850235363,
+      0.2060332938169306,
+      0.316051304416327,
+      0.2727245109395422,
+      0.10427767232484667
+    ],
+    "initial_liability_pv": 2028.8794363929599,
+    "surplus_change_fraction": -0.00019369896479986515
+  },
+  {
+    "start_date": "2015-11-30",
+    "end_date": "2015-12-31",
+    "end_month": "2015-12",
+    "method": "covariance",
+    "weights": [
+      0.0839822851047996,
+      0.22054150593039898,
+      0.31815986215970526,
+      0.2725990995982187,
+      0.10471724720687754
+    ],
+    "initial_liability_pv": 2028.8794363929599,
+    "surplus_change_fraction": -0.00023606891152868693
+  },
+  {
+    "start_date": "2015-12-31",
+    "end_date": "2016-01-29",
+    "end_month": "2016-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2019.3573573103538,
+    "surplus_change_fraction": -0.019003107240838334
+  },
+  {
+    "start_date": "2015-12-31",
+    "end_date": "2016-01-29",
+    "end_month": "2016-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46249426409522637,
+      0.0,
+      0.5375057359047737,
+      0.0
+    ],
+    "initial_liability_pv": 2019.3573573103538,
+    "surplus_change_fraction": 0.0006448879945897982
+  },
+  {
+    "start_date": "2015-12-31",
+    "end_date": "2016-01-29",
+    "end_month": "2016-01",
+    "method": "key_rate",
+    "weights": [
+      0.10129182720164415,
+      0.20593813336568453,
+      0.315730172642112,
+      0.27282610015184644,
+      0.104213766638713
+    ],
+    "initial_liability_pv": 2019.3573573103538,
+    "surplus_change_fraction": -0.0003382249873911063
+  },
+  {
+    "start_date": "2015-12-31",
+    "end_date": "2016-01-29",
+    "end_month": "2016-01",
+    "method": "covariance",
+    "weights": [
+      0.08434823761990053,
+      0.22045719290877977,
+      0.31784031320979217,
+      0.2727005896995173,
+      0.10465366656201022
+    ],
+    "initial_liability_pv": 2019.3573573103538,
+    "surplus_change_fraction": 6.940000093935494e-05
+  },
+  {
+    "start_date": "2016-01-29",
+    "end_date": "2016-02-29",
+    "end_month": "2016-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2099.5792588698027,
+    "surplus_change_fraction": -0.017845153985854758
+  },
+  {
+    "start_date": "2016-01-29",
+    "end_date": "2016-02-29",
+    "end_month": "2016-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4512622257357749,
+      0.0,
+      0.5487377742642251,
+      0.0
+    ],
+    "initial_liability_pv": 2099.5792588698027,
+    "surplus_change_fraction": 0.00035424680131437706
+  },
+  {
+    "start_date": "2016-01-29",
+    "end_date": "2016-02-29",
+    "end_month": "2016-02",
+    "method": "key_rate",
+    "weights": [
+      0.09641216597036123,
+      0.20283799877103467,
+      0.31575309444674715,
+      0.27750491914358677,
+      0.10749182166827023
+    ],
+    "initial_liability_pv": 2099.5792588698027,
+    "surplus_change_fraction": -0.0005852216185504329
+  },
+  {
+    "start_date": "2016-01-29",
+    "end_date": "2016-02-29",
+    "end_month": "2016-02",
+    "method": "covariance",
+    "weights": [
+      0.07975974397292827,
+      0.21710761773937431,
+      0.3178269071889654,
+      0.27738153547295147,
+      0.10792419562578053
+    ],
+    "initial_liability_pv": 2099.5792588698027,
+    "surplus_change_fraction": -0.0004315840534692642
+  },
+  {
+    "start_date": "2016-02-29",
+    "end_date": "2016-03-31",
+    "end_month": "2016-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2146.9324813569956,
+    "surplus_change_fraction": 0.00229164086783293
+  },
+  {
+    "start_date": "2016-02-29",
+    "end_date": "2016-03-31",
+    "end_month": "2016-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4431584626962962,
+      0.0,
+      0.5568415373037038,
+      0.0
+    ],
+    "initial_liability_pv": 2146.9324813569956,
+    "surplus_change_fraction": 0.0009206126533315395
+  },
+  {
+    "start_date": "2016-02-29",
+    "end_date": "2016-03-31",
+    "end_month": "2016-03",
+    "method": "key_rate",
+    "weights": [
+      0.09322000102451854,
+      0.19987706733555152,
+      0.3159768682706053,
+      0.281329499913107,
+      0.10959656345621764
+    ],
+    "initial_liability_pv": 2146.9324813569956,
+    "surplus_change_fraction": -0.00017826986341301472
+  },
+  {
+    "start_date": "2016-02-29",
+    "end_date": "2016-03-31",
+    "end_month": "2016-03",
+    "method": "covariance",
+    "weights": [
+      0.07677292167405225,
+      0.21397082706473855,
+      0.3180250080944585,
+      0.2812076051998524,
+      0.11002363796689822
+    ],
+    "initial_liability_pv": 2146.9324813569956,
+    "surplus_change_fraction": -0.0001600652745794115
+  },
+  {
+    "start_date": "2016-03-31",
+    "end_date": "2016-04-29",
+    "end_month": "2016-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2143.0818654469717,
+    "surplus_change_fraction": 0.001964323155832506
+  },
+  {
+    "start_date": "2016-03-31",
+    "end_date": "2016-04-29",
+    "end_month": "2016-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4443453155360982,
+      0.0,
+      0.5556546844639019,
+      0.0
+    ],
+    "initial_liability_pv": 2143.0818654469717,
+    "surplus_change_fraction": -0.0014704689398750538
+  },
+  {
+    "start_date": "2016-03-31",
+    "end_date": "2016-04-29",
+    "end_month": "2016-04",
+    "method": "key_rate",
+    "weights": [
+      0.09363995265931709,
+      0.20033882160179964,
+      0.31586251510329644,
+      0.28100103760677897,
+      0.1091576730288079
+    ],
+    "initial_liability_pv": 2143.0818654469717,
+    "surplus_change_fraction": 0.0004544327764562502
+  },
+  {
+    "start_date": "2016-03-31",
+    "end_date": "2016-04-29",
+    "end_month": "2016-04",
+    "method": "covariance",
+    "weights": [
+      0.07716204269025842,
+      0.21445897085897755,
+      0.3179145311273512,
+      0.28087891878752036,
+      0.10958553653589233
+    ],
+    "initial_liability_pv": 2143.0818654469717,
+    "surplus_change_fraction": 0.000415530393404653
+  },
+  {
+    "start_date": "2016-04-29",
+    "end_date": "2016-05-31",
+    "end_month": "2016-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2130.477324720882,
+    "surplus_change_fraction": -0.006992241934276779
+  },
+  {
+    "start_date": "2016-04-29",
+    "end_date": "2016-05-31",
+    "end_month": "2016-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4463607394901905,
+      0.0,
+      0.5536392605098095,
+      0.0
+    ],
+    "initial_liability_pv": 2130.477324720882,
+    "surplus_change_fraction": 0.0009305314200321738
+  },
+  {
+    "start_date": "2016-04-29",
+    "end_date": "2016-05-31",
+    "end_month": "2016-05",
+    "method": "key_rate",
+    "weights": [
+      0.09434654166664641,
+      0.20084555928054176,
+      0.3163135419084545,
+      0.27985687901731054,
+      0.10863747812704684
+    ],
+    "initial_liability_pv": 2130.477324720882,
+    "surplus_change_fraction": -0.000573423994407504
+  },
+  {
+    "start_date": "2016-04-29",
+    "end_date": "2016-05-31",
+    "end_month": "2016-05",
+    "method": "covariance",
+    "weights": [
+      0.07782369014573906,
+      0.21500421091133123,
+      0.31837116538401283,
+      0.2797344378346189,
+      0.10906649572429805
+    ],
+    "initial_liability_pv": 2130.477324720882,
+    "surplus_change_fraction": -0.000598045310007654
+  },
+  {
+    "start_date": "2016-05-31",
+    "end_date": "2016-06-30",
+    "end_month": "2016-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2134.605332153184,
+    "surplus_change_fraction": -0.03202028163802326
+  },
+  {
+    "start_date": "2016-05-31",
+    "end_date": "2016-06-30",
+    "end_month": "2016-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4437696945230645,
+      0.0,
+      0.5562303054769355,
+      0.0
+    ],
+    "initial_liability_pv": 2134.605332153184,
+    "surplus_change_fraction": 0.0009427731642057002
+  },
+  {
+    "start_date": "2016-05-31",
+    "end_date": "2016-06-30",
+    "end_month": "2016-06",
+    "method": "key_rate",
+    "weights": [
+      0.09371646408915162,
+      0.19961285183301208,
+      0.31600712663651953,
+      0.28143120935661076,
+      0.10923234808470607
+    ],
+    "initial_liability_pv": 2134.605332153184,
+    "surplus_change_fraction": -0.000933987280869508
+  },
+  {
+    "start_date": "2016-05-31",
+    "end_date": "2016-06-30",
+    "end_month": "2016-06",
+    "method": "covariance",
+    "weights": [
+      0.07724755092082189,
+      0.21372533684264386,
+      0.31805797972966227,
+      0.2813091493092531,
+      0.10965998319761884
+    ],
+    "initial_liability_pv": 2134.605332153184,
+    "surplus_change_fraction": -0.000575937141149881
+  },
+  {
+    "start_date": "2016-06-30",
+    "end_date": "2016-07-29",
+    "end_month": "2016-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2241.204804738693,
+    "surplus_change_fraction": -0.012642930393083006
+  },
+  {
+    "start_date": "2016-06-30",
+    "end_date": "2016-07-29",
+    "end_month": "2016-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.42735558699107173,
+      0.0,
+      0.5726444130089283,
+      0.0
+    ],
+    "initial_liability_pv": 2241.204804738693,
+    "surplus_change_fraction": -0.0007111318009531619
+  },
+  {
+    "start_date": "2016-06-30",
+    "end_date": "2016-07-29",
+    "end_month": "2016-07",
+    "method": "key_rate",
+    "weights": [
+      0.08774894485460574,
+      0.19429908792203768,
+      0.31517661135816905,
+      0.28862419090598096,
+      0.11415116495920659
+    ],
+    "initial_liability_pv": 2241.204804738693,
+    "surplus_change_fraction": -0.00012349166157442614
+  },
+  {
+    "start_date": "2016-06-30",
+    "end_date": "2016-07-29",
+    "end_month": "2016-07",
+    "method": "covariance",
+    "weights": [
+      0.07166715834813125,
+      0.20807995495995957,
+      0.31717916756744036,
+      0.2885049410889432,
+      0.1145687780355256
+    ],
+    "initial_liability_pv": 2241.204804738693,
+    "surplus_change_fraction": -8.675779763808226e-05
+  },
+  {
+    "start_date": "2016-07-29",
+    "end_date": "2016-08-31",
+    "end_month": "2016-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2266.3978643503256,
+    "surplus_change_fraction": 0.0031624395418241324
+  },
+  {
+    "start_date": "2016-07-29",
+    "end_date": "2016-08-31",
+    "end_month": "2016-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4205258640623372,
+      0.0,
+      0.5794741359376627,
+      0.0
+    ],
+    "initial_liability_pv": 2266.3978643503256,
+    "surplus_change_fraction": -0.0031780263398528963
+  },
+  {
+    "start_date": "2016-07-29",
+    "end_date": "2016-08-31",
+    "end_month": "2016-08",
+    "method": "key_rate",
+    "weights": [
+      0.0861354023932638,
+      0.19212362190712304,
+      0.3137436256082587,
+      0.29121068821598295,
+      0.11678666187537157
+    ],
+    "initial_liability_pv": 2266.3978643503256,
+    "surplus_change_fraction": 0.0009335751892450496
+  },
+  {
+    "start_date": "2016-07-29",
+    "end_date": "2016-08-31",
+    "end_month": "2016-08",
+    "method": "covariance",
+    "weights": [
+      0.07018885421090562,
+      0.2057886819116379,
+      0.3157293180619372,
+      0.29109239230291595,
+      0.11720075351260333
+    ],
+    "initial_liability_pv": 2266.3978643503256,
+    "surplus_change_fraction": 0.0008193408783452213
+  },
+  {
+    "start_date": "2016-08-31",
+    "end_date": "2016-09-30",
+    "end_month": "2016-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2237.7881690941795,
+    "surplus_change_fraction": 0.012076428061245382
+  },
+  {
+    "start_date": "2016-08-31",
+    "end_date": "2016-09-30",
+    "end_month": "2016-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.42216156685233247,
+      0.0,
+      0.5778384331476676,
+      0.0
+    ],
+    "initial_liability_pv": 2237.7881690941795,
+    "surplus_change_fraction": -0.001096263038916943
+  },
+  {
+    "start_date": "2016-08-31",
+    "end_date": "2016-09-30",
+    "end_month": "2016-09",
+    "method": "key_rate",
+    "weights": [
+      0.08749431379176541,
+      0.19272348819668778,
+      0.31312269072393445,
+      0.2895352414861637,
+      0.11712426580144882
+    ],
+    "initial_liability_pv": 2237.7881690941795,
+    "surplus_change_fraction": 0.0008026210615415774
+  },
+  {
+    "start_date": "2016-08-31",
+    "end_date": "2016-09-30",
+    "end_month": "2016-09",
+    "method": "covariance",
+    "weights": [
+      0.07148608401841494,
+      0.2064413477739733,
+      0.31511610497140113,
+      0.2894165115996573,
+      0.11753995163655333
+    ],
+    "initial_liability_pv": 2237.7881690941795,
+    "surplus_change_fraction": 0.000832057444318962
+  },
+  {
+    "start_date": "2016-09-30",
+    "end_date": "2016-10-31",
+    "end_month": "2016-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2214.3006481264456,
+    "surplus_change_fraction": 0.025056011922180533
+  },
+  {
+    "start_date": "2016-09-30",
+    "end_date": "2016-10-31",
+    "end_month": "2016-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.42829517523098465,
+      0.0,
+      0.5717048247690153,
+      0.0
+    ],
+    "initial_liability_pv": 2214.3006481264456,
+    "surplus_change_fraction": 0.0005258746087652517
+  },
+  {
+    "start_date": "2016-09-30",
+    "end_date": "2016-10-31",
+    "end_month": "2016-10",
+    "method": "key_rate",
+    "weights": [
+      0.08901507662603161,
+      0.19505970542276144,
+      0.31418205155407636,
+      0.2865049277422845,
+      0.11523823865484617
+    ],
+    "initial_liability_pv": 2214.3006481264456,
+    "surplus_change_fraction": 0.00047837765918972146
+  },
+  {
+    "start_date": "2016-09-30",
+    "end_date": "2016-10-31",
+    "end_month": "2016-10",
+    "method": "covariance",
+    "weights": [
+      0.07288405206911235,
+      0.20888272623320203,
+      0.3161907822155892,
+      0.28638532888076706,
+      0.11565711060132919
+    ],
+    "initial_liability_pv": 2214.3006481264456,
+    "surplus_change_fraction": 0.00030965185752269384
+  },
+  {
+    "start_date": "2016-10-31",
+    "end_date": "2016-11-30",
+    "end_month": "2016-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2138.821917573613,
+    "surplus_change_fraction": 0.035946021818911655
+  },
+  {
+    "start_date": "2016-10-31",
+    "end_date": "2016-11-30",
+    "end_month": "2016-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4422021077672119,
+      0.0,
+      0.5577978922327881,
+      0.0
+    ],
+    "initial_liability_pv": 2138.821917573613,
+    "surplus_change_fraction": 0.0013694592553666568
+  },
+  {
+    "start_date": "2016-10-31",
+    "end_date": "2016-11-30",
+    "end_month": "2016-11",
+    "method": "key_rate",
+    "weights": [
+      0.0935757193338124,
+      0.19966364586202046,
+      0.31528789158981263,
+      0.2807738061975612,
+      0.11069893701679329
+    ],
+    "initial_liability_pv": 2138.821917573613,
+    "surplus_change_fraction": 0.00015720290220032988
+  },
+  {
+    "start_date": "2016-10-31",
+    "end_date": "2016-11-30",
+    "end_month": "2016-11",
+    "method": "covariance",
+    "weights": [
+      0.07712954252656706,
+      0.2137566161838451,
+      0.31733594930566483,
+      0.28065192385020477,
+      0.11112596813371826
+    ],
+    "initial_liability_pv": 2138.821917573613,
+    "surplus_change_fraction": -0.0003280258942747578
+  },
+  {
+    "start_date": "2016-11-30",
+    "end_date": "2016-12-30",
+    "end_month": "2016-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2004.8830047104123,
+    "surplus_change_fraction": 0.004191403537384712
+  },
+  {
+    "start_date": "2016-11-30",
+    "end_date": "2016-12-30",
+    "end_month": "2016-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.463279327445618,
+      0.0,
+      0.536720672554382,
+      0.0
+    ],
+    "initial_liability_pv": 2004.8830047104123,
+    "surplus_change_fraction": 0.00019575526412847513
+  },
+  {
+    "start_date": "2016-11-30",
+    "end_date": "2016-12-30",
+    "end_month": "2016-12",
+    "method": "key_rate",
+    "weights": [
+      0.10219022790573533,
+      0.2061523326159281,
+      0.315039894507605,
+      0.2722897008185097,
+      0.10432784415222193
+    ],
+    "initial_liability_pv": 2004.8830047104123,
+    "surplus_change_fraction": 7.508744115685449e-05
+  },
+  {
+    "start_date": "2016-11-30",
+    "end_date": "2016-12-30",
+    "end_month": "2016-12",
+    "method": "covariance",
+    "weights": [
+      0.08520557414883849,
+      0.2207065677040307,
+      0.3171551738494214,
+      0.2721638844100891,
+      0.10476879988762036
+    ],
+    "initial_liability_pv": 2004.8830047104123,
+    "surplus_change_fraction": 3.1649226442453447e-05
+  },
+  {
+    "start_date": "2016-12-30",
+    "end_date": "2017-01-31",
+    "end_month": "2017-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1988.5817625660493,
+    "surplus_change_fraction": -0.001138427426266428
+  },
+  {
+    "start_date": "2016-12-30",
+    "end_date": "2017-01-31",
+    "end_month": "2017-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4656358722171313,
+      0.0,
+      0.5343641277828687,
+      0.0
+    ],
+    "initial_liability_pv": 1988.5817625660493,
+    "surplus_change_fraction": -0.000839688969733836
+  },
+  {
+    "start_date": "2016-12-30",
+    "end_date": "2017-01-31",
+    "end_month": "2017-01",
+    "method": "key_rate",
+    "weights": [
+      0.10326273246552078,
+      0.2069171929159582,
+      0.3148384600294466,
+      0.271275977573929,
+      0.10370563701514547
+    ],
+    "initial_liability_pv": 1988.5817625660493,
+    "surplus_change_fraction": 0.0003044998021938772
+  },
+  {
+    "start_date": "2016-12-30",
+    "end_date": "2017-01-31",
+    "end_month": "2017-01",
+    "method": "covariance",
+    "weights": [
+      0.08621517495219401,
+      0.2215253091530493,
+      0.31696159700608506,
+      0.27114970063525,
+      0.10414821825342178
+    ],
+    "initial_liability_pv": 1988.5817625660493,
+    "surplus_change_fraction": 0.0003504994915627154
+  },
+  {
+    "start_date": "2017-01-31",
+    "end_date": "2017-02-28",
+    "end_month": "2017-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1992.3272775070468,
+    "surplus_change_fraction": -0.010102777891834462
+  },
+  {
+    "start_date": "2017-01-31",
+    "end_date": "2017-02-28",
+    "end_month": "2017-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46483997773475566,
+      0.0,
+      0.5351600222652444,
+      0.0
+    ],
+    "initial_liability_pv": 1992.3272775070468,
+    "surplus_change_fraction": -0.00044987033729890506
+  },
+  {
+    "start_date": "2017-01-31",
+    "end_date": "2017-02-28",
+    "end_month": "2017-02",
+    "method": "key_rate",
+    "weights": [
+      0.1030168756695114,
+      0.20680024419698687,
+      0.31473179105968885,
+      0.2712788889375792,
+      0.10417220013623363
+    ],
+    "initial_liability_pv": 1992.3272775070468,
+    "surplus_change_fraction": -0.00023243482250974
+  },
+  {
+    "start_date": "2017-01-31",
+    "end_date": "2017-02-28",
+    "end_month": "2017-02",
+    "method": "covariance",
+    "weights": [
+      0.08598875913875459,
+      0.22139169996660202,
+      0.31685250729103304,
+      0.2711527569620585,
+      0.10461427664155191
+    ],
+    "initial_liability_pv": 1992.3272775070468,
+    "surplus_change_fraction": -0.00016347974537881085
+  },
+  {
+    "start_date": "2017-02-28",
+    "end_date": "2017-03-31",
+    "end_month": "2017-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2013.659393264427,
+    "surplus_change_fraction": 0.00485422720611358
+  },
+  {
+    "start_date": "2017-02-28",
+    "end_date": "2017-03-31",
+    "end_month": "2017-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46034249624081197,
+      0.0,
+      0.539657503759188,
+      0.0
+    ],
+    "initial_liability_pv": 2013.659393264427,
+    "surplus_change_fraction": 0.0005276089612698906
+  },
+  {
+    "start_date": "2017-02-28",
+    "end_date": "2017-03-31",
+    "end_month": "2017-03",
+    "method": "key_rate",
+    "weights": [
+      0.10126797777925357,
+      0.20509356346669258,
+      0.3149542007980957,
+      0.27329504105334596,
+      0.10538921690261224
+    ],
+    "initial_liability_pv": 2013.659393264427,
+    "surplus_change_fraction": -5.0660621530065844e-05
+  },
+  {
+    "start_date": "2017-02-28",
+    "end_date": "2017-03-31",
+    "end_month": "2017-03",
+    "method": "covariance",
+    "weights": [
+      0.08435616264173162,
+      0.2195854153876524,
+      0.31706037570688966,
+      0.2731697588019155,
+      0.1058282874618108
+    ],
+    "initial_liability_pv": 2013.659393264427,
+    "surplus_change_fraction": -3.746341108137315e-05
+  },
+  {
+    "start_date": "2017-03-31",
+    "end_date": "2017-04-28",
+    "end_month": "2017-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2000.6811835381932,
+    "surplus_change_fraction": -0.005611618510430864
+  },
+  {
+    "start_date": "2017-03-31",
+    "end_date": "2017-04-28",
+    "end_month": "2017-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4635330583595045,
+      0.0,
+      0.5364669416404955,
+      0.0
+    ],
+    "initial_liability_pv": 2000.6811835381932,
+    "surplus_change_fraction": 0.00024221783829255747
+  },
+  {
+    "start_date": "2017-03-31",
+    "end_date": "2017-04-28",
+    "end_month": "2017-04",
+    "method": "key_rate",
+    "weights": [
+      0.1020636633643855,
+      0.20606963429706107,
+      0.31559901585796385,
+      0.27211851754294364,
+      0.10414916893764592
+    ],
+    "initial_liability_pv": 2000.6811835381932,
+    "surplus_change_fraction": -8.812251194439608e-06
+  },
+  {
+    "start_date": "2017-03-31",
+    "end_date": "2017-04-28",
+    "end_month": "2017-04",
+    "method": "covariance",
+    "weights": [
+      0.08508549624631484,
+      0.2206183260400263,
+      0.3177134648986551,
+      0.27199275433241554,
+      0.10458995848258831
+    ],
+    "initial_liability_pv": 2000.6811835381932,
+    "surplus_change_fraction": 0.00014091539328566296
+  },
+  {
+    "start_date": "2017-04-28",
+    "end_date": "2017-05-31",
+    "end_month": "2017-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2023.2478598025248,
+    "surplus_change_fraction": -0.009081241217263565
+  },
+  {
+    "start_date": "2017-04-28",
+    "end_date": "2017-05-31",
+    "end_month": "2017-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4605112477162677,
+      0.0,
+      0.5394887522837323,
+      0.0
+    ],
+    "initial_liability_pv": 2023.2478598025248,
+    "surplus_change_fraction": -0.0012209021050065719
+  },
+  {
+    "start_date": "2017-04-28",
+    "end_date": "2017-05-31",
+    "end_month": "2017-05",
+    "method": "key_rate",
+    "weights": [
+      0.10041374380803952,
+      0.2052281681861857,
+      0.3160743328422539,
+      0.2734189937285084,
+      0.10486476143501251
+    ],
+    "initial_liability_pv": 2023.2478598025248,
+    "surplus_change_fraction": 0.00018863205189750614
+  },
+  {
+    "start_date": "2017-04-28",
+    "end_date": "2017-05-31",
+    "end_month": "2017-05",
+    "method": "covariance",
+    "weights": [
+      0.08352828829683379,
+      0.21969744035002053,
+      0.3181771955767591,
+      0.27329391600896213,
+      0.10530315976742445
+    ],
+    "initial_liability_pv": 2023.2478598025248,
+    "surplus_change_fraction": 0.0002968868360906693
+  },
+  {
+    "start_date": "2017-05-31",
+    "end_date": "2017-06-30",
+    "end_month": "2017-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2046.6459275980712,
+    "surplus_change_fraction": -0.0046456418260002064
+  },
+  {
+    "start_date": "2017-05-31",
+    "end_date": "2017-06-30",
+    "end_month": "2017-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.45532268816320615,
+      0.0,
+      0.5446773118367938,
+      0.0
+    ],
+    "initial_liability_pv": 2046.6459275980712,
+    "surplus_change_fraction": 0.00037398696387470215
+  },
+  {
+    "start_date": "2017-05-31",
+    "end_date": "2017-06-30",
+    "end_month": "2017-06",
+    "method": "key_rate",
+    "weights": [
+      0.09873439321578059,
+      0.20368532815140486,
+      0.3156028473354925,
+      0.27517479079212065,
+      0.10680264050520143
+    ],
+    "initial_liability_pv": 2046.6459275980712,
+    "surplus_change_fraction": -0.00016696076023201207
+  },
+  {
+    "start_date": "2017-05-31",
+    "end_date": "2017-06-30",
+    "end_month": "2017-06",
+    "method": "covariance",
+    "weights": [
+      0.08196543556641203,
+      0.21805479922490384,
+      0.31769118724226053,
+      0.2750505597739758,
+      0.10723801819244785
+    ],
+    "initial_liability_pv": 2046.6459275980712,
+    "surplus_change_fraction": -0.00022810453673835618
+  },
+  {
+    "start_date": "2017-06-30",
+    "end_date": "2017-07-31",
+    "end_month": "2017-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2044.1881911111907,
+    "surplus_change_fraction": 0.006420673087988013
+  },
+  {
+    "start_date": "2017-06-30",
+    "end_date": "2017-07-31",
+    "end_month": "2017-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4519907395152032,
+      0.0,
+      0.5480092604847968,
+      0.0
+    ],
+    "initial_liability_pv": 2044.1881911111907,
+    "surplus_change_fraction": -0.00040175011983268656
+  },
+  {
+    "start_date": "2017-06-30",
+    "end_date": "2017-07-31",
+    "end_month": "2017-07",
+    "method": "key_rate",
+    "weights": [
+      0.09869766021599559,
+      0.20263716871827803,
+      0.31379755182426927,
+      0.27646922803501567,
+      0.10839839120644132
+    ],
+    "initial_liability_pv": 2044.1881911111907,
+    "surplus_change_fraction": 0.00040259650699753507
+  },
+  {
+    "start_date": "2017-06-30",
+    "end_date": "2017-07-31",
+    "end_month": "2017-07",
+    "method": "covariance",
+    "weights": [
+      0.08196856550869583,
+      0.21697248702449054,
+      0.3158809830669226,
+      0.2763452522605329,
+      0.10883271213935819
+    ],
+    "initial_liability_pv": 2044.1881911111907,
+    "surplus_change_fraction": 0.0004477203022791759
+  },
+  {
+    "start_date": "2017-07-31",
+    "end_date": "2017-08-31",
+    "end_month": "2017-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2035.1717421760204,
+    "surplus_change_fraction": -0.018404700094299353
+  },
+  {
+    "start_date": "2017-07-31",
+    "end_date": "2017-08-31",
+    "end_month": "2017-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4555868717215548,
+      0.0,
+      0.5444131282784452,
+      0.0
+    ],
+    "initial_liability_pv": 2035.1717421760204,
+    "surplus_change_fraction": 0.00010557794761094731
+  },
+  {
+    "start_date": "2017-07-31",
+    "end_date": "2017-08-31",
+    "end_month": "2017-08",
+    "method": "key_rate",
+    "weights": [
+      0.09944412756561048,
+      0.20398610575943116,
+      0.3146165890486373,
+      0.2747640198391292,
+      0.1071891577871919
+    ],
+    "initial_liability_pv": 2035.1717421760204,
+    "surplus_change_fraction": -0.0004839254081000727
+  },
+  {
+    "start_date": "2017-07-31",
+    "end_date": "2017-08-31",
+    "end_month": "2017-08",
+    "method": "covariance",
+    "weights": [
+      0.08264803095693743,
+      0.218378806668875,
+      0.31670834700160494,
+      0.27463958451890763,
+      0.10762523085367505
+    ],
+    "initial_liability_pv": 2035.1717421760204,
+    "surplus_change_fraction": -0.0003173880237389718
+  },
+  {
+    "start_date": "2017-08-31",
+    "end_date": "2017-09-29",
+    "end_month": "2017-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2084.8089706411556,
+    "surplus_change_fraction": 0.010320421911938627
+  },
+  {
+    "start_date": "2017-08-31",
+    "end_date": "2017-09-29",
+    "end_month": "2017-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4464086989861749,
+      0.0,
+      0.5535913010138251,
+      0.0
+    ],
+    "initial_liability_pv": 2084.8089706411556,
+    "surplus_change_fraction": 5.719986614547197e-06
+  },
+  {
+    "start_date": "2017-08-31",
+    "end_date": "2017-09-29",
+    "end_month": "2017-09",
+    "method": "key_rate",
+    "weights": [
+      0.09602402606076528,
+      0.20085863051503053,
+      0.31444932520851865,
+      0.2788142760246348,
+      0.10985374219105078
+    ],
+    "initial_liability_pv": 2084.8089706411556,
+    "surplus_change_fraction": 0.00017786089052364824
+  },
+  {
+    "start_date": "2017-08-31",
+    "end_date": "2017-09-29",
+    "end_month": "2017-09",
+    "method": "covariance",
+    "weights": [
+      0.07945291100970586,
+      0.21505865623941323,
+      0.31651295584256184,
+      0.2786914623989402,
+      0.11028401450937887
+    ],
+    "initial_liability_pv": 2084.8089706411556,
+    "surplus_change_fraction": 5.335348000760365e-06
+  },
+  {
+    "start_date": "2017-09-29",
+    "end_date": "2017-10-31",
+    "end_month": "2017-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2040.6333843722964,
+    "surplus_change_fraction": -0.00149227845972889
+  },
+  {
+    "start_date": "2017-09-29",
+    "end_date": "2017-10-31",
+    "end_month": "2017-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.45220363092068905,
+      0.0,
+      0.547796369079311,
+      0.0
+    ],
+    "initial_liability_pv": 2040.6333843722964,
+    "surplus_change_fraction": -0.0001370869071746201
+  },
+  {
+    "start_date": "2017-09-29",
+    "end_date": "2017-10-31",
+    "end_month": "2017-10",
+    "method": "key_rate",
+    "weights": [
+      0.09871199870222166,
+      0.20267139354554345,
+      0.3139639470860724,
+      0.2763261372993213,
+      0.10832652336684125
+    ],
+    "initial_liability_pv": 2040.6333843722964,
+    "surplus_change_fraction": -4.4645838192259975e-05
+  },
+  {
+    "start_date": "2017-09-29",
+    "end_date": "2017-10-31",
+    "end_month": "2017-10",
+    "method": "covariance",
+    "weights": [
+      0.08198516420496739,
+      0.21700477555212058,
+      0.3160470636424814,
+      0.2762021959844527,
+      0.10876080061597775
+    ],
+    "initial_liability_pv": 2040.6333843722964,
+    "surplus_change_fraction": -7.799349721956779e-05
+  },
+  {
+    "start_date": "2017-10-31",
+    "end_date": "2017-11-30",
+    "end_month": "2017-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2034.6621887574504,
+    "surplus_change_fraction": -0.00694875176831975
+  },
+  {
+    "start_date": "2017-10-31",
+    "end_date": "2017-11-30",
+    "end_month": "2017-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4519689048561124,
+      0.0,
+      0.5480310951438876,
+      0.0
+    ],
+    "initial_liability_pv": 2034.6621887574504,
+    "surplus_change_fraction": -0.0009402912820579742
+  },
+  {
+    "start_date": "2017-10-31",
+    "end_date": "2017-11-30",
+    "end_month": "2017-11",
+    "method": "key_rate",
+    "weights": [
+      0.09881387438409224,
+      0.20245703587698458,
+      0.3138306696076571,
+      0.27647684760889873,
+      0.10842157252236716
+    ],
+    "initial_liability_pv": 2034.6621887574504,
+    "surplus_change_fraction": 5.229543224212242e-05
+  },
+  {
+    "start_date": "2017-10-31",
+    "end_date": "2017-11-30",
+    "end_month": "2017-11",
+    "method": "covariance",
+    "weights": [
+      0.08209074618331211,
+      0.21678725069155957,
+      0.31591331981852466,
+      0.27635293041348397,
+      0.10885575289311959
+    ],
+    "initial_liability_pv": 2034.6621887574504,
+    "surplus_change_fraction": 4.719696762972535e-06
+  },
+  {
+    "start_date": "2017-11-30",
+    "end_date": "2017-12-29",
+    "end_month": "2017-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2035.5511574355924,
+    "surplus_change_fraction": -0.011900848653424875
+  },
+  {
+    "start_date": "2017-11-30",
+    "end_date": "2017-12-29",
+    "end_month": "2017-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4480485088677059,
+      0.0,
+      0.551951491132294,
+      0.0
+    ],
+    "initial_liability_pv": 2035.5511574355924,
+    "surplus_change_fraction": 0.0001874545238529502
+  },
+  {
+    "start_date": "2017-11-30",
+    "end_date": "2017-12-29",
+    "end_month": "2017-12",
+    "method": "key_rate",
+    "weights": [
+      0.09827151930191293,
+      0.20115475162636612,
+      0.3125881935973972,
+      0.2778314392223838,
+      0.11015409625193996
+    ],
+    "initial_liability_pv": 2035.5511574355924,
+    "surplus_change_fraction": -0.0004115568563289356
+  },
+  {
+    "start_date": "2017-11-30",
+    "end_date": "2017-12-29",
+    "end_month": "2017-12",
+    "method": "covariance",
+    "weights": [
+      0.08161768121288228,
+      0.2154256097674774,
+      0.3146622187177011,
+      0.2777080163479898,
+      0.11058647395394935
+    ],
+    "initial_liability_pv": 2035.5511574355924,
+    "surplus_change_fraction": -0.00039657122317456587
+  },
+  {
+    "start_date": "2017-12-29",
+    "end_date": "2018-01-31",
+    "end_month": "2018-01",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 2054.8015970730817,
+    "surplus_change_fraction": 0.014104674733754768
+  },
+  {
+    "start_date": "2017-12-29",
+    "end_date": "2018-01-31",
+    "end_month": "2018-01",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.44168650352799166,
+      0.0,
+      0.5583134964720083,
+      0.0
+    ],
+    "initial_liability_pv": 2054.8015970730817,
+    "surplus_change_fraction": -0.001718602420180952
+  },
+  {
+    "start_date": "2017-12-29",
+    "end_date": "2018-01-31",
+    "end_month": "2018-01",
+    "method": "key_rate",
+    "weights": [
+      0.09667192054537599,
+      0.19893951184766762,
+      0.31146020995444146,
+      0.2805762883472615,
+      0.11235206930525347
+    ],
+    "initial_liability_pv": 2054.8015970730817,
+    "surplus_change_fraction": 0.0006659530241157379
+  },
+  {
+    "start_date": "2017-12-29",
+    "end_date": "2018-01-31",
+    "end_month": "2018-01",
+    "method": "covariance",
+    "weights": [
+      0.0801464860168827,
+      0.21310038507337142,
+      0.3135182235110417,
+      0.28045378722007747,
+      0.11278111817862677
+    ],
+    "initial_liability_pv": 2054.8015970730817,
+    "surplus_change_fraction": 0.00039472354854315045
+  },
+  {
+    "start_date": "2018-01-31",
+    "end_date": "2018-02-28",
+    "end_month": "2018-02",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1991.7495884088075,
+    "surplus_change_fraction": 0.01746672363125583
+  },
+  {
+    "start_date": "2018-01-31",
+    "end_date": "2018-02-28",
+    "end_month": "2018-02",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.44950290247165253,
+      0.0,
+      0.5504970975283474,
+      0.0
+    ],
+    "initial_liability_pv": 1991.7495884088075,
+    "surplus_change_fraction": 0.0004996522617814603
+  },
+  {
+    "start_date": "2018-01-31",
+    "end_date": "2018-02-28",
+    "end_month": "2018-02",
+    "method": "key_rate",
+    "weights": [
+      0.10054164791222005,
+      0.20140163859481097,
+      0.31066228828741177,
+      0.2767614136098172,
+      0.1106330115957399
+    ],
+    "initial_liability_pv": 1991.7495884088075,
+    "surplus_change_fraction": 0.00034439553656718104
+  },
+  {
+    "start_date": "2018-01-31",
+    "end_date": "2018-02-28",
+    "end_month": "2018-02",
+    "method": "covariance",
+    "weights": [
+      0.08380161109504174,
+      0.21574633822973577,
+      0.3127471053306438,
+      0.2766373440699536,
+      0.11106760127462503
+    ],
+    "initial_liability_pv": 1991.7495884088075,
+    "surplus_change_fraction": 0.0002291516658738989
+  },
+  {
+    "start_date": "2018-02-28",
+    "end_date": "2018-03-29",
+    "end_month": "2018-03",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1944.09400726855,
+    "surplus_change_fraction": -0.016497285076931732
+  },
+  {
+    "start_date": "2018-02-28",
+    "end_date": "2018-03-29",
+    "end_month": "2018-03",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.45936568255637117,
+      0.0,
+      0.5406343174436288,
+      0.0
+    ],
+    "initial_liability_pv": 1944.09400726855,
+    "surplus_change_fraction": -0.0006089473620520496
+  },
+  {
+    "start_date": "2018-02-28",
+    "end_date": "2018-03-29",
+    "end_month": "2018-03",
+    "method": "key_rate",
+    "weights": [
+      0.10381511187566002,
+      0.20464561335321946,
+      0.3114039710274966,
+      0.27272134840899404,
+      0.10741395533462982
+    ],
+    "initial_liability_pv": 1944.09400726855,
+    "surplus_change_fraction": -0.00024519491356561645
+  },
+  {
+    "start_date": "2018-02-28",
+    "end_date": "2018-03-29",
+    "end_month": "2018-03",
+    "method": "covariance",
+    "weights": [
+      0.08685181061583282,
+      0.2191815582995997,
+      0.3135166447127214,
+      0.27259566034234634,
+      0.10785432602949974
+    ],
+    "initial_liability_pv": 1944.09400726855,
+    "surplus_change_fraction": -0.0001104085901459052
+  },
+  {
+    "start_date": "2018-03-29",
+    "end_date": "2018-04-30",
+    "end_month": "2018-04",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1984.5731399444985,
+    "surplus_change_fraction": 0.008999671413853874
+  },
+  {
+    "start_date": "2018-03-29",
+    "end_date": "2018-04-30",
+    "end_month": "2018-04",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.450704734175163,
+      0.0,
+      0.549295265824837,
+      0.0
+    ],
+    "initial_liability_pv": 1984.5731399444985,
+    "surplus_change_fraction": -0.001761707018028956
+  },
+  {
+    "start_date": "2018-03-29",
+    "end_date": "2018-04-30",
+    "end_month": "2018-04",
+    "method": "key_rate",
+    "weights": [
+      0.10070596543147485,
+      0.201766734601905,
+      0.31110967085516505,
+      0.27629783423500826,
+      0.11011979487644687
+    ],
+    "initial_liability_pv": 1984.5731399444985,
+    "surplus_change_fraction": 0.0006567531079101387
+  },
+  {
+    "start_date": "2018-03-29",
+    "end_date": "2018-04-30",
+    "end_month": "2018-04",
+    "method": "covariance",
+    "weights": [
+      0.08395027053423135,
+      0.21612484928445075,
+      0.3131964324213264,
+      0.2761736553888744,
+      0.1105547923711171
+    ],
+    "initial_liability_pv": 1984.5731399444985,
+    "surplus_change_fraction": 0.00047648804807103035
+  },
+  {
+    "start_date": "2018-04-30",
+    "end_date": "2018-05-31",
+    "end_month": "2018-05",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1943.7619567388983,
+    "surplus_change_fraction": -0.008774888932262376
+  },
+  {
+    "start_date": "2018-04-30",
+    "end_date": "2018-05-31",
+    "end_month": "2018-05",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4555410956628524,
+      0.0,
+      0.5444589043371476,
+      0.0
+    ],
+    "initial_liability_pv": 1943.7619567388983,
+    "surplus_change_fraction": 0.0006867376375183158
+  },
+  {
+    "start_date": "2018-04-30",
+    "end_date": "2018-05-31",
+    "end_month": "2018-05",
+    "method": "key_rate",
+    "weights": [
+      0.1032498360790444,
+      0.20335977075633102,
+      0.31043596654546113,
+      0.27369295936525134,
+      0.10926146725391211
+    ],
+    "initial_liability_pv": 1943.7619567388983,
+    "surplus_change_fraction": -0.00036014816808193397
+  },
+  {
+    "start_date": "2018-04-30",
+    "end_date": "2018-05-31",
+    "end_month": "2018-05",
+    "method": "covariance",
+    "weights": [
+      0.08635859322455527,
+      0.2178339928813901,
+      0.3125396552636545,
+      0.2735677927121884,
+      0.10969996591821171
+    ],
+    "initial_liability_pv": 1943.7619567388983,
+    "surplus_change_fraction": -0.00023974253945881107
+  },
+  {
+    "start_date": "2018-05-31",
+    "end_date": "2018-06-29",
+    "end_month": "2018-06",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1971.5983244284691,
+    "surplus_change_fraction": -0.0025441674671837474
+  },
+  {
+    "start_date": "2018-05-31",
+    "end_date": "2018-06-29",
+    "end_month": "2018-06",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4505232516456984,
+      0.0,
+      0.5494767483543016,
+      0.0
+    ],
+    "initial_liability_pv": 1971.5983244284691,
+    "surplus_change_fraction": -0.0014688182634619092
+  },
+  {
+    "start_date": "2018-05-31",
+    "end_date": "2018-06-29",
+    "end_month": "2018-06",
+    "method": "key_rate",
+    "weights": [
+      0.10133323413684371,
+      0.2017796047224109,
+      0.31024050649744406,
+      0.27593143973951606,
+      0.1107152149037853
+    ],
+    "initial_liability_pv": 1971.5983244284691,
+    "surplus_change_fraction": 0.0004937643230835416
+  },
+  {
+    "start_date": "2018-05-31",
+    "end_date": "2018-06-29",
+    "end_month": "2018-06",
+    "method": "covariance",
+    "weights": [
+      0.08456088454401825,
+      0.21615197888634274,
+      0.31232936655548943,
+      0.27580713490171105,
+      0.11115063511243842
+    ],
+    "initial_liability_pv": 1971.5983244284691,
+    "surplus_change_fraction": 0.00048278762542638113
+  },
+  {
+    "start_date": "2018-06-29",
+    "end_date": "2018-07-31",
+    "end_month": "2018-07",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1972.0495844851855,
+    "surplus_change_fraction": 0.008810365123469862
+  },
+  {
+    "start_date": "2018-06-29",
+    "end_date": "2018-07-31",
+    "end_month": "2018-07",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.44794469254424396,
+      0.0,
+      0.552055307455756,
+      0.0
+    ],
+    "initial_liability_pv": 1972.0495844851855,
+    "surplus_change_fraction": -0.00019198467769430171
+  },
+  {
+    "start_date": "2018-06-29",
+    "end_date": "2018-07-31",
+    "end_month": "2018-07",
+    "method": "key_rate",
+    "weights": [
+      0.10112198204221785,
+      0.20122807065630943,
+      0.3090824773190056,
+      0.2763274746251439,
+      0.11223999535732307
+    ],
+    "initial_liability_pv": 1972.0495844851855,
+    "surplus_change_fraction": 0.0003063014666113281
+  },
+  {
+    "start_date": "2018-06-29",
+    "end_date": "2018-07-31",
+    "end_month": "2018-07",
+    "method": "covariance",
+    "weights": [
+      0.08438826495352732,
+      0.2155673326734519,
+      0.3111665475640675,
+      0.2762034482529893,
+      0.11267440655596393
+    ],
+    "initial_liability_pv": 1972.0495844851855,
+    "surplus_change_fraction": 0.00022146907994846226
+  },
+  {
+    "start_date": "2018-07-31",
+    "end_date": "2018-08-31",
+    "end_month": "2018-08",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1944.2887104835786,
+    "surplus_change_fraction": -0.004931224269322427
+  },
+  {
+    "start_date": "2018-07-31",
+    "end_date": "2018-08-31",
+    "end_month": "2018-08",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4534902420155583,
+      0.0,
+      0.5465097579844417,
+      0.0
+    ],
+    "initial_liability_pv": 1944.2887104835786,
+    "surplus_change_fraction": 6.044249851471275e-05
+  },
+  {
+    "start_date": "2018-07-31",
+    "end_date": "2018-08-31",
+    "end_month": "2018-08",
+    "method": "key_rate",
+    "weights": [
+      0.1028111565192873,
+      0.20295363699120522,
+      0.3098212595947144,
+      0.2740829606710415,
+      0.11033098622375159
+    ],
+    "initial_liability_pv": 1944.2887104835786,
+    "surplus_change_fraction": -0.00012772377362081975
+  },
+  {
+    "start_date": "2018-07-31",
+    "end_date": "2018-08-31",
+    "end_month": "2018-08",
+    "method": "covariance",
+    "weights": [
+      0.08596478219663549,
+      0.21738941698494268,
+      0.3119193399455796,
+      0.2739581273736374,
+      0.11076833349920487
+    ],
+    "initial_liability_pv": 1944.2887104835786,
+    "surplus_change_fraction": -2.996742122545795e-05
+  },
+  {
+    "start_date": "2018-08-31",
+    "end_date": "2018-09-28",
+    "end_month": "2018-09",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1962.6283737404658,
+    "surplus_change_fraction": 0.013531600085120752
+  },
+  {
+    "start_date": "2018-08-31",
+    "end_date": "2018-09-28",
+    "end_month": "2018-09",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.451081174192307,
+      0.0,
+      0.548918825807693,
+      0.0
+    ],
+    "initial_liability_pv": 1962.6283737404658,
+    "surplus_change_fraction": -4.2115979645856975e-05
+  },
+  {
+    "start_date": "2018-08-31",
+    "end_date": "2018-09-28",
+    "end_month": "2018-09",
+    "method": "key_rate",
+    "weights": [
+      0.10150765717354243,
+      0.20218630474253987,
+      0.3102815005977413,
+      0.27516725486817417,
+      0.11085728261800228
+    ],
+    "initial_liability_pv": 1962.6283737404658,
+    "surplus_change_fraction": 0.00032297692558984055
+  },
+  {
+    "start_date": "2018-08-31",
+    "end_date": "2018-09-28",
+    "end_month": "2018-09",
+    "method": "covariance",
+    "weights": [
+      0.0847322320581801,
+      0.2165613004741497,
+      0.31237075047051527,
+      0.27504293636355753,
+      0.11129278063359745
+    ],
+    "initial_liability_pv": 1962.6283737404658,
+    "surplus_change_fraction": 0.00016008555567258748
+  },
+  {
+    "start_date": "2018-09-28",
+    "end_date": "2018-10-31",
+    "end_month": "2018-10",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1917.3648819793837,
+    "surplus_change_fraction": 0.019286517386596036
+  },
+  {
+    "start_date": "2018-09-28",
+    "end_date": "2018-10-31",
+    "end_month": "2018-10",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.4589509723639397,
+      0.0,
+      0.5410490276360602,
+      0.0
+    ],
+    "initial_liability_pv": 1917.3648819793837,
+    "surplus_change_fraction": 0.000274427919878013
+  },
+  {
+    "start_date": "2018-09-28",
+    "end_date": "2018-10-31",
+    "end_month": "2018-10",
+    "method": "key_rate",
+    "weights": [
+      0.10450099925569649,
+      0.20466382069044278,
+      0.31049262508873626,
+      0.27188739376615,
+      0.1084551611989744
+    ],
+    "initial_liability_pv": 1917.3648819793837,
+    "surplus_change_fraction": 0.0005158042364305703
+  },
+  {
+    "start_date": "2018-09-28",
+    "end_date": "2018-10-31",
+    "end_month": "2018-10",
+    "method": "covariance",
+    "weights": [
+      0.08753763935658118,
+      0.21919980113918225,
+      0.31260533108600275,
+      0.2717617077876478,
+      0.10889552063058615
+    ],
+    "initial_liability_pv": 1917.3648819793837,
+    "surplus_change_fraction": 0.00044794395024905817
+  },
+  {
+    "start_date": "2018-10-31",
+    "end_date": "2018-11-30",
+    "end_month": "2018-11",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1875.2966670642734,
+    "surplus_change_fraction": -0.007492556818500445
+  },
+  {
+    "start_date": "2018-10-31",
+    "end_date": "2018-11-30",
+    "end_month": "2018-11",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.47046506756105316,
+      0.0,
+      0.5295349324389469,
+      0.0
+    ],
+    "initial_liability_pv": 1875.2966670642734,
+    "surplus_change_fraction": -0.0002386706892977279
+  },
+  {
+    "start_date": "2018-10-31",
+    "end_date": "2018-11-30",
+    "end_month": "2018-11",
+    "method": "key_rate",
+    "weights": [
+      0.10768992291359183,
+      0.2084846274885677,
+      0.3122158819056995,
+      0.2671801785211109,
+      0.10442938917103013
+    ],
+    "initial_liability_pv": 1875.2966670642734,
+    "surplus_change_fraction": -0.00011647446315268937
+  },
+  {
+    "start_date": "2018-10-31",
+    "end_date": "2018-11-30",
+    "end_month": "2018-11",
+    "method": "covariance",
+    "weights": [
+      0.09048923090143139,
+      0.22322390162317163,
+      0.31435818554413814,
+      0.2670527829616795,
+      0.1048758989695792
+    ],
+    "initial_liability_pv": 1875.2966670642734,
+    "surplus_change_fraction": 2.5439875064438945e-05
+  },
+  {
+    "start_date": "2018-11-30",
+    "end_date": "2018-12-31",
+    "end_month": "2018-12",
+    "method": "five_year",
+    "weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_liability_pv": 1901.2729926439465,
+    "surplus_change_fraction": -0.022833174758333488
+  },
+  {
+    "start_date": "2018-11-30",
+    "end_date": "2018-12-31",
+    "end_month": "2018-12",
+    "method": "duration_match",
+    "weights": [
+      0.0,
+      0.46672358563957417,
+      0.0,
+      0.5332764143604258,
+      0.0
+    ],
+    "initial_liability_pv": 1901.2729926439465,
+    "surplus_change_fraction": 0.0036363412933781134
+  },
+  {
+    "start_date": "2018-11-30",
+    "end_date": "2018-12-31",
+    "end_month": "2018-12",
+    "method": "key_rate",
+    "weights": [
+      0.10571709996116017,
+      0.2073391642337436,
+      0.3128406346678529,
+      0.2687787346752488,
+      0.10532436646199451
+    ],
+    "initial_liability_pv": 1901.2729926439465,
+    "surplus_change_fraction": -0.0016016059483610831
+  },
+  {
+    "start_date": "2018-11-30",
+    "end_date": "2018-12-31",
+    "end_month": "2018-12",
+    "method": "covariance",
+    "weights": [
+      0.08862677914518186,
+      0.22198389601280655,
+      0.3149691477666473,
+      0.268652150658499,
+      0.10576802641686538
+    ],
+    "initial_liability_pv": 1901.2729926439465,
+    "surplus_change_fraction": -0.0012774092515974585
+  }
+]

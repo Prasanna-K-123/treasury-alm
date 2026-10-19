@@ -1,0 +1,1362 @@
+{
+  "status": "numeric checks passed; visual review recorded separately",
+  "input_sha256": "06b0739323fe995f9288a97d48eca5a74fe854ed45913827ffbf8f476a2d89e9",
+  "engine": "Artifact Tool formula engine; saved XLSX reimport/recalculation checked; native desktop Excel not tested",
+  "sheets": [
+    "ALM review",
+    "Controls",
+    "Benefits",
+    "Curve",
+    "Runoff",
+    "Historical",
+    "Sources"
+  ],
+  "financial_absolute_tolerance_usd": 0.0001,
+  "historical_surplus_fraction_tolerance": 2e-12,
+  "maximum_financial_difference_usd": 1.341104507446289e-7,
+  "numeric_comparisons": 22166,
+  "instantaneous_cases": 56,
+  "runoff_cases": 108,
+  "runoff_annual_records": 1080,
+  "historical_month_portfolio_repricing_cases": 12,
+  "historical_rmse_candidates": 4,
+  "current_quoted_zeros_reconciled": 30,
+  "zero_benefit_preserved": true,
+  "missing_benefit_exposes_error": true,
+  "invalid_force_and_haircut_expose_error": true,
+  "unrelated_missing_historical_selector_does_not_gate_current_model": true,
+  "defaults_restored_before_export": true,
+  "saved_file_recalculation_and_input_change_passed": true,
+  "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "source_observations_and_frozen_model_outcomes_changed": false,
+  "weights_and_faces_imported_not_optimised_in_spreadsheet": true,
+  "renders": [
+    {
+      "sheet": "ALM review",
+      "range": "C1:H39",
+      "file": "review.png"
+    },
+    {
+      "sheet": "Controls",
+      "range": "C1:G26",
+      "file": "controls.png"
+    },
+    {
+      "sheet": "Benefits",
+      "range": "C1:N16",
+      "file": "benefits.png"
+    },
+    {
+      "sheet": "Benefits",
+      "range": "C128:K138",
+      "file": "risk.png"
+    },
+    {
+      "sheet": "Curve",
+      "range": "C1:R15",
+      "file": "curve.png"
+    },
+    {
+      "sheet": "Runoff",
+      "range": "C1:M29",
+      "file": "runoff_cash.png"
+    },
+    {
+      "sheet": "Runoff",
+      "range": "C32:M58",
+      "file": "runoff_assets.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "C1:N28",
+      "file": "historical.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "C132:G146",
+      "file": "historical_tail.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "C1:K24",
+      "file": "sources.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "G48:O63",
+      "file": "source_context.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "G69:O98",
+      "file": "historical_sources.png"
+    }
+  ],
+  "instantaneous_reconciliations": [
+    {
+      "scenario": "base",
+      "method": "five_year",
+      "liability_usd": 119380495.42258865,
+      "surplus_usd": 2.9802322387695312e-8
+    },
+    {
+      "scenario": "base",
+      "method": "duration_match",
+      "liability_usd": 119380495.42258865,
+      "surplus_usd": 2.9802322387695312e-8
+    },
+    {
+      "scenario": "base",
+      "method": "key_rate",
+      "liability_usd": 119380495.42258865,
+      "surplus_usd": 1.4901161193847656e-8
+    },
+    {
+      "scenario": "base",
+      "method": "covariance",
+      "liability_usd": 119380495.42258865,
+      "surplus_usd": -2.9802322387695312e-8
+    },
+    {
+      "scenario": "parallel_-200bp",
+      "method": "five_year",
+      "liability_usd": 142678074.96126652,
+      "surplus_usd": -10742223.234758541
+    },
+    {
+      "scenario": "parallel_-200bp",
+      "method": "duration_match",
+      "liability_usd": 142678074.96126652,
+      "surplus_usd": -53132.74548763037
+    },
+    {
+      "scenario": "parallel_-200bp",
+      "method": "key_rate",
+      "liability_usd": 142678074.96126652,
+      "surplus_usd": -688324.6774914265
+    },
+    {
+      "scenario": "parallel_-200bp",
+      "method": "covariance",
+      "liability_usd": 142678074.96126652,
+      "surplus_usd": -350957.0759719908
+    },
+    {
+      "scenario": "parallel_-100bp",
+      "method": "five_year",
+      "liability_usd": 130216732.4495095,
+      "surplus_usd": -4715468.140691802
+    },
+    {
+      "scenario": "parallel_-100bp",
+      "method": "duration_match",
+      "liability_usd": 130216732.4495095,
+      "surplus_usd": -12157.778786689043
+    },
+    {
+      "scenario": "parallel_-100bp",
+      "method": "key_rate",
+      "liability_usd": 130216732.4495095,
+      "surplus_usd": -338859.83120429516
+    },
+    {
+      "scenario": "parallel_-100bp",
+      "method": "covariance",
+      "liability_usd": 130216732.4495095,
+      "surplus_usd": -179461.80915026367
+    },
+    {
+      "scenario": "parallel_-50bp",
+      "method": "five_year",
+      "liability_usd": 124613191.25940582,
+      "surplus_usd": -2210564.206928283
+    },
+    {
+      "scenario": "parallel_-50bp",
+      "method": "duration_match",
+      "liability_usd": 124613191.25940582,
+      "surplus_usd": -2941.027667462826
+    },
+    {
+      "scenario": "parallel_-50bp",
+      "method": "key_rate",
+      "liability_usd": 124613191.25940582,
+      "surplus_usd": -167539.45283295214
+    },
+    {
+      "scenario": "parallel_-50bp",
+      "method": "covariance",
+      "liability_usd": 124613191.25940582,
+      "surplus_usd": -89962.21146564186
+    },
+    {
+      "scenario": "parallel_+50bp",
+      "method": "five_year",
+      "liability_usd": 114487566.41709614,
+      "surplus_usd": 1945414.0714075863
+    },
+    {
+      "scenario": "parallel_+50bp",
+      "method": "duration_match",
+      "liability_usd": 114487566.41709614,
+      "surplus_usd": -2806.546364054084
+    },
+    {
+      "scenario": "parallel_+50bp",
+      "method": "key_rate",
+      "liability_usd": 114487566.41709614,
+      "surplus_usd": 162935.05096277595
+    },
+    {
+      "scenario": "parallel_+50bp",
+      "method": "covariance",
+      "liability_usd": 114487566.41709614,
+      "surplus_usd": 89261.0528371185
+    },
+    {
+      "scenario": "parallel_+100bp",
+      "method": "five_year",
+      "liability_usd": 109906351.85432284,
+      "surplus_usd": 3651888.1031163037
+    },
+    {
+      "scenario": "parallel_+100bp",
+      "method": "duration_match",
+      "liability_usd": 109906351.85432284,
+      "surplus_usd": -11053.689763247967
+    },
+    {
+      "scenario": "parallel_+100bp",
+      "method": "key_rate",
+      "liability_usd": 109906351.85432284,
+      "surplus_usd": 320643.34228624403
+    },
+    {
+      "scenario": "parallel_+100bp",
+      "method": "covariance",
+      "liability_usd": 109906351.85432284,
+      "surplus_usd": 176897.95291043818
+    },
+    {
+      "scenario": "parallel_+200bp",
+      "method": "five_year",
+      "liability_usd": 101580060.09986265,
+      "surplus_usd": 6439879.142166182
+    },
+    {
+      "scenario": "parallel_+200bp",
+      "method": "duration_match",
+      "liability_usd": 101580060.09986265,
+      "surplus_usd": -43381.964019328356
+    },
+    {
+      "scenario": "parallel_+200bp",
+      "method": "key_rate",
+      "liability_usd": 101580060.09986265,
+      "surplus_usd": 618712.8491547704
+    },
+    {
+      "scenario": "parallel_+200bp",
+      "method": "covariance",
+      "liability_usd": 101580060.09986265,
+      "surplus_usd": 344597.1831781715
+    },
+    {
+      "scenario": "twist_short_-50bp",
+      "method": "five_year",
+      "liability_usd": 118701227.24616247,
+      "surplus_usd": 3701399.8063150644
+    },
+    {
+      "scenario": "twist_short_-50bp",
+      "method": "duration_match",
+      "liability_usd": 118701227.24616247,
+      "surplus_usd": 370779.153167814
+    },
+    {
+      "scenario": "twist_short_-50bp",
+      "method": "key_rate",
+      "liability_usd": 118701227.24616247,
+      "surplus_usd": -111870.85526940227
+    },
+    {
+      "scenario": "twist_short_-50bp",
+      "method": "covariance",
+      "liability_usd": 118701227.24616247,
+      "surplus_usd": -71555.69008371234
+    },
+    {
+      "scenario": "twist_short_+50bp",
+      "method": "five_year",
+      "liability_usd": 120255708.88907178,
+      "surplus_usd": -3822728.400568053
+    },
+    {
+      "scenario": "twist_short_+50bp",
+      "method": "duration_match",
+      "liability_usd": 120255708.88907178,
+      "surplus_usd": -232705.18593160808
+    },
+    {
+      "scenario": "twist_short_+50bp",
+      "method": "key_rate",
+      "liability_usd": 120255708.88907178,
+      "surplus_usd": 157094.00677378476
+    },
+    {
+      "scenario": "twist_short_+50bp",
+      "method": "covariance",
+      "liability_usd": 120255708.88907178,
+      "surplus_usd": 119769.29363487661
+    },
+    {
+      "scenario": "mortality_force_0.8",
+      "method": "five_year",
+      "liability_usd": 126326153.12897258,
+      "surplus_usd": -6945657.706383899
+    },
+    {
+      "scenario": "mortality_force_0.8",
+      "method": "duration_match",
+      "liability_usd": 126326153.12897258,
+      "surplus_usd": -6945657.706383899
+    },
+    {
+      "scenario": "mortality_force_0.8",
+      "method": "key_rate",
+      "liability_usd": 126326153.12897258,
+      "surplus_usd": -6945657.706383914
+    },
+    {
+      "scenario": "mortality_force_0.8",
+      "method": "covariance",
+      "liability_usd": 126326153.12897258,
+      "surplus_usd": -6945657.706383958
+    },
+    {
+      "scenario": "mortality_force_1.2",
+      "method": "five_year",
+      "liability_usd": 113491792.8080459,
+      "surplus_usd": 5888702.614542782
+    },
+    {
+      "scenario": "mortality_force_1.2",
+      "method": "duration_match",
+      "liability_usd": 113491792.8080459,
+      "surplus_usd": 5888702.614542782
+    },
+    {
+      "scenario": "mortality_force_1.2",
+      "method": "key_rate",
+      "liability_usd": 113491792.8080459,
+      "surplus_usd": 5888702.614542767
+    },
+    {
+      "scenario": "mortality_force_1.2",
+      "method": "covariance",
+      "liability_usd": 113491792.8080459,
+      "surplus_usd": 5888702.614542723
+    },
+    {
+      "scenario": "maximum_paying_age_110",
+      "method": "five_year",
+      "liability_usd": 119380445.63374665,
+      "surplus_usd": 49.788842022418976
+    },
+    {
+      "scenario": "maximum_paying_age_110",
+      "method": "duration_match",
+      "liability_usd": 119380445.63374665,
+      "surplus_usd": 49.788842022418976
+    },
+    {
+      "scenario": "maximum_paying_age_110",
+      "method": "key_rate",
+      "liability_usd": 119380445.63374665,
+      "surplus_usd": 49.788842007517815
+    },
+    {
+      "scenario": "maximum_paying_age_110",
+      "method": "covariance",
+      "liability_usd": 119380445.63374665,
+      "surplus_usd": 49.78884196281433
+    },
+    {
+      "scenario": "flat_forward_after30",
+      "method": "five_year",
+      "liability_usd": 119372565.15478174,
+      "surplus_usd": 7930.26780693233
+    },
+    {
+      "scenario": "flat_forward_after30",
+      "method": "duration_match",
+      "liability_usd": 119372565.15478174,
+      "surplus_usd": 7930.26780693233
+    },
+    {
+      "scenario": "flat_forward_after30",
+      "method": "key_rate",
+      "liability_usd": 119372565.15478174,
+      "surplus_usd": 7930.267806917429
+    },
+    {
+      "scenario": "flat_forward_after30",
+      "method": "covariance",
+      "liability_usd": 119372565.15478174,
+      "surplus_usd": 7930.2678068727255
+    },
+    {
+      "scenario": "flat_zero_after30",
+      "method": "five_year",
+      "liability_usd": 119359012.43515201,
+      "surplus_usd": 21482.987436667085
+    },
+    {
+      "scenario": "flat_zero_after30",
+      "method": "duration_match",
+      "liability_usd": 119359012.43515201,
+      "surplus_usd": 21482.987436667085
+    },
+    {
+      "scenario": "flat_zero_after30",
+      "method": "key_rate",
+      "liability_usd": 119359012.43515201,
+      "surplus_usd": 21482.987436652184
+    },
+    {
+      "scenario": "flat_zero_after30",
+      "method": "covariance",
+      "liability_usd": 119359012.43515201,
+      "surplus_usd": 21482.98743660748
+    }
+  ],
+  "runoff_reconciliations": [
+    {
+      "case_id": 0,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -16318113.483446315
+    },
+    {
+      "case_id": 1,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -14816699.546387069
+    },
+    {
+      "case_id": 2,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -12857613.606474385
+    },
+    {
+      "case_id": 3,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -12831385.494319148
+    },
+    {
+      "case_id": 4,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": -11780821.485751696
+    },
+    {
+      "case_id": 5,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": -11780821.48575174
+    },
+    {
+      "case_id": 6,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": -11780821.485751733
+    },
+    {
+      "case_id": 7,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": -11780821.48575183
+    },
+    {
+      "case_id": 8,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -6986166.343436755
+    },
+    {
+      "case_id": 9,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -8564559.419163272
+    },
+    {
+      "case_id": 10,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -10644181.976660252
+    },
+    {
+      "case_id": 11,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -10669478.028197482
+    },
+    {
+      "case_id": 12,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -16986335.104122072
+    },
+    {
+      "case_id": 13,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -15492854.912194043
+    },
+    {
+      "case_id": 14,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -13211395.4895466
+    },
+    {
+      "case_id": 15,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -13214126.003740527
+    },
+    {
+      "case_id": 16,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -12483303.561541714
+    },
+    {
+      "case_id": 17,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -12483303.561541706
+    },
+    {
+      "case_id": 18,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -12125244.151184047
+    },
+    {
+      "case_id": 19,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -12156720.194579275
+    },
+    {
+      "case_id": 20,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -7724665.445437036
+    },
+    {
+      "case_id": 21,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -9294718.004221082
+    },
+    {
+      "case_id": 22,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -10979598.991001785
+    },
+    {
+      "case_id": 23,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -11038003.20777165
+    },
+    {
+      "case_id": 24,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -17668193.900730103
+    },
+    {
+      "case_id": 25,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -16182809.36709921
+    },
+    {
+      "case_id": 26,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -13574368.207126439
+    },
+    {
+      "case_id": 27,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -13607102.668361008
+    },
+    {
+      "case_id": 28,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -13200122.00622546
+    },
+    {
+      "case_id": 29,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -13200122.006225467
+    },
+    {
+      "case_id": 30,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -12478697.931474991
+    },
+    {
+      "case_id": 31,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -12542793.153002292
+    },
+    {
+      "case_id": 32,
+      "method": "five_year",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -8478235.957682244
+    },
+    {
+      "case_id": 33,
+      "method": "duration_match",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -10039777.784892395
+    },
+    {
+      "case_id": 34,
+      "method": "key_rate",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -11323914.368482783
+    },
+    {
+      "case_id": 35,
+      "method": "covariance",
+      "force": 0.8,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": -11416631.574507907
+    },
+    {
+      "case_id": 36,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -4619835.028782889
+    },
+    {
+      "case_id": 37,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -3111381.32667239
+    },
+    {
+      "case_id": 38,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1119753.8032597005
+    },
+    {
+      "case_id": 39,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1096663.6040154994
+    },
+    {
+      "case_id": 40,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 1.4901161193847656e-8
+    },
+    {
+      "case_id": 41,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 1.4901161193847656e-8
+    },
+    {
+      "case_id": 42,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 0
+    },
+    {
+      "case_id": 43,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": -7.450580596923828e-8
+    },
+    {
+      "case_id": 44,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 4880602.932868794
+    },
+    {
+      "case_id": 45,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 3294809.1556186154
+    },
+    {
+      "case_id": 46,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 1183889.0430743992
+    },
+    {
+      "case_id": 47,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 1158953.3416975588
+    },
+    {
+      "case_id": 48,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -5282067.498648852
+    },
+    {
+      "case_id": 49,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -3781476.4329316197
+    },
+    {
+      "case_id": 50,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1445054.150319239
+    },
+    {
+      "case_id": 51,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1451819.6060153246
+    },
+    {
+      "case_id": 52,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -696185.8546517193
+    },
+    {
+      "case_id": 53,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -696185.8546517224
+    },
+    {
+      "case_id": 54,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -316349.2849899111
+    },
+    {
+      "case_id": 55,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": -347735.6146434275
+    },
+    {
+      "case_id": 56,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 4148722.866167575
+    },
+    {
+      "case_id": 57,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 2571194.8512989925
+    },
+    {
+      "case_id": 58,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 877136.7794898099
+    },
+    {
+      "case_id": 59,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 819190.3200519085
+    },
+    {
+      "case_id": 60,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -5957814.916879341
+    },
+    {
+      "case_id": 61,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -4465246.949522659
+    },
+    {
+      "case_id": 62,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1778894.6512576814
+    },
+    {
+      "case_id": 63,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": -1816597.2293409333
+    },
+    {
+      "case_id": 64,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -1406579.583888203
+    },
+    {
+      "case_id": 65,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -1406579.583888203
+    },
+    {
+      "case_id": 66,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -641104.6952405443
+    },
+    {
+      "case_id": 67,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": -705016.8088164479
+    },
+    {
+      "case_id": 68,
+      "method": "five_year",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 3401906.4715744704
+    },
+    {
+      "case_id": 69,
+      "method": "duration_match",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 1832812.9081156924
+    },
+    {
+      "case_id": 70,
+      "method": "key_rate",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 562125.5635253618
+    },
+    {
+      "case_id": 71,
+      "method": "covariance",
+      "force": 1,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 469967.44304965436
+    },
+    {
+      "case_id": 72,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 5287826.343362279
+    },
+    {
+      "case_id": 73,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 6803229.175991625
+    },
+    {
+      "case_id": 74,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8823730.505428478
+    },
+    {
+      "case_id": 75,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8846481.789210908
+    },
+    {
+      "case_id": 76,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 9988075.603098892
+    },
+    {
+      "case_id": 77,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 9988075.603098884
+    },
+    {
+      "case_id": 78,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 9988075.603098877
+    },
+    {
+      "case_id": 79,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0,
+      "final_surplus_usd": 9988075.603098795
+    },
+    {
+      "case_id": 80,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 14952421.969273597
+    },
+    {
+      "case_id": 81,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 13359322.771963984
+    },
+    {
+      "case_id": 82,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 11218015.967639625
+    },
+    {
+      "case_id": 83,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 11193435.987399668
+    },
+    {
+      "case_id": 84,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 4631505.91606765
+    },
+    {
+      "case_id": 85,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 6139116.305541244
+    },
+    {
+      "case_id": 86,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8525097.997087434
+    },
+    {
+      "case_id": 87,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8518074.934287844
+    },
+    {
+      "case_id": 88,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": 9298104.907922868
+    },
+    {
+      "case_id": 89,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": 9298104.907922853
+    },
+    {
+      "case_id": 90,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": 9698952.298615552
+    },
+    {
+      "case_id": 91,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0,
+      "final_surplus_usd": 9667654.527670486
+    },
+    {
+      "case_id": 92,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 14227075.720088508
+    },
+    {
+      "case_id": 93,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 12642168.493038755
+    },
+    {
+      "case_id": 94,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 10939067.558573887
+    },
+    {
+      "case_id": 95,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.01,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 10881572.97616124
+    },
+    {
+      "case_id": 96,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 3961791.1943384334
+    },
+    {
+      "case_id": 97,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 5461450.111204125
+    },
+    {
+      "case_id": 98,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8218518.7487453595
+    },
+    {
+      "case_id": 99,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": -0.01,
+      "final_surplus_usd": 8180643.278135553
+    },
+    {
+      "case_id": 100,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": 8594053.178151421
+    },
+    {
+      "case_id": 101,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": 8594053.178151414
+    },
+    {
+      "case_id": 102,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": 9402029.8942942
+    },
+    {
+      "case_id": 103,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0,
+      "final_surplus_usd": 9338298.53121843
+    },
+    {
+      "case_id": 104,
+      "method": "five_year",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 13486926.486226305
+    },
+    {
+      "case_id": 105,
+      "method": "duration_match",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 11910378.41250281
+    },
+    {
+      "case_id": 106,
+      "method": "key_rate",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 10652481.339556113
+    },
+    {
+      "case_id": 107,
+      "method": "covariance",
+      "force": 1.2,
+      "haircut": 0.02,
+      "cash_shift": 0.01,
+      "final_surplus_usd": 10560875.122670649
+    }
+  ],
+  "historical_reconciliations": [
+    {
+      "month": "2019-01",
+      "method": "five_year",
+      "surplus_fraction": -0.002199477416324166
+    },
+    {
+      "month": "2019-01",
+      "method": "duration_match",
+      "surplus_fraction": -0.000709822784215051
+    },
+    {
+      "month": "2019-01",
+      "method": "key_rate",
+      "surplus_fraction": 0.00004910042488378918
+    },
+    {
+      "month": "2019-01",
+      "method": "covariance",
+      "surplus_fraction": 0.00010647115338052553
+    },
+    {
+      "month": "2020-03",
+      "method": "five_year",
+      "surplus_fraction": -0.022186102365240237
+    },
+    {
+      "month": "2020-03",
+      "method": "duration_match",
+      "surplus_fraction": -0.00008610600742614717
+    },
+    {
+      "month": "2020-03",
+      "method": "key_rate",
+      "surplus_fraction": -0.0001876075855952338
+    },
+    {
+      "month": "2020-03",
+      "method": "covariance",
+      "surplus_fraction": 0.00011015355368874363
+    },
+    {
+      "month": "2022-09",
+      "method": "five_year",
+      "surplus_fraction": 0.0331203697136554
+    },
+    {
+      "month": "2022-09",
+      "method": "duration_match",
+      "surplus_fraction": -0.0008192960180827627
+    },
+    {
+      "month": "2022-09",
+      "method": "key_rate",
+      "surplus_fraction": 0.0012275098311587858
+    },
+    {
+      "month": "2022-09",
+      "method": "covariance",
+      "surplus_fraction": 0.0006407222252794775
+    }
+  ],
+  "workbook_sha256": "be7fbc52a87221855447d91850037d3234f6eeaac97ca92dcef9d3b5ddc99858"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-19",
+  "checks": [
+    {
+      "method": "five_year",
+      "months": 84,
+      "decimal_rmse": "0.020320794953092148507853636686633129364735508191974",
+      "rmse_verified": true,
+      "funding_and_bounds_verified": true
+    },
+    {
+      "method": "duration_match",
+      "months": 84,
+      "decimal_rmse": "0.0015865058416529644527150235482463649808339237663797",
+      "rmse_verified": true,
+      "funding_and_bounds_verified": true
+    },
+    {
+      "method": "key_rate",
+      "months": 84,
+      "decimal_rmse": "0.00076795327267062466164844366966503820592386075467676",
+      "rmse_verified": true,
+      "funding_and_bounds_verified": true
+    },
+    {
+      "method": "covariance",
+      "months": 84,
+      "decimal_rmse": "0.00064994468797561223594509887881351222983717821964296",
+      "rmse_verified": true,
+      "funding_and_bounds_verified": true
+    }
+  ],
+  "selected_method": "covariance",
+  "development_selection_independently_recomputed": true,
+  "final_calendar_complete": true,
+  "source_quarantine_used_outcomes": false,
+  "prediction_seal_verified": true,
+  "final_predictions": 336,
+  "optimizer_failures_in_completed_output": 0,
+  "scope": "Independent Decimal arithmetic and saved-evidence checks, not external replication or a new experiment."
+}

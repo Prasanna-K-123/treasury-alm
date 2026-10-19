@@ -1,0 +1,55 @@
+{
+  "selected_method": "covariance",
+  "selection_used_final_outcomes": false,
+  "primary_benchmark": "duration_match",
+  "source_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "prediction_sha256": "b166252af3a7cf8a3ed64981ac96baddefefc07a124190268ac269de37beefc9",
+  "final_scores": {
+    "five_year": {
+      "observations": 84,
+      "rmse": 0.02032079495309215,
+      "bias": 0.001141959813888309,
+      "mae": 0.01637405258643185,
+      "worst": -0.055168067036267684,
+      "empirical_fifth_percentile": -0.03503406313507694
+    },
+    "duration_match": {
+      "observations": 84,
+      "rmse": 0.0015865058416529643,
+      "bias": -7.0668466417597e-05,
+      "mae": 0.0011274956875366238,
+      "worst": -0.005810367934904935,
+      "empirical_fifth_percentile": -0.002460613970822428
+    },
+    "key_rate": {
+      "observations": 84,
+      "rmse": 0.0007679532726706247,
+      "bias": 5.501910603828817e-05,
+      "mae": 0.0006140599339827643,
+      "worst": -0.002749181463864951,
+      "empirical_fifth_percentile": -0.0010047212498705497
+    },
+    "covariance": {
+      "observations": 84,
+      "rmse": 0.0006499446879756122,
+      "bias": 4.888678448891362e-05,
+      "mae": 0.0005007929851043079,
+      "worst": -0.0022852823695377064,
+      "empirical_fifth_percentile": -0.0009892702773789798
+    }
+  },
+  "primary_comparison": {
+    "candidate_minus_benchmark_rmse": -0.0009365611536773521,
+    "ci95": [
+      -0.001234225626408758,
+      -0.0006024179956017743
+    ],
+    "draws": 5000,
+    "block_length_months": 6,
+    "seed": 20261019,
+    "paired": true
+  },
+  "supported_superiority": true,
+  "units": "Surplus changes and RMSE are fractions of initial liability PV; multiply10000 for basis points.",
+  "scope": "Retrospective pinned revised-curve vintage; hypothetical reset one-month liability/zero-bond experiments; no executable trades or realized profit."
+}

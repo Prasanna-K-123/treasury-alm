@@ -1,0 +1,29 @@
+{
+  "retrieved_on": "2026-10-19",
+  "sources": [
+    {
+      "file": "gsw_official_fixture_20241129.json",
+      "url": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628_1.html",
+      "acquisition": "Normalized official HTML-table row through web retrieval; not original CSV bytes.",
+      "scope": "One observed date for source-convention validation; not a historical hedge experiment.",
+      "rights": "Federal Reserve website disclaimer: Board-created information public domain unless otherwise indicated.",
+      "rights_url": "https://www.federalreserve.gov/disclaimer.htm",
+      "convention_url": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628_1.html"
+    },
+    {
+      "file": "ssa_2023_period_qx.csv",
+      "url": "https://www.ssa.gov/oact/STATS/table4c6.html",
+      "acquisition": "120 age rows programmatically parsed from the official normalized web table. The raw HTML was not obtained; this is a derived numeric transcription.",
+      "population": "2023 period mortality for the Social Security area population, used in the 2026 Trustees Report; not Indian annuitants or a cohort forecast.",
+      "rights_url": "https://www.ssa.gov/policy/accessibility.html",
+      "rights": "SSA official staff statistics are public domain; acknowledge source."
+    }
+  ],
+  "full_gsw_history_downloaded": true,
+  "original_csv_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "empirical_hedge_results_computed": false,
+  "original_csv_bytes": 16657704,
+  "acquisition_receipt": "fed_gsw_complete_source_record.json",
+  "source_audit": "complete_source_audit.json",
+  "source_audit_before_hedge_outcomes": true
+}

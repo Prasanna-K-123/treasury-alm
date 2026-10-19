@@ -1,0 +1,15 @@
+{
+  "source_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "prediction_sha256": "b166252af3a7cf8a3ed64981ac96baddefefc07a124190268ac269de37beefc9",
+  "development_freeze_sha256": "ddf53d2093505abbbb1a8470d24009c759e29609790b3f6f0546d72ec7d792c2",
+  "selected_method": "covariance",
+  "observations_per_candidate": 84,
+  "candidates": [
+    "five_year",
+    "duration_match",
+    "key_rate",
+    "covariance"
+  ],
+  "created_utc": "2026-10-19T04:59:34.633519+00:00",
+  "final_metrics_computed": false
+}

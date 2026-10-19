@@ -1,0 +1,15 @@
+{
+  "implementation_commit": "f0168dd5a89af997e123ca2aabf06bf2e46d69e8",
+  "scientific_outputs": {
+    "current_case.json": {
+      "sha256": "67890bc836cb98f5492c074f3b5927850a4edcc25236a7bd81c1b80d4c4171a2",
+      "bytes": 196639
+    },
+    "runoff_years.csv": {
+      "sha256": "fb775f4dee4ed45eb417c426a40aa6cec3e6639b8aa1f1d3ae0de671de402807",
+      "bytes": 314903
+    }
+  },
+  "history_unchanged": true,
+  "whole_project_gates_earned_by_this_component": 0
+}

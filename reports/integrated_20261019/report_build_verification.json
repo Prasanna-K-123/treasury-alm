@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "inputs_checked_against_sealed_evidence": true,
+  "outputs": [
+    {
+      "file": "output/pdf/Treasury_ALM_Technical_Report.pdf",
+      "pages": 5,
+      "bytes": 101417,
+      "sha256": "859c9c2a47fa9cf1b2c70f0023975961cc6feb7ff95eb1ce7cee7613e0c6eb9c",
+      "extracted_key_results_and_page_boundaries_checked": true,
+      "rendered_pages": 5,
+      "visual_review": "passed"
+    },
+    {
+      "file": "output/pdf/Treasury_ALM_Decision_Brief.pdf",
+      "pages": 1,
+      "bytes": 5016,
+      "sha256": "5337bd6016a0a02751c2cf7736f448eae0a070670d9c5a6ffab727540569ff8e",
+      "extracted_key_results_and_page_boundaries_checked": true,
+      "rendered_pages": 1,
+      "visual_review": "passed"
+    }
+  ],
+  "visual_review": "Five technical pages and final one-page brief rendered and visually reviewed; no clipping, overlap or unreadable tables."
+}

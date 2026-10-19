@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "source_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "clean_directory": true,
+  "source_bytes_copied_and_verified": true,
+  "scientific_outputs": [
+    {
+      "file": "source_audit.json",
+      "sha256": "d8b7aa28b9c831e21ae29fe2f9a0709859968fe1e9cb30b3528d7cfef529fd6f",
+      "byte_identical": true
+    },
+    {
+      "file": "development_predictions.json",
+      "sha256": "04b5a8e8cb8630ebcc5fb04fc2e38f6ad5adfdb0c18bd812af67b817bc6aa8a9",
+      "byte_identical": true
+    },
+    {
+      "file": "development_selection.json",
+      "sha256": "505268ab90e2e6a304f3218f5690cecb65d7c12d7d6cbf20c5f5848fb12c0b09",
+      "byte_identical": true
+    },
+    {
+      "file": "final_predictions.json",
+      "sha256": "b166252af3a7cf8a3ed64981ac96baddefefc07a124190268ac269de37beefc9",
+      "byte_identical": true
+    },
+    {
+      "file": "final_results.json",
+      "sha256": "8f1ff186b82ac7354a7cb9ef84beb9eea55dbdcc6379c76faf58233c096be289",
+      "byte_identical": true
+    }
+  ],
+  "phase_commands_passed": 3,
+  "same_environment": true,
+  "independent_external_replication": false,
+  "full_P4_gate_D_accepted": false,
+  "scope": "Historical comparison component only; the complete mortality/liquidity case and independent workbook are unfinished."
+}

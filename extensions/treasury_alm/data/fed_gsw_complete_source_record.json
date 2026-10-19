@@ -1,0 +1,25 @@
+{
+  "artifact_storage_used": false,
+  "cache_used": false,
+  "chunks": 2633,
+  "gzip_bytes": 5923064,
+  "gzip_sha256": "2db5c468c385bab384c12c8673c67a45715e8dc14a4b39a42e99fbb6af37adcc",
+  "name": "feds200628.csv",
+  "original_bytes": 16657704,
+  "original_sha256": "7286435090933f0df1dcaeb15629f3a9129c083baee4c42ae5df03d0bb89335c",
+  "outreach_emails": 0,
+  "payment_required": false,
+  "provider_calls": 0,
+  "retrieved_utc": "2026-10-19T04:50:11.026201+00:00",
+  "server_metadata": {
+    "Content-Type": "application/octet-stream",
+    "Date": "Mon, 19 Oct 2026 04:50:08 GMT",
+    "ETag": "\"2d57311455bdd1:0\"",
+    "Last-Modified": "Tue, 13 Oct 2026 19:00:08 GMT"
+  },
+  "url": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628.csv",
+  "acquisition": "Direct official HTTPS download on standard public GitHub runner; lossless gzip/base64 transport through job logs.",
+  "workflow_run": "https://github.com/Prasanna-K-123/inflation-vintages/actions/runs/39201451324",
+  "job_id": 117895093754,
+  "workflow_commit": "67f710b0ee30ac0379dae6280edf3e4ea03e1b53"
+}
