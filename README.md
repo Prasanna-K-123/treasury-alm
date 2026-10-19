@@ -50,6 +50,8 @@ run. A rebuilt workbook has equivalent formulas, inputs, cached results,
 formatting, validation and panes. Native desktop Excel and external independent
 replication are not claimed.
 
+The [live desktop browser check](reports/integrated_20261019/live_browser_verification.json) verifies displayed default/nondefault values, all five controls, keyboard operation and restore behaviour.
+
 Start with [REPRODUCE.md](REPRODUCE.md) and the
 [integrated receipt](reports/integrated_20261019/full_study_reproduction.json).
 The [workbook guide](reports/workbook_20261019/WORKBOOK.md) distinguishes

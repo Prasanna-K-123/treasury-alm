@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "site": "https://prasanna-k-123.github.io/treasury-alm/",
+  "tested_content_commit": "3605102e769ff2cc4559e847ca0b7dc698396b1c",
+  "deployment_run": 39239051056,
+  "deployment_conclusion": "success",
+  "browser": "Chrome cloud browser",
+  "viewport_css_px": [
+    1363,
+    936
+  ],
+  "default_case": {
+    "stress_assets_usd": "119,380,495.42",
+    "stress_liability_usd": "126,326,153.13",
+    "stress_surplus_usd": "-6,945,657.71",
+    "runoff_year10_surplus_usd": "-705,016.81",
+    "annual_rows": 10,
+    "matches_saved_evidence": true
+  },
+  "nondefault_case": {
+    "method": "key_rate",
+    "shock": "parallel_-200bp",
+    "mortality_force": 0.8,
+    "haircut": 0,
+    "cash_shift": -0.01,
+    "assets_usd": "141,989,750.28",
+    "liability_usd": "142,678,074.96",
+    "surplus_usd": "-688,324.68",
+    "runoff_year10_surplus_usd": "-12,857,613.61",
+    "sales_usd": "27,469,452.86",
+    "haircut_usd": "0.00",
+    "annual_rows": 10,
+    "matches_saved_evidence": true
+  },
+  "all_five_controls_changed_through_live_UI": true,
+  "keyboard": {
+    "ArrowDown_changes_cash_shift": true,
+    "Tab_moves_focus_to_scrollable_ledger": true
+  },
+  "defaults_restored": true,
+  "visible_error_absent": true,
+  "diagnostic_image_loaded": true,
+  "whole_page_horizontal_overflow": false,
+  "visual_review": "Hero, result chart and live scenario/ledger layout readable; screenshot retained privately outside Git.",
+  "download_controls": {
+    "workbook": "Browser downloader returned completed file",
+    "decision_brief": "Browser downloader returned completed file",
+    "technical_report": "Browser downloader returned completed file",
+    "downloaded_bytes_independently_hashed_in_host_workspace": false,
+    "limit": "Browser downloads did not materialise in the expected host path within5seconds. Published Git blob hashes/sizes and deployed commit are independently verified; no claim of a fresh downloaded-byte hash."
+  },
+  "mobile_emulation_performed": false,
+  "desktop_coverage_only": true,
+  "script_verification": {
+    "all_saved_stresses": 56,
+    "all_runoff_combinations": 108,
+    "annual_rows": 1080,
+    "invalid_selection_fails": true
+  },
+  "no_model_or_scientific_output_change": true
+}
