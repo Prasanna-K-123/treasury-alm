@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-20",
+  "changes": [
+    "Expand the chart alternative text with clear hedge labels, currency spacing and units.",
+    "Separate USD amounts and basis-point units in the displayed narrative."
+  ],
+  "numeric_values_and_evidence_unchanged": true,
+  "live_verification_pending": true,
+  "html_sha256": "ce2f0d8044b2d228da9789a6c47ba87f3d96377aa3d22e6bcd74d891ac392306"
+}

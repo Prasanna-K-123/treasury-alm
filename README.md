@@ -89,3 +89,8 @@ Indian retirement illustration and its inputs are excluded.
 
 Original code and authored reports are available under the [MIT License](LICENSE).
 Government source material retains its own [public-use terms](SOURCES.md).
+
+The [20 October dependency revision](reports/dependency_revision_20261020.json)
+updates the PDF parser to PyMuPDF 1.26.7. All 31 Treasury checks pass, and
+both PDF exports open successfully with the patched parser. Original environment pins
+are retained alongside the dated dependency-audit scope.
