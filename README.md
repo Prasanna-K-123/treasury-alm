@@ -1,5 +1,7 @@
 # Treasury ALM: hedge stability, longevity and liquidity
 
+[![Public research checks](https://github.com/Prasanna-K-123/treasury-alm/actions/workflows/verify.yml/badge.svg)](https://github.com/Prasanna-K-123/treasury-alm/actions/workflows/verify.yml)
+
 **Prasanna K** | Official Federal Reserve curves and SSA mortality | Completed October 2026
 
 How much does a better rate hedge improve a benefit portfolio, and which
@@ -39,6 +41,10 @@ monthly liabilities are used, with no realised trading-profit claim.
   checks for both current constrained optima, and a seven-sheet formula workbook.
 - **Reviewable deliverables:** technical report, decision brief, raw annual
   ledger, original source audit, reproduction receipt and saved-scenario explorer.
+
+## Automated public checks
+
+The automated checks run on public files without private data, credentials or model refitting. They cover the 31 source, hedging and cash-flow boundary tests. Full-study reproduction is a separate procedure below.
 
 ## Evidence and reproduction
 

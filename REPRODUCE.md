@@ -2,8 +2,8 @@
 
 ## Python science
 
-Use Python3.12.14 and `pip install -r requirements.txt`. The recorded numeric
-versions are NumPy2.3.5 and SciPy1.17.0. From the repository root, set
+Use Python 3.12.14 and `pip install -r requirements.txt`. The recorded numeric
+versions are NumPy 2.3.5 and SciPy 1.17.0. From the repository root, set
 `PYTHONPATH=src:extensions/treasury_alm` for the historical/current drivers.
 
 The pinned original CSV is `feds200628.csv`, SHA256
@@ -24,6 +24,14 @@ directory. It verifies the independent Decimal ledger too. It does not rebuild
 the workbook and labels that limit in its own receipt. No published evidence
 is overwritten; use new temporary/output paths. Repeating the calculation does
 not create a new unseen holdout.
+
+Exact hashes also depend on the recorded linear-algebra runtime and its default
+BLAS threading. The documented command was repeated on 20 October 2026 and all
+eight scientific files matched. A controlled one-thread OpenBLAS run changed
+serialized historical weights and surplus fractions by at most 4.09e-16; the
+selected hedge was unchanged, but the strict hash check correctly failed.
+Numerical equivalence is not reported as a byte-identical pass. See the
+[environment check](reports/integrated_20261020/reproduction_environment_check.json).
 
 ## Independent workbook
 
