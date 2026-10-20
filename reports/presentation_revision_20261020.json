@@ -1,22 +1,80 @@
 {
-  "date": "2026-10-20",
+  "schema": "presentation-maintenance-v1",
+  "saved_at": "2026-10-20T19:46:32.476Z",
+  "finding": "F12 mobile chart readability",
+  "previous_audited_commit": "119ec32111cca06d13d2a83dc1c36aba3f0f3652",
+  "scope": "Presentation and matching build sources only; scientific data, valuation/forecast methods, saved outcomes and workbooks are unchanged.",
   "changes": [
-    "Expand the chart alternative text with clear hedge labels, currency spacing and units.",
-    "Separate USD amounts and basis-point units in the displayed narrative."
+    "Preserve a readable chart width on narrow screens inside a named, keyboard-focusable horizontal-scroll region.",
+    "Add a full-size figure link and an explicit scroll hint.",
+    "Synchronize the build template; retain the original figure bytes and all financial/scenario outcomes."
   ],
-  "numeric_values_and_evidence_unchanged": true,
-  "live_verification_pending": false,
-  "html_sha256": "ce2f0d8044b2d228da9789a6c47ba87f3d96377aa3d22e6bcd74d891ac392306",
-  "live_verification": {
-    "checkedAt": "2026-10-20T14:56:13.839Z",
-    "url": "https://prasanna-k-123.github.io/treasury-alm/",
-    "allControlsNativeValid": true,
-    "errorHidden": true,
-    "imageAlt": "Final surplus RMSE: duration hedge 15.87 basis points; key rate hedge 7.68; covariance hedge 6.50. Separate covariance stress deficits: USD 0.351 million after a 200 basis point rate fall, and USD 6.946 million at a mortality force multiplier of 0.8.",
-    "imageComplete": true,
-    "imageWidth": 1908,
-    "runoffNote": "Cumulative nominal unpaid benefits: USD 0.00. Values smaller than USD 0.005 display as 0.00; raw residuals remain in the downloaded ledger. Case 67 of 108 predeclared cases.",
-    "stressAssets": "119,380,495.42",
-    "stressLiability": "126,326,153.13"
-  }
+  "approved_source_git_blobs": {
+    "docs/index.html": "aa4efd56a0e2411271724210bfaed60a4463a0c2",
+    "tools/explorer.template.html": "686954c7d83a2283e34a1bc3a5f6f73831d66906"
+  },
+  "verification": {
+    "candidate_browser_run": 39485825169,
+    "source_commit": "44c3ccbe0a59acfc8e98b44e6c4a41288daa3455",
+    "evidence_commit": "74eb642e9b5916f0f546da55ea3b24d753c2a236",
+    "report_url": "https://github.com/Prasanna-K-123/financial-decision-lab/blob/74eb642e9b5916f0f546da55ea3b24d753c2a236/audit/browser-evidence/report.json",
+    "project_renders": 6,
+    "browsers": [
+      "chromium 156.0.8078.4",
+      "firefox 157.0"
+    ],
+    "viewport_widths": [
+      320,
+      390,
+      1440
+    ],
+    "failures": [],
+    "chart_readability_views": 0,
+    "minimum_svg_label_pixels": null,
+    "keyboard_chart_scroll": [
+      {
+        "browser": "chromium",
+        "width": 390,
+        "client_width": 324,
+        "scroll_width": 954,
+        "scroll_left": 40,
+        "image_width": 954,
+        "accessible_name": "Treasury diagnostics; scroll horizontally to inspect both panels",
+        "tabindex": 0
+      },
+      {
+        "browser": "chromium",
+        "width": 320,
+        "client_width": 254,
+        "scroll_width": 954,
+        "scroll_left": 40,
+        "image_width": 954,
+        "accessible_name": "Treasury diagnostics; scroll horizontally to inspect both panels",
+        "tabindex": 0
+      },
+      {
+        "browser": "firefox",
+        "width": 390,
+        "client_width": 324,
+        "scroll_width": 954,
+        "scroll_left": 51,
+        "image_width": 954,
+        "accessible_name": "Treasury diagnostics; scroll horizontally to inspect both panels",
+        "tabindex": 0
+      },
+      {
+        "browser": "firefox",
+        "width": 320,
+        "client_width": 254,
+        "scroll_width": 954,
+        "scroll_left": 51,
+        "image_width": 954,
+        "accessible_name": "Treasury diagnostics; scroll horizontally to inspect both panels",
+        "tabindex": 0
+      }
+    ],
+    "builder_exact_check": "template synchronized; no fresh full builder execution claimed"
+  },
+  "historical_evidence": "Original construction receipts, prior releases and scientific verification records are retained. This dated presentation record identifies the revised HTML rather than rewriting earlier receipt hashes.",
+  "limits": "Candidate checks used explicitly fulfilled HTML at the deployed base URL. Live deployment and exact release/main alignment are verified separately after publication; this record does not assert global optimality or unexecuted interfaces."
 }
