@@ -1,9 +1,8 @@
 {
   "date": "2026-10-21",
-  "kind": "workbook_builder_source_restoration",
+  "kind": "workbook_rebuild_guide_correction_and_source_identity_check",
   "baseline_commit": "b2ec381e7f562b4f919485e2f1b9509d31cd5082",
-  "finding": "The public rebuild guide named a builder missing from the public source tree.",
-  "restored_path": "tools/build_treasury_reconciliation.mjs",
+  "finding": "The workbook guide still described completed full-study reproduction, reports and release as pending.",
   "source_sha256": "a26374fa781706cd7a0fed9c7a38a41ae85029768d0d5a085fb91b3d11077451",
   "source_bytes": 38627,
   "two_retained_original_source_copies_identical": true,
@@ -16,7 +15,8 @@
     "Exact comparison of both original builder copies",
     "Exact comparison of original preparer with public preparer",
     "Input SHA256 comparison with published numeric receipt",
-    "Node --check of restored builder"
+    "Node --check of restored builder",
+    "Direct immutable v1.0.2 baseline file read and Git blob comparison with current main"
   ],
   "original_checks_reused_for_unchanged_workbook": {
     "numeric_comparisons": 22166,
@@ -28,5 +28,16 @@
   "scientific_code_data_or_outputs_changed": false,
   "runtime_dependency": "@oai/artifact-tool in the supplied authoring runtime; original recorded bundle 26.1015.12040",
   "runtime_not_required_to_open_or_use_delivered_xlsx": true,
-  "native_microsoft_excel_executed": false
+  "native_microsoft_excel_executed": false,
+  "builder_path": "tools/build_treasury_reconciliation.mjs",
+  "builder_already_public_at_baseline": true,
+  "baseline_builder_blob": "2e9d91ba8676cf3a68c53c7228c42a37fa25c3c3",
+  "current_builder_blob": "2e9d91ba8676cf3a68c53c7228c42a37fa25c3c3",
+  "builder_changed_or_newly_published": false,
+  "audit_correction": {
+    "earlier_missing_builder_claim": "withdrawn",
+    "reason": "A direct immutable-baseline file read and final tree comparison prove the original builder was already public with identical bytes.",
+    "incorrect_record_commit": "660894cf442167fc08e590087539f514bfc0665d",
+    "correction_changes_guide_and_review_wording_not_builder_or_workbook": true
+  }
 }

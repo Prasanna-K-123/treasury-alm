@@ -87,10 +87,12 @@ The full study is published. Its [reproduction guide](../../REPRODUCE.md),
 [decision memo](../integrated_20261019/DECISION_MEMO.md) and
 [technical report](../integrated_20261019/TECHNICAL_REPORT.md) are available.
 
-The builder source was restored to this public checkout on 21 October 2026.
-Its two retained original copies agree byte-for-byte; the original input JSON
-hash agrees with the published numeric verification record. The delivered
-workbook and its original verification records are unchanged. See the
-[source-restoration record](../workbook_source_revision_20261021.json).
+The builder and input identities were rechecked on 21 October 2026. The
+builder was already public in [v1.0.2](https://github.com/Prasanna-K-123/treasury-alm/blob/b2ec381e7f562b4f919485e2f1b9509d31cd5082/tools/build_treasury_reconciliation.mjs);
+the earlier supplemental finding that it was missing is withdrawn. Its Git
+blob is identical at the prior release and current main. Two retained original
+copies also agree byte-for-byte, and the input JSON hash matches the original
+numeric verification record. The delivered workbook and verification records
+are unchanged. See the [guide and identity review](../workbook_source_revision_20261021.json).
 Rebuilding still requires the Artifact Tool authoring runtime; this is not a
 standalone npm installation or a claim that native Microsoft Excel was run.

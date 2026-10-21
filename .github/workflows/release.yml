@@ -18,40 +18,48 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       AUDITED_REPOSITORY: "Prasanna-K-123/treasury-alm"
-      AUDITED_BASELINE: "0c77e707e9154a6d168ce4fd8a2c6f90aa828ec2"
-      RELEASE_TAG: "v1.0.3"
-      RELEASE_TITLE: "Treasury & Asset-Liability Management — v1.0.3"
-      ALLOWED_PATHS: "[\".github/workflows/release.yml\"]"
+      AUDITED_BASELINE: "660894cf442167fc08e590087539f514bfc0665d"
+      RELEASE_TAG: "v1.0.4"
+      RELEASE_TITLE: "Treasury & Asset-Liability Management — v1.0.4"
+      ALLOWED_PATHS: "[\".github/workflows/release.yml\",\"reports/workbook_20261019/WORKBOOK.md\",\"reports/workbook_source_revision_20261021.json\"]"
       APPROVED_SOURCE_BLOBS: "{\"docs/index.html\":\"aa4efd56a0e2411271724210bfaed60a4463a0c2\",\"tools/explorer.template.html\":\"686954c7d83a2283e34a1bc3a5f6f73831d66906\"}"
       BROWSER_SOURCE_COMMIT: "44c3ccbe0a59acfc8e98b44e6c4a41288daa3455"
       BROWSER_EVIDENCE_COMMIT: "74eb642e9b5916f0f546da55ea3b24d753c2a236"
       BROWSER_PAGE: "treasury"
+      PRIOR_NOTES_SHA256: "7b6e30a4647940edca316c01bb7f4abb23414fe093711217f480417a5cd73be6"
+      PRIOR_RELEASE_CORRECTION: |
+        Correction — 21 October 2026: the original workbook builder was already public at v1.0.2, with the same Git blob (2e9d91ba8676cf3a68c53c7228c42a37fa25c3c3). The earlier claim that it was missing is withdrawn. This release updated a stale rebuild guide and checked existing source/input identities; it did not newly publish the builder.
+        
+        Superseded by v1.0.4, which corrects the guide and review record. The v1.0.3 tag remains at its original commit. The original workbook, models, datasets and saved outcomes are unchanged. Rebuilding requires the Artifact Tool authoring runtime; using the delivered XLSX does not. No fresh workbook build or native Microsoft Excel execution is claimed.
+        
+        [Corrected source/guide review](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
       RELEASE_NOTES: |
-        This maintenance release restores the original formula-workbook builder to the public source tree and completes the rebuild guide.
+        This release corrects the workbook rebuild guide and the supplemental audit wording.
         
-        - Publish tools/build_treasury_reconciliation.mjs, previously referenced but absent from the checkout.
-        - Verify the two retained original copies are identical, the public preparer matches the original, and the input SHA256 matches the original 22,166-comparison record.
-        - Pass Node syntax validation; link completed study reproduction and decision/technical reports.
+        - The original workbook builder was already public in v1.0.2 with identical bytes; the earlier missing-builder claim is withdrawn.
+        - Link completed full-study reproduction and decision/technical reports, replacing obsolete pending-work wording.
+        - Record direct immutable-baseline source verification, the original matching input hash and successful Node syntax validation.
+        - Correct the v1.0.3 release notes without moving its tag or rewriting commit history.
         
-        The original workbook, numeric/visual verification records, scientific methods, inputs and outcomes are unchanged. No fresh workbook build or native Microsoft Excel execution is claimed. Rebuilding requires the Artifact Tool authoring runtime; opening and using the delivered XLSX does not.
+        Builder code, original workbook, mathematical/visual verification records, scientific methods, inputs and outcomes are unchanged. No fresh workbook build or native Microsoft Excel execution is claimed. The authoring runtime remains an explicit rebuild dependency.
         
-        Publication requires successful current-commit research CI. Prior browser proof remains applicable to the unchanged explorer source.
+        Publication requires successful current-commit research CI. Prior browser evidence applies to the unchanged explorer.
         
-        [Workbook guide](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_20261019/WORKBOOK.md) · [Source restoration evidence](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
+        [Workbook guide](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_20261019/WORKBOOK.md) · [Corrected source/guide evidence](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
     steps:
       - name: Verify reviewed source and successful audits before publication
         shell: bash
         run: |
           python3 - <<'PY'
-          import json,os,time,urllib.request,urllib.error
+          import json,os,time,urllib.request,urllib.error,hashlib
           repo=os.environ["GITHUB_REPOSITORY"]
           sha=os.environ["GITHUB_SHA"]
           baseline=os.environ["AUDITED_BASELINE"]
           tag=os.environ["RELEASE_TAG"]
           def require(ok,message):
               if not ok:raise RuntimeError(message)
-          def api(path,payload=None,missing=False):
-              req=urllib.request.Request("https://api.github.com/repos/"+repo+path,data=None if payload is None else json.dumps(payload).encode(),headers={"Authorization":"Bearer "+os.environ["GH_TOKEN"],"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","User-Agent":"audited-presentation-release"})
+          def api(path,payload=None,missing=False,method=None):
+              req=urllib.request.Request("https://api.github.com/repos/"+repo+path,data=None if payload is None else json.dumps(payload).encode(),headers={"Authorization":"Bearer "+os.environ["GH_TOKEN"],"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","User-Agent":"audited-presentation-release"},method=method)
               try:
                   with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
               except urllib.error.HTTPError as e:
@@ -99,6 +107,14 @@ jobs:
               require(time.monotonic()<deadline,"Timed out waiting for research CI")
               time.sleep(10)
           require(api("/branches/main")["commit"]["sha"]==sha,"Main changed during verification")
+          prior=api("/releases/tags/v1.0.3")
+          require(api("/git/ref/tags/v1.0.3")["object"]["sha"]=="660894cf442167fc08e590087539f514bfc0665d","Prior tag moved")
+          previous=prior["body"].replace("\r\n","\n").strip()
+          corrected=os.environ["PRIOR_RELEASE_CORRECTION"].strip()
+          require(previous==corrected or hashlib.sha256(previous.encode()).hexdigest()==os.environ["PRIOR_NOTES_SHA256"],"Concurrent prior-release edit; refusing overwrite")
+          if previous!=corrected:
+              prior=api("/releases/"+str(prior["id"]),{"body":corrected},method="PATCH")
+          require(prior["body"].replace("\r\n","\n").strip()==corrected,"Prior release correction failed")
           require(target() in (None,sha),"Existing tag differs; retagging is forbidden")
           release=api("/releases/tags/"+tag,missing=True)
           notes=os.environ["RELEASE_NOTES"]
