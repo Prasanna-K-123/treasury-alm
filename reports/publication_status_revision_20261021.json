@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-21",
+  "status": "passed",
+  "change": "Add dated navigation from the original component checkpoint to the completed integrated study.",
+  "original_component_report_sha256": "2e9f411fa144da39b496275b1a753db84b5f4340e468ed6fb7d197da965e6155",
+  "original_component_report_body_preserved": true,
+  "scientific_methods_data_results_workbook_and_exports_unchanged": true,
+  "no_new_model_fitting_or_test_scoring": true,
+  "independent_controls": "https://github.com/Prasanna-K-123/financial-decision-lab/tree/main/verification"
+}

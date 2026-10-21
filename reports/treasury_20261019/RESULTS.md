@@ -1,3 +1,5 @@
+**Publication update — 21 October 2026:** The full Treasury study is completed and published. The private/incomplete wording below describes the original historical-component checkpoint. Read the [completed research home](../../README.md), [integrated technical report](../integrated_20261019/TECHNICAL_REPORT.md) and [full-study reproduction receipt](../integrated_20261019/full_study_reproduction.json).
+
 # Historical treasury hedge comparison — component result
 
 19 October2026. This completes the predeclared historical comparison component. The full P4 project is still private and incomplete; the current mortality/liquidity case, independent workbook, complete reports and publication remain open.

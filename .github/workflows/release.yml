@@ -18,116 +18,90 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       AUDITED_REPOSITORY: "Prasanna-K-123/treasury-alm"
-      AUDITED_BASELINE: "660894cf442167fc08e590087539f514bfc0665d"
-      RELEASE_TAG: "v1.0.4"
-      RELEASE_TITLE: "Treasury & Asset-Liability Management — v1.0.4"
-      ALLOWED_PATHS: "[\".github/workflows/release.yml\",\"reports/workbook_20261019/WORKBOOK.md\",\"reports/workbook_source_revision_20261021.json\"]"
-      APPROVED_SOURCE_BLOBS: "{\"docs/index.html\":\"aa4efd56a0e2411271724210bfaed60a4463a0c2\",\"tools/explorer.template.html\":\"686954c7d83a2283e34a1bc3a5f6f73831d66906\"}"
-      BROWSER_SOURCE_COMMIT: "44c3ccbe0a59acfc8e98b44e6c4a41288daa3455"
-      BROWSER_EVIDENCE_COMMIT: "74eb642e9b5916f0f546da55ea3b24d753c2a236"
-      BROWSER_PAGE: "treasury"
-      PRIOR_NOTES_SHA256: "7b6e30a4647940edca316c01bb7f4abb23414fe093711217f480417a5cd73be6"
-      PRIOR_RELEASE_CORRECTION: |
-        Correction — 21 October 2026: the original workbook builder was already public at v1.0.2, with the same Git blob (2e9d91ba8676cf3a68c53c7228c42a37fa25c3c3). The earlier claim that it was missing is withdrawn. This release updated a stale rebuild guide and checked existing source/input identities; it did not newly publish the builder.
-        
-        Superseded by v1.0.4, which corrects the guide and review record. The v1.0.3 tag remains at its original commit. The original workbook, models, datasets and saved outcomes are unchanged. Rebuilding requires the Artifact Tool authoring runtime; using the delivered XLSX does not. No fresh workbook build or native Microsoft Excel execution is claimed.
-        
-        [Corrected source/guide review](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
+      AUDITED_BASELINE: "e6e98a61971c621aee57c39ddf422fffadfc4926"
+      RELEASE_TAG: "v1.0.5"
+      RELEASE_TITLE: "Treasury ALM — v1.0.5"
+      ALLOWED_PATHS: "[\".github/workflows/release.yml\",\"reports/publication_status_revision_20261021.json\",\"reports/treasury_20261019/RESULTS.md\"]"
+      APPROVED_BLOBS: "{\"reports/publication_status_revision_20261021.json\":\"687249e60ce5fb091909d3faab9c36feb02f3a06\",\"reports/treasury_20261019/RESULTS.md\":\"c612d28a9bc75985da1f90b33aec3af2da260494\"}"
+      REQUIRED_WORKFLOWS: "[\"Verify public research\"]"
       RELEASE_NOTES: |
-        This release corrects the workbook rebuild guide and the supplemental audit wording.
+        Add a dated publication-status note to the original historical-component report, linking directly to the completed integrated study and full-study reproduction receipt. Preserve the original component report body and its recorded hash.
         
-        - The original workbook builder was already public in v1.0.2 with identical bytes; the earlier missing-builder claim is withdrawn.
-        - Link completed full-study reproduction and decision/technical reports, replacing obsolete pending-work wording.
-        - Record direct immutable-baseline source verification, the original matching input hash and successful Node syntax validation.
-        - Correct the v1.0.3 release notes without moving its tag or rewriting commit history.
-        
-        Builder code, original workbook, mathematical/visual verification records, scientific methods, inputs and outcomes are unchanged. No fresh workbook build or native Microsoft Excel execution is claimed. The authoring runtime remains an explicit rebuild dependency.
-        
-        Publication requires successful current-commit research CI. Prior browser evidence applies to the unchanged explorer.
-        
-        [Workbook guide](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_20261019/WORKBOOK.md) · [Corrected source/guide evidence](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
+        Scientific source, historical/current results, workbook, PDF exports and explorer are unchanged. All 31 public boundary tests must pass at this commit before publication. This release makes no new model-fit, raw-source, workbook-application or browser-execution claim.
     steps:
-      - name: Verify reviewed source and successful audits before publication
+      - name: Verify reviewed content and successful CI before publishing
         shell: bash
         run: |
           python3 - <<'PY'
-          import json,os,time,urllib.request,urllib.error,hashlib
-          repo=os.environ["GITHUB_REPOSITORY"]
-          sha=os.environ["GITHUB_SHA"]
-          baseline=os.environ["AUDITED_BASELINE"]
-          tag=os.environ["RELEASE_TAG"]
-          def require(ok,message):
-              if not ok:raise RuntimeError(message)
-          def api(path,payload=None,missing=False,method=None):
-              req=urllib.request.Request("https://api.github.com/repos/"+repo+path,data=None if payload is None else json.dumps(payload).encode(),headers={"Authorization":"Bearer "+os.environ["GH_TOKEN"],"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","User-Agent":"audited-presentation-release"},method=method)
+          import json, os, time, urllib.request, urllib.error
+          repo=os.environ['GITHUB_REPOSITORY']
+          sha=os.environ['GITHUB_SHA']
+          def require(condition,message):
+              if not condition:raise RuntimeError(message)
+          def api(path,payload=None,missing=False):
+              request=urllib.request.Request('https://api.github.com/repos/'+repo+path,
+                  data=None if payload is None else json.dumps(payload).encode(),
+                  headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],
+                      'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',
+                      'User-Agent':'audited-maintenance-release'})
               try:
-                  with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
-              except urllib.error.HTTPError as e:
-                  if missing and e.code==404:return None
-                  raise RuntimeError("GitHub API failed for "+path+" (HTTP "+str(e.code)+")") from None
-          def public_json(url):
-              req=urllib.request.Request(url,headers={"Accept":"application/vnd.github+json","User-Agent":"audited-presentation-release"})
-              with urllib.request.urlopen(req,timeout=30) as r:return json.load(r)
-          def target():
-              ref=api("/git/ref/tags/"+tag,missing=True)
-              if ref is None:return None
-              obj=ref["object"]
-              for _ in range(4):
-                  if obj["type"]=="commit":return obj["sha"]
-                  require(obj["type"]=="tag","Unexpected tag type")
-                  obj=api("/git/tags/"+obj["sha"])["object"]
-              raise RuntimeError("Excessive tag indirection")
-          require(repo==os.environ["AUDITED_REPOSITORY"],"Unexpected repository")
-          require(os.environ["GITHUB_REF"]=="refs/heads/main","Publication requires main")
-          comparison=api("/compare/"+baseline+"..."+sha)
-          require(comparison["status"]=="ahead" and comparison["total_commits"]==1,"Exactly one reviewed maintenance commit required")
-          allowed=set(json.loads(os.environ["ALLOWED_PATHS"]))
-          require({f["filename"] for f in comparison["files"]}==allowed and all(f["status"] in ("added","modified") for f in comparison["files"]),"Unexpected source changes")
-          tree=api("/git/trees/"+sha+"?recursive=1")
-          entries={f["path"]:f["sha"] for f in tree["tree"] if f["type"]=="blob"}
-          approved=json.loads(os.environ["APPROVED_SOURCE_BLOBS"])
-          require(all(entries.get(path)==digest for path,digest in approved.items()),"Published source differs from the reviewed candidate")
-          proof_commit=os.environ["BROWSER_EVIDENCE_COMMIT"]
-          proof=public_json("https://raw.githubusercontent.com/Prasanna-K-123/financial-decision-lab/"+proof_commit+"/audit/browser-evidence/report.json")
-          require(proof["audit_commit"]==os.environ["BROWSER_SOURCE_COMMIT"],"Unexpected browser-audit source")
-          require(not proof["failures"] and proof["summary"]["renders"]==48,"Independent browser audit did not pass")
-          views=[p for p in proof["pages"] if p["page"]==os.environ["BROWSER_PAGE"]]
-          expected=approved["docs/index.html"]
-          require(len(views)==6 and all(p["delivered_blob"]==expected and p["expected_blob"]==expected and not p["failures"] for p in views),"Candidate views do not match this HTML")
-          browser_run=public_json("https://api.github.com/repos/Prasanna-K-123/financial-decision-lab/actions/runs/"+str(proof["run_id"]))
-          require(browser_run["status"]=="completed" and browser_run["conclusion"]=="success","Browser workflow did not finish successfully")
+                  with urllib.request.urlopen(request,timeout=30) as response:return json.load(response)
+              except urllib.error.HTTPError as error:
+                  if missing and error.code==404:return None
+                  raise RuntimeError('GitHub API failed (HTTP '+str(error.code)+')') from None
+          require(repo==os.environ['AUDITED_REPOSITORY'],'Unexpected repository')
+          require(os.environ['GITHUB_REF']=='refs/heads/main','Main is required')
+          comparison=api('/compare/'+os.environ['AUDITED_BASELINE']+'...'+sha)
+          require(comparison['status']=='ahead' and comparison['total_commits']==1,
+              'Exactly one reviewed maintenance commit required')
+          allowed=set(json.loads(os.environ['ALLOWED_PATHS']))
+          require({row['filename'] for row in comparison['files']}==allowed and
+              all(row['status'] in ('added','modified') for row in comparison['files']),
+              'Unexpected source changes')
+          tree=api('/git/trees/'+sha+'?recursive=1')
+          require(not tree['truncated'],'Incomplete source tree')
+          actual={row['path']:row['sha'] for row in tree['tree'] if row['type']=='blob'}
+          approved=json.loads(os.environ['APPROVED_BLOBS'])
+          require(all(actual.get(path)==digest for path,digest in approved.items()),
+              'Source differs from reviewed content')
+          required=json.loads(os.environ['REQUIRED_WORKFLOWS'])
           deadline=time.monotonic()+900
+          verified={}
           while True:
-              runs=api("/actions/runs?head_sha="+sha+"&per_page=100")["workflow_runs"]
-              matches=[r for r in runs if r["name"]=="Verify public research" and r["head_sha"]==sha and r["head_branch"]=="main" and r["event"]=="push"]
-              latest=max(matches,key=lambda r:r["id"]) if matches else None
-              if latest and latest["status"]=="completed":
-                  require(latest["conclusion"]=="success","Research CI did not pass")
-                  break
-              require(time.monotonic()<deadline,"Timed out waiting for research CI")
+              runs=api('/actions/runs?head_sha='+sha+'&per_page=100')['workflow_runs']
+              verified={}
+              for name in required:
+                  candidates=[run for run in runs if run['name']==name and run['head_sha']==sha
+                      and run['head_branch']=='main' and run['event']=='push']
+                  latest=max(candidates,key=lambda run:run['id']) if candidates else None
+                  if latest and latest['status']=='completed':
+                      require(latest['conclusion']=='success','Required workflow failed: '+name)
+                      verified[name]=latest['html_url']
+              if len(verified)==len(required):break
+              require(time.monotonic()<deadline,'Timed out waiting for required checks')
               time.sleep(10)
-          require(api("/branches/main")["commit"]["sha"]==sha,"Main changed during verification")
-          prior=api("/releases/tags/v1.0.3")
-          require(api("/git/ref/tags/v1.0.3")["object"]["sha"]=="660894cf442167fc08e590087539f514bfc0665d","Prior tag moved")
-          previous=prior["body"].replace("\r\n","\n").strip()
-          corrected=os.environ["PRIOR_RELEASE_CORRECTION"].strip()
-          require(previous==corrected or hashlib.sha256(previous.encode()).hexdigest()==os.environ["PRIOR_NOTES_SHA256"],"Concurrent prior-release edit; refusing overwrite")
-          if previous!=corrected:
-              prior=api("/releases/"+str(prior["id"]),{"body":corrected},method="PATCH")
-          require(prior["body"].replace("\r\n","\n").strip()==corrected,"Prior release correction failed")
-          require(target() in (None,sha),"Existing tag differs; retagging is forbidden")
-          release=api("/releases/tags/"+tag,missing=True)
-          notes=os.environ["RELEASE_NOTES"]
-          title=os.environ["RELEASE_TITLE"]
+          require(api('/branches/main')['commit']['sha']==sha,'Main changed during verification')
+          tag=os.environ['RELEASE_TAG']
+          ref=api('/git/ref/tags/'+tag,missing=True)
+          if ref is not None:
+              require(ref['object']['type']=='commit' and ref['object']['sha']==sha,
+                  'Existing tag differs; retagging is forbidden')
+          release=api('/releases/tags/'+tag,missing=True)
           if release is None:
-              release=api("/releases",{"tag_name":tag,"target_commitish":sha,"name":title,"body":notes,"draft":False,"prerelease":False,"make_latest":"true"})
-          require(not release["draft"] and not release["prerelease"],"Not a final release")
-          require(release["tag_name"]==tag and release["name"]==title,"Release identity differs")
-          require(release["body"].replace("\r\n","\n").strip()==notes.strip(),"Release notes differ")
-          require(target()==sha and api("/releases/latest")["id"]==release["id"],"Latest release is not this tested commit")
-          with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as summary:
-              summary.write("Published ["+tag+"]("+release["html_url"]+") after research CI and independent candidate-browser verification.\n\n")
-              summary.write("Scientific datasets, models, saved outcomes and workbooks are byte-identical to the prior audited release.\n")
-          print(json.dumps({"tag":tag,"commit":sha,"url":release["html_url"],"research_ci":latest["html_url"],"browser_evidence_commit":proof_commit}))
-          
+              release=api('/releases',{'tag_name':tag,'target_commitish':sha,
+                  'name':os.environ['RELEASE_TITLE'],'body':os.environ['RELEASE_NOTES'],
+                  'draft':False,'prerelease':False,'make_latest':'true'})
+          require(not release['draft'] and not release['prerelease'],'Final release required')
+          require(release['tag_name']==tag and release['name']==os.environ['RELEASE_TITLE'],
+              'Release identity differs')
+          require(release['body'].replace('\r\n','\n').strip()==os.environ['RELEASE_NOTES'].strip(),
+              'Release notes differ')
+          ref=api('/git/ref/tags/'+tag)
+          require(ref['object']['type']=='commit' and ref['object']['sha']==sha,
+              'Release tag does not point to the tested commit')
+          require(api('/releases/latest')['id']==release['id'],'Latest release differs')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as summary:
+              summary.write('Published ['+tag+']('+release['html_url']+') after exact source and CI checks.\n\n')
+              for name,url in verified.items():summary.write('- ['+name+']('+url+')\n')
+          print(json.dumps({'tag':tag,'commit':sha,'url':release['html_url'],'required_checks':verified}))
           PY
