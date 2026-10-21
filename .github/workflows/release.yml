@@ -18,26 +18,26 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       AUDITED_REPOSITORY: "Prasanna-K-123/treasury-alm"
-      AUDITED_BASELINE: "119ec32111cca06d13d2a83dc1c36aba3f0f3652"
-      RELEASE_TAG: "v1.0.2"
-      RELEASE_TITLE: "Treasury & Asset-Liability Management — v1.0.2"
-      ALLOWED_PATHS: "[\"docs/index.html\",\"tools/explorer.template.html\",\"reports/presentation_revision_20261020.json\",\".github/workflows/release.yml\"]"
+      AUDITED_BASELINE: "0c77e707e9154a6d168ce4fd8a2c6f90aa828ec2"
+      RELEASE_TAG: "v1.0.3"
+      RELEASE_TITLE: "Treasury & Asset-Liability Management — v1.0.3"
+      ALLOWED_PATHS: "[\".github/workflows/release.yml\"]"
       APPROVED_SOURCE_BLOBS: "{\"docs/index.html\":\"aa4efd56a0e2411271724210bfaed60a4463a0c2\",\"tools/explorer.template.html\":\"686954c7d83a2283e34a1bc3a5f6f73831d66906\"}"
       BROWSER_SOURCE_COMMIT: "44c3ccbe0a59acfc8e98b44e6c4a41288daa3455"
       BROWSER_EVIDENCE_COMMIT: "74eb642e9b5916f0f546da55ea3b24d753c2a236"
       BROWSER_PAGE: "treasury"
       RELEASE_NOTES: |
-        This maintenance release improves mobile chart readability.
+        This maintenance release restores the original formula-workbook builder to the public source tree and completes the rebuild guide.
         
-        - Preserve a readable chart width on narrow screens inside a named, keyboard-focusable horizontal-scroll region.
-        - Add a full-size figure link and an explicit scroll hint.
-        - Synchronize the build template; retain the original figure bytes and all financial/scenario outcomes.
+        - Publish tools/build_treasury_reconciliation.mjs, previously referenced but absent from the checkout.
+        - Verify the two retained original copies are identical, the public preparer matches the original, and the input SHA256 matches the original 22,166-comparison record.
+        - Pass Node syntax validation; link completed study reproduction and decision/technical reports.
         
-        Verified at 320px, 390px and desktop widths in Chromium and Firefox. Publication requires successful research CI and the exact approved candidate source bytes.
+        The original workbook, numeric/visual verification records, scientific methods, inputs and outcomes are unchanged. No fresh workbook build or native Microsoft Excel execution is claimed. Rebuilding requires the Artifact Tool authoring runtime; opening and using the delivered XLSX does not.
         
-        Scientific datasets, models, saved outcomes and workbooks are unchanged. Prior releases and original verification records remain available.
+        Publication requires successful current-commit research CI. Prior browser proof remains applicable to the unchanged explorer source.
         
-        [Open the evidence browser](https://prasanna-k-123.github.io/treasury-alm/). [Presentation revision](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/presentation_revision_20261020.json).
+        [Workbook guide](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_20261019/WORKBOOK.md) · [Source restoration evidence](https://github.com/Prasanna-K-123/treasury-alm/blob/main/reports/workbook_source_revision_20261021.json)
     steps:
       - name: Verify reviewed source and successful audits before publication
         shell: bash
