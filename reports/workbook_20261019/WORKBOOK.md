@@ -74,7 +74,7 @@ python extensions/treasury_alm/prepare_workbook_inputs.py \
 ```
 
 The workbook builder uses the Artifact Tool runtime provided by the authoring
-environment. Copy `tools/build_treasury_reconciliation.mjs` to a separate
+environment. Copy the [published builder](../../tools/build_treasury_reconciliation.mjs) to a separate
 temporary directory with its `node_modules` linked to the supplied runtime
 dependencies. Set `TREASURY_WORKBOOK_INPUT` to the generated JSON and
 `TREASURY_WORKBOOK_OUTPUT` to a new output directory, then execute the builder
@@ -82,6 +82,15 @@ with that runtime's Node executable. It runs the full reconciliations before
 export and records the final workbook hash. Opening and using the delivered
 workbook does not require that authoring runtime, a model account or a paid API.
 
-This workbook closes the independent mathematical-reconciliation requirement.
-The full-study reproduction, technical/decision reports and clean public release
-are separate remaining requirements.
+The full study is published. Its [reproduction guide](../../REPRODUCE.md),
+[integrated reconstruction receipt](../integrated_20261019/full_study_reproduction.json),
+[decision memo](../integrated_20261019/DECISION_MEMO.md) and
+[technical report](../integrated_20261019/TECHNICAL_REPORT.md) are available.
+
+The builder source was restored to this public checkout on 21 October 2026.
+Its two retained original copies agree byte-for-byte; the original input JSON
+hash agrees with the published numeric verification record. The delivered
+workbook and its original verification records are unchanged. See the
+[source-restoration record](../workbook_source_revision_20261021.json).
+Rebuilding still requires the Artifact Tool authoring runtime; this is not a
+standalone npm installation or a claim that native Microsoft Excel was run.

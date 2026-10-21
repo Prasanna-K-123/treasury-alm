@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "kind": "workbook_builder_source_restoration",
+  "baseline_commit": "b2ec381e7f562b4f919485e2f1b9509d31cd5082",
+  "finding": "The public rebuild guide named a builder missing from the public source tree.",
+  "restored_path": "tools/build_treasury_reconciliation.mjs",
+  "source_sha256": "a26374fa781706cd7a0fed9c7a38a41ae85029768d0d5a085fb91b3d11077451",
+  "source_bytes": 38627,
+  "two_retained_original_source_copies_identical": true,
+  "public_preparer_matches_original_local_source": true,
+  "preparer_sha256": "833be595d3121159143a04688503a51eda284a6b65dd3e076483a49737fb052b",
+  "original_input_sha256": "06b0739323fe995f9288a97d48eca5a74fe854ed45913827ffbf8f476a2d89e9",
+  "input_identity_matches_original_numeric_receipt": true,
+  "original_delivered_workbook_sha256": "be7fbc52a87221855447d91850037d3234f6eeaac97ca92dcef9d3b5ddc99858",
+  "fresh_checks": [
+    "Exact comparison of both original builder copies",
+    "Exact comparison of original preparer with public preparer",
+    "Input SHA256 comparison with published numeric receipt",
+    "Node --check of restored builder"
+  ],
+  "original_checks_reused_for_unchanged_workbook": {
+    "numeric_comparisons": 22166,
+    "record": "reports/workbook_20261019/numeric_verification.json",
+    "visual_and_export_record": "reports/workbook_20261019/visual_and_export_verification.json"
+  },
+  "fresh_workbook_build_executed": false,
+  "workbook_changed": false,
+  "scientific_code_data_or_outputs_changed": false,
+  "runtime_dependency": "@oai/artifact-tool in the supplied authoring runtime; original recorded bundle 26.1015.12040",
+  "runtime_not_required_to_open_or_use_delivered_xlsx": true,
+  "native_microsoft_excel_executed": false
+}
